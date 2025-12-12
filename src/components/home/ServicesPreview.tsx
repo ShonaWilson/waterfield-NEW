@@ -60,7 +60,7 @@ const detailedServices = [
   {
     name: "Custom Facilitation",
     tagline: "Unite diverse stakeholders to rapidly turn complexity into clear, aligned solutions",
-    href: "/services#collaborative-intelligence",
+    href: "/services/customfacilitation",
     image: "/service-4.jpeg",
     logo: "/J_CF.png",
     color: "#9E5790",

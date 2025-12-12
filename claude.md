@@ -1,7 +1,7 @@
 # Claude Code Session - Contact Page Updates
 
 ## Date
-December 1-5, 2025
+December 1-12, 2025
 
 ## Changes Made
 
@@ -604,6 +604,92 @@ Conducted comprehensive accessibility audit against WCAG 2.1 standards. Identifi
 
 ##### Next Steps
 Prioritize fixing critical issues first (skip link, heading hierarchy, alt text, motion preferences), followed by high-priority items (ARIA labels, color contrast, form attributes). Conduct manual keyboard and screen reader testing after fixes are implemented.
+
+#### Custom Facilitation Page (December 12, 2025)
+Created a new dedicated service page for Custom Facilitation, mirroring the layout and structure of the Success Alliance page.
+
+##### Page Structure
+- **Route**: `/services/customfacilitation` with redirect from `/customfacilitation`
+- **File**: `src/pages/CustomFacilitation.tsx`
+- **Brand Color**: Purple (#9E5790) used consistently throughout
+- **Layout**: Mirrors Success Alliance page structure
+
+##### Hero Section
+- Parallax background effect with gradient overlay
+- Background image: `/service-4.jpeg` with 28% vertical positioning
+- Dark blue gradient overlay: `rgba(43, 57, 79, 0.9-0.95)`
+- Logo: `/J_CF.png` (Custom Facilitation logo)
+- Tagline: "Unite diverse stakeholders to turn complexity into clear, aligned action"
+
+##### Content Sections
+1. **Shape Agreed Direction**
+   - Purple heading (#9E5790)
+   - Italicized subtitle: "We help organisations move from competing views to a clear, shared path forward"
+   - Three paragraphs about complexity, collaboration, and strategic facilitation
+
+2. **How We Add Value**
+   - bg-secondary background
+   - Four circular badges with purple background showing key benefits:
+     - Creating strategic clarity
+     - Aligning stakeholders on outcomes
+     - Enabling confident decisions
+     - Building momentum in large-scale work
+   - Grid layout: 2x2 on mobile, 4 columns on desktop
+
+3. **Our Approach**
+   - bg-background
+   - Italicized subtitle: "We shape the process, facilitate the dialogue, and ensure clear outcomes"
+   - Four tiles with Lucide icons (Target, Lightbulb, Users):
+     - Deep listening and context analysis
+     - Strategic workshop design
+     - Expert facilitation
+     - Action clarity
+   - bg-secondary tiles with purple icons
+
+4. **Who We've Worked With**
+   - bg-secondary background
+   - Two-column bulleted lists of supported organizations
+   - Second list showing facilitation progress areas
+   - Client logo strip with 5 logos:
+     - Barangaroo Delivery Authority
+     - Rice Growers Association of Australia
+     - VCCC (Comprehensive Cancer Research Centre)
+     - AUSMASA
+     - Australian Publishers Association
+
+5. **Testimonial**
+   - Parallax background image: `/image-81.jpeg`
+   - Dark blue gradient overlay
+   - Quote from Sarah Runcie (Strategy and Policy, Australian Publishers Association)
+   - Quote about Marrakesh Treaty Forum success
+
+6. **Delivering Impact**
+   - bg-secondary background
+   - Uses same sa-icon-1.png, sa-icon-2.png, sa-icon-3.png images from Success Alliance
+   - Applied purple CSS filter to icons: `invert(44%) sepia(45%) saturate(629%) hue-rotate(258deg) brightness(91%) contrast(89%)`
+   - Three tiles with icons, headings, and descriptions:
+     - Unified direction across stakeholders
+     - Clear priorities with agreed next steps
+     - Shared ownership that drives committed action
+   - Purple "Let's connect" button with hover effects
+
+##### Navigation Updates
+- Added route to App.tsx: `/services/customfacilitation`
+- Added redirect: `/customfacilitation` → `/services/customfacilitation`
+- Updated Services.tsx tile to link to `/services/customfacilitation`
+- Updated ServicesPreview.tsx homepage tile to link to `/services/customfacilitation`
+
+##### Styling Consistency
+- Purple color (#9E5790) for all headings, icons, and accents
+- Alternating section backgrounds (bg-background, bg-secondary)
+- Same typography styles as Success Alliance
+- Matching hover effects on "Let's connect" button (shadow-xl, scale-105)
+- Purple hover color: #8B4D7F (darker purple)
+
+##### Content Source
+- All content sourced from "Custom facilitation.md" markdown file
+- Maintains professional tone matching other service pages
+- Focuses on complex multi-stakeholder facilitation and strategic alignment
 
 ## Summary
 The Contact page features a visually appealing hero section with "How can we help you?" overlaid on a background image with a gradient overlay. The opening paragraph now emphasizes "Thank you for your interest in Waterfield." as a prominent heading. The form layout features better visual hierarchy with 32%/68% split. Form fields are better organized with email/phone on the same row for improved UX, and all form inputs now have a thin primary-light (lighter teal) outline with a subtle glow effect on focus only (no hover effects) for clear active indication. The Send button now matches all "Let's connect" buttons with consistent hero variant styling and hover effects. The quote section has been removed for a cleaner page layout. Services and Build capacity sections have consistent hover effects with scale transforms and subtle overlays, while Getting started and Clarity that drives action tiles remain static without hover states. All buttons across the website now have fully consistent styling with the hero variant (teal base, lighter teal hover) and matching hover effects (shadow-xl and scale-105) without vertical translation. All body copy (not in tiles) now uses text-muted-foreground for consistent, readable typography across the entire site. The About page now features a teal banner section with "30 years designing futures" text lockup that maintains fixed text sizing across all screen widths with only layout changes between mobile (horizontal: "30 years" inline, "designing futures" below) and desktop (vertical stack) views, and a full-width Our Principles section with responsive icon/title layouts. All CTAs and arrow links now use consistent "circular badge" text styling (font-heading font-medium text-sm md:text-base). Text-wrap: pretty has been applied globally to prevent widows across all text elements. The article page template now provides a complete reading experience with formatted content, date/time metadata, and randomized related articles. All article tiles across the site maintain equal heights for a polished, professional appearance. All case studies now feature updated content from PDF sources with authentic quotes and new hero background images. A comprehensive accessibility review has been completed with prioritized recommendations for WCAG 2.1 compliance.

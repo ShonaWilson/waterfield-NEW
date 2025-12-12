@@ -67,7 +67,7 @@ const services = [
     id: "collaborative-intelligence",
     name: "Custom Facilitation",
     tagline: "Unite diverse stakeholders to rapidly turn complexity into clear, aligned solutions",
-    href: "/services#collaborative-intelligence",
+    href: "/services/customfacilitation",
     outcomes: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n​\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n​\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",

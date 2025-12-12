@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import Services from "./pages/Services";
 import StrategyConnect from "./pages/StrategyConnect";
 import SuccessAlliance from "./pages/SuccessAlliance";
+import CustomFacilitation from "./pages/CustomFacilitation";
 import Process from "./pages/Process";
 import OurClients from "./pages/OurClients";
 import Articles from "./pages/Articles";
@@ -31,6 +32,7 @@ const App = () => (
           <Route path="/services" element={<Services />} />
           <Route path="/services/strategyconnect" element={<StrategyConnect />} />
           <Route path="/services/successalliance" element={<SuccessAlliance />} />
+          <Route path="/services/customfacilitation" element={<CustomFacilitation />} />
           <Route path="/process" element={<Process />} />
           <Route path="/our-clients" element={<OurClients />} />
           <Route path="/articles" element={<Articles />} />
@@ -41,6 +43,7 @@ const App = () => (
           {/* Redirects for old URLs */}
           <Route path="/strategyconnect" element={<Navigate to="/services/strategyconnect" replace />} />
           <Route path="/successalliance" element={<Navigate to="/services/successalliance" replace />} />
+          <Route path="/customfacilitation" element={<Navigate to="/services/customfacilitation" replace />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
