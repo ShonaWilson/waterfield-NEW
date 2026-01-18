@@ -47,28 +47,28 @@ export function FromUncertainty() {
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 mb-12 max-w-4xl mx-auto">
             <div
-              className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[105px] md:w-[130px]"
+              className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
               style={{ backgroundColor: '#268DB0' }}
             >
-              <p className="font-heading font-medium text-white text-sm md:text-base leading-tight">
+              <p className="font-heading font-medium text-white text-sm md:text-base leading-[0.95]">
                 Create clear strategic direction
               </p>
             </div>
             <ArrowRight className="w-5 h-5 md:w-6 md:h-6 text-foreground flex-shrink-0 rotate-90 md:rotate-0" />
             <div
-              className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[105px] md:w-[130px]"
+              className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
               style={{ backgroundColor: '#9E5790' }}
             >
-              <p className="font-heading font-medium text-white text-sm md:text-base leading-tight">
+              <p className="font-heading font-medium text-white text-sm md:text-base leading-[0.95]">
                 Align teams and drive action
               </p>
             </div>
             <ArrowRight className="w-5 h-5 md:w-6 md:h-6 text-foreground flex-shrink-0 rotate-90 md:rotate-0" />
             <div
-              className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[105px] md:w-[130px]"
+              className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
               style={{ backgroundColor: '#EBCA52' }}
             >
-              <p className="font-heading font-medium text-white text-sm md:text-base leading-tight">
+              <p className="font-heading font-medium text-white text-sm md:text-base leading-[0.95]">
                 Build capability to adapt and lead
               </p>
             </div>

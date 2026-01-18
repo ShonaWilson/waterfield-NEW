@@ -90,7 +90,7 @@ const Process = () => {
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-4">
             Engagement process
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+          <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
             We work closely with you to Design, Facilitate & Enable the process right for your organisation.
           </p>
         </div>

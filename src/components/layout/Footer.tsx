@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone } from "lucide-react";
+import { Mail, Phone, MessageSquare } from "lucide-react";
 
 export function Footer() {
   return (
@@ -25,11 +25,14 @@ export function Footer() {
               <Link to="/services" className="font-heading font-medium text-sm text-primary-foreground hover:text-primary-foreground/80 transition-colors">
                 Services
               </Link>
-              <Link to="/about" className="font-heading font-medium text-sm text-primary-foreground hover:text-primary-foreground/80 transition-colors">
-                About
+              <Link to="/build-capacity" className="font-heading font-medium text-sm text-primary-foreground hover:text-primary-foreground/80 transition-colors">
+                Build Capacity
               </Link>
-              <Link to="/contact" className="font-heading font-medium text-sm text-primary-foreground hover:text-primary-foreground/80 transition-colors">
-                Contact us
+              <Link to="/ai-tools" className="font-heading font-medium text-sm text-primary-foreground hover:text-primary-foreground/80 transition-colors">
+                AI Tools
+              </Link>
+              <Link to="/process" className="font-heading font-medium text-sm text-primary-foreground hover:text-primary-foreground/80 transition-colors">
+                Process
               </Link>
             </nav>
           </div>
@@ -38,6 +41,13 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="font-heading font-semibold text-lg text-primary">Contact</h4>
             <div className="space-y-3">
+              <Link
+                to="/contact"
+                className="flex items-center gap-2 hover:text-primary-foreground/80 transition-colors"
+              >
+                <MessageSquare className="h-4 w-4 text-primary" />
+                <span className="font-heading font-medium text-sm text-primary-foreground">Contact us</span>
+              </Link>
               <a
                 href="tel:+61299221881"
                 className="flex items-center gap-2 hover:text-primary-foreground/80 transition-colors"
@@ -61,7 +71,7 @@ export function Footer() {
             PO Box 1328, North Sydney NSW 2060, Australia
           </p>
           <p className="text-primary-foreground/60 text-sm mt-1">
-            © Waterfield 2025. All Rights Reserved.
+            © Waterfield 2026. All Rights Reserved.
           </p>
         </div>
       </div>

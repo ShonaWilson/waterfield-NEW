@@ -35,7 +35,8 @@ const services = [
 const detailedServices = [
   {
     name: "StrategyConnect",
-    tagline: "Create & execute a clear Strategy Map for focused outcomes",
+    title: "Strategic Clarity",
+    tagline: "Create and deliver a clear Strategy Map that drives alignment and results.",
     href: "/services/strategyconnect",
     image: "/service-1.jpg",
     logo: "/strategyconnect_white.png.avif",
@@ -43,7 +44,8 @@ const detailedServices = [
   },
   {
     name: "SuccessAlliance",
-    tagline: "Engage your partners for added value & shared success",
+    title: "Successful Alliances",
+    tagline: "Build strategic partnerships for shared value & competitive advantage.",
     href: "/services/successalliance",
     image: "/service-2.jpg",
     logo: "/SuccessAlliance_logoDual.png",
@@ -51,15 +53,17 @@ const detailedServices = [
   },
   {
     name: "OpenInnovation",
-    tagline: "Ignite collaborative thinking to transform ideas into innovative solutions",
-    href: "/services#open-innovation",
+    title: "Accelerated Innovation",
+    tagline: "Expand thinking beyond your organisation to unlock new opportunities.",
+    href: "/services/openinnovation",
     image: "/service-3.jpg",
     logo: "/J_OI.png",
     color: "#268DB0",
   },
   {
     name: "Custom Facilitation",
-    tagline: "Unite diverse stakeholders to rapidly turn complexity into clear, aligned solutions",
+    title: "Aligned Solutions",
+    tagline: "Align diverse stakeholders to reach confident decisions faster.",
     href: "/services/customfacilitation",
     image: "/service-4.jpeg",
     logo: "/J_CF.png",
@@ -113,6 +117,9 @@ export function ServicesPreview() {
                   </div>
                 )}
               </div>
+              <p className="font-heading text-base font-semibold mb-3 text-center" style={{ color: service.color }}>
+                {service.title}
+              </p>
               <div className="text-center flex flex-col flex-1">
                 <p className="text-muted-foreground text-sm mb-4 leading-relaxed flex-1">
                   {service.tagline}

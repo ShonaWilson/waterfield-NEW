@@ -48,7 +48,7 @@ const Articles = () => {
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-4">
             Articles
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+          <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
             Insights and thought leadership on strategy, collaboration, and organisational success.
           </p>
         </div>

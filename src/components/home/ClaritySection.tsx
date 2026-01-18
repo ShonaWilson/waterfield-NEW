@@ -15,7 +15,7 @@ export function ClaritySection() {
       title: "Aligning on the best path forward",
       description:
         "We foster ownership and buy-in, turning shared goals into reality through joint agreement.",
-      size: "w-32 h-32",
+      size: "w-[169px] h-[169px]",
     },
     {
       image: "/Delivering.png",
@@ -51,7 +51,7 @@ export function ClaritySection() {
               key={index}
               className="bg-background rounded-xl p-6 md:p-8 text-center"
             >
-              <div className="h-40 flex items-center justify-center mb-4">
+              <div className="h-32 flex items-center justify-center">
                 <img
                   src={pillar.image}
                   alt={pillar.title}

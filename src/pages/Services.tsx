@@ -9,11 +9,12 @@ const services = [
   {
     id: "strategy-connect",
     name: "StrategyConnect",
-    tagline: "Create & execute a clear Strategy Map for focused outcomes",
+    tagline: "Strategic Clarity",
+    subtitle: "Create and deliver a clear Strategy Map that drives alignment and results.",
     href: "/services/strategyconnect",
-    outcomes: "Clear strategic direction, execution excellence, high performing and engaged organisation.",
+    outcomes: "Outcomes:| Clear direction, aligned priorities, and agile execution.",
     description:
-      "StrategyConnect offers an outcomes-driven approach to strategy development and execution in a fast-changing world.\n​\nWe bring your team together in a dynamic workshop to co-design your strategy, anticipate future challenges, and set a clear direction for the next three years.\n​​\nThe result is a one-page Strategy Map focused on your most important priorities—immediately actionable and supported by an agile execution framework that drives results and fosters organisation-wide engagement.",
+      "Strategy Connect brings your team together to co-design strategy that is clear, shared, and executable.\n​​\nForesight, insight, and action are captured in a one-page Strategy Map — providing clear direction and a practical process to turn priorities into results..",
     features: [
       "Collaborative strategy development workshops",
       "Clear Strategy Map creation",
@@ -28,11 +29,12 @@ const services = [
   {
     id: "success-alliance",
     name: "SuccessAlliance",
-    tagline: "Engage your partners for added value & shared success",
+    tagline: "Successful Alliances",
+    subtitle: "Build strategic partnerships for shared value & competitive advantage.",
     href: "/services/successalliance",
-    outcomes: "Increased innovation, improved performance, and reduced costs through stronger, more strategic alliances.",
+    outcomes: "Outcomes:| Stronger partnerships, increased value creation, and sustained competitive advantage.",
     description:
-      "Stronger decisions come from engaging people in the process—leading to greater ownership, and more effective execution.\n​\nThis applies not only within your organisation, but also with key partners like suppliers and customers. Alliances bring fresh perspectives, valuable insights, and shared momentum to help you achieve your objectives more effectively.\n​​\nSuccessAlliance creates competitive advantage through aligned strategy and collaborative engagement with diverse stakeholders.",
+      "Success Alliance helps organisations design and deliver partnerships that create value beyond what can be achieved alone.\n​​\nBy aligning strategy, incentives, and ways of working across suppliers, customers, and partners, alliances move from intent to delivery.",
     features: [
       "Partner engagement workshops",
       "Stakeholder alignment sessions",
@@ -47,11 +49,12 @@ const services = [
   {
     id: "open-innovation",
     name: "OpenInnovation",
-    tagline: "Ignite collaborative thinking to transform ideas into innovative solutions",
-    href: "/services#open-innovation",
-    outcomes: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+    tagline: "Accelerated Innovation",
+    subtitle: "Expand thinking beyond your organisation to unlock new opportunities.",
+    href: "/services/openinnovation",
+    outcomes: "Outcomes:| New opportunities, sharper insight, and accelerated innovation.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n​\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Open Innovation brings external perspectives, expertise, and ideas into your organisation to challenge assumptions and broaden thinking.\n​​\nThrough structured collaboration, new opportunities are explored, tested, and shaped into practical directions for growth.",
     features: [
       "Accelerated decision-making",
       "Diverse perspective integration",
@@ -66,11 +69,12 @@ const services = [
   {
     id: "collaborative-intelligence",
     name: "Custom Facilitation",
-    tagline: "Unite diverse stakeholders to rapidly turn complexity into clear, aligned solutions",
+    tagline: "Aligned Solutions",
+    subtitle: "Align diverse stakeholders to reach confident decisions faster.",
     href: "/services/customfacilitation",
-    outcomes: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.",
+    outcomes: "Outcomes:| Faster decision-making, shared direction, and coordinated action.",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n​\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n​\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Custom Facilitation helps groups navigate complexity and make high-quality decisions efficiently.\n​​\nBy designing and facilitating the right conversations, diverse stakeholders align around clear priorities and agreed actions.",
     features: [
       "AI-enhanced decision support",
       "Human-AI collaboration frameworks",
@@ -116,10 +120,10 @@ const Services = () => {
         </div>
         <div className="relative z-10 container-custom mx-auto px-4 md:px-8 text-center">
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-4">
-            Strategic services
+            Services
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
-            Our services drive strategic outcomes, buy-in, and action through collaborative models.
+          <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
+            Delivering clarity, collaboration, and impact by cutting through complexity to create immediate value.
           </p>
         </div>
       </section>
@@ -129,45 +133,97 @@ const Services = () => {
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h3 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
-              What we do
+              Services for outcomes
             </h3>
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Waterfield guides your organisation to uncover strategic insights, set clear objectives,
-              align internal teams to implement, and strengthen key partnerships to drive long-term success.
+            <p className="font-heading font-semibold text-lg text-foreground mb-6">
+              Set clear direction, strengthen collaboration, and enable sustained impact across your organisation, alliances, and ecosystem.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Built around your objectives, each service can stand alone or work together — meeting you where you are and supporting what's needed next.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-secondary rounded-xl p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Handshake className="w-8 h-8 text-primary" />
-              </div>
-              <h2 className="font-heading font-semibold text-lg text-foreground mb-3">How we work</h2>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                We specialise in collaborative outcomes all stakeholders can align with, driven by our
-                principle that people own what they help create. By building consensus among people—and
-                the support of AI, we combine human insight and technology to accelerate decisions and
-                drive confident action.
-              </p>
-            </div>
+          <div className="space-y-8">
+            {services.map((service) => (
+              <Link
+                key={service.id}
+                id={service.id}
+                to={service.href}
+                className="group scroll-mt-24 bg-secondary rounded-2xl hover:shadow-xl hover:scale-105 transition-all duration-300 block"
+              >
+                <div className="flex flex-col md:flex-row gap-6 md:gap-8 p-6 md:p-8 min-h-[520px] md:min-h-[380px]">
+                  <div className="w-full md:w-[32%] flex-shrink-0 md:self-stretch">
+                    <div className="relative rounded-xl overflow-hidden h-64 md:h-full min-h-full">
+                      <img
+                        src={service.image}
+                        alt={service.name}
+                        className="absolute inset-0 w-full h-full object-cover"
+                      />
+                      <div
+                        className="absolute inset-0"
+                        style={{
+                          background: 'linear-gradient(to bottom, rgba(43, 57, 79, 0.9), rgba(43, 57, 79, 0.85), rgba(43, 57, 79, 0.95))'
+                        }}
+                      />
+                      {service.logo && (
+                        <div className="absolute inset-0 flex items-center justify-center z-10">
+                          <img
+                            src={service.logo}
+                            alt={`${service.name} logo`}
+                            className={`h-auto object-contain ${
+                              service.id === "success-alliance" || service.id === "collaborative-intelligence"
+                                ? "w-[45%]"
+                                : "w-[65%]"
+                            }`}
+                          />
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                  <div className="w-full md:w-[68%] flex flex-col">
+                    <div className="flex-1 space-y-4">
+                      <p className="font-heading text-xl font-semibold" style={{ color: service.color }}>{service.tagline}</p>
+                      {service.subtitle && (
+                        <p className="font-heading font-medium text-sm md:text-base text-foreground">
+                          {service.subtitle}
+                        </p>
+                      )}
+                      <p className="text-muted-foreground text-sm leading-relaxed whitespace-pre-line">
+                        {service.description}
+                      </p>
+                      <p className="text-muted-foreground text-sm leading-relaxed">
+                        {service.outcomes.includes('|') ? (
+                          <>
+                            <span className="font-semibold">{service.outcomes.split('|')[0]}</span>
+                            {service.outcomes.split('|')[1]}
+                          </>
+                        ) : (
+                          service.outcomes
+                        )}
+                      </p>
+                    </div>
+                    <span className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base group-hover:gap-2 transition-all duration-200 mt-4" style={{ color: service.color }}>
+                      Find out how <ArrowRight className="w-4 h-4" />
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
 
-            <div className="bg-secondary rounded-xl p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Target className="w-8 h-8 text-primary" />
-              </div>
-              <h2 className="font-heading font-semibold text-lg text-foreground mb-3">The outcome</h2>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Our connected services guide you from internal clarity to external impact—helping your
-                organisation thrive through focused strategy, strong alliances, shared consensus, and
-                collaborative intelligence.
-              </p>
-            </div>
+          <div className="text-center mt-12">
+            <p className="font-heading font-semibold text-lg text-muted-foreground mb-6 max-w-3xl mx-auto">
+              For over 30 years, Waterfield has helped organisations navigate complexity, align people, and deliver strategic outcomes.
+            </p>
+            <Button asChild variant="hero" size="lg" className="hover:shadow-xl hover:scale-105 transition-all duration-300">
+              <Link to="/contact">Let's connect</Link>
+            </Button>
           </div>
         </div>
       </section>
 
       {/* How We Deliver Impact */}
-      <section className="section-padding bg-secondary">
+      <section className="section-padding bg-secondary" style={{ display: 'none' }}>
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary text-center mb-12">
             How we deliver impact
@@ -212,11 +268,25 @@ const Services = () => {
                   </div>
                   <div className="w-full md:w-[68%] flex flex-col">
                     <div className="flex-1 space-y-4">
-                      <p className="font-heading font-semibold text-lg" style={{ color: service.color }}>{service.tagline}</p>
+                      <p className="font-heading text-xl font-semibold" style={{ color: service.color }}>{service.tagline}</p>
+                      {service.subtitle && (
+                        <p className="font-heading font-medium text-sm md:text-base text-foreground">
+                          {service.subtitle}
+                        </p>
+                      )}
                       <p className="text-muted-foreground text-sm leading-relaxed whitespace-pre-line">
                         {service.description}
                       </p>
-                      <p className="font-heading font-medium text-sm md:text-base text-foreground">{service.outcomes}</p>
+                      <p className="text-muted-foreground text-sm leading-relaxed">
+                        {service.outcomes.includes('|') ? (
+                          <>
+                            <span className="font-semibold">{service.outcomes.split('|')[0]}</span>
+                            {service.outcomes.split('|')[1]}
+                          </>
+                        ) : (
+                          service.outcomes
+                        )}
+                      </p>
                     </div>
                     <span className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base group-hover:gap-2 transition-all duration-200 mt-4" style={{ color: service.color }}>
                       Find out how <ArrowRight className="w-4 h-4" />

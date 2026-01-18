@@ -100,10 +100,10 @@ const About = () => {
         {/* Content */}
         <div className="relative z-10 container-custom mx-auto px-4 md:px-8 text-center">
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-4">
-            About Waterfield
+            About
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
-            In a rapidly changing world, we bring together your team's collective intelligence and AI-driven insights to navigate complexity with clarity.
+          <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
+            Waterfield helps leadership teams align on the decisions that matter most—driving clarity and action through strategic facilitation and AI-enabled insight.
           </p>
         </div>
       </section>

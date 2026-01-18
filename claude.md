@@ -2,6 +2,7 @@
 
 ## Date
 December 1-12, 2025
+January 18, 2026
 
 ## Changes Made
 
@@ -690,6 +691,62 @@ Created a new dedicated service page for Custom Facilitation, mirroring the layo
 - All content sourced from "Custom facilitation.md" markdown file
 - Maintains professional tone matching other service pages
 - Focuses on complex multi-stakeholder facilitation and strategic alignment
+
+#### Homepage Build Capacity Section Updates (January 18, 2026)
+Updated the Build Capacity section on the homepage with new transparent geometric shapes and styling refinements.
+
+##### Geometric Shape Updates
+- **Box 1 (Think Strategically)**: Triangle shape
+  - Made wider and less pointy: path adjusted to `M220 150 L0 20 L0 280 Z`
+  - Positioned flush against left edge (`translate-x-0`)
+  - Size: 300x300 SVG
+  - Fills approximately half the box behind the text
+
+- **Box 2 (Lead Collaboratively)**: Circle shape
+  - Shifted left by 25% to hide left edge: `-translate-x-[25%]`
+  - Size: 300x300 SVG with radius 150
+  - Creates half-circle effect within the box
+
+- **Box 3 (Leverage AI)**: Parallelogram shape (changed from octagon)
+  - Shifted left by 40% so only right side is visible: `-translate-x-[40%]`
+  - Enlarged by 20%: 336x336 SVG
+  - Path: `M0 84 L252 0 L336 252 L84 336 Z`
+  - Right edge visible, left edge hidden off-screen
+
+##### Shape Styling
+- All shapes use teal color (#268DB0) matching brand
+- Opacity increased to 10% (`opacity-[0.10]`) for better visibility
+- Hover effect: `group-hover:scale-110` for subtle enlargement
+- Smooth transition: `transition-transform duration-300`
+- Positioned behind text with `z-10` on content container
+
+##### "Discover" Link Updates
+- Changed color from teal (#268DB0) to `text-primary` class
+- Matches "Partnering with Waterfield helps you:" title color in FromUncertainty section
+- Maintains hover animation: `group-hover:gap-2`
+
+#### Homepage FromUncertainty Section Updates (January 18, 2026)
+Updated the circular badges under "Partnering with Waterfield helps you:" heading.
+
+##### Circle Size Updates
+- Increased all three circles by 10%
+- Mobile width: Changed from `w-[105px]` to `w-[115px]`
+- Desktop width: Changed from `w-[130px]` to `w-[143px]`
+- Maintains aspect-square ratio
+
+##### Typography Updates
+- Reduced line spacing significantly for tighter text
+- Changed from `leading-tight` (1.25) to `leading-[0.95]` (0.95)
+- Applied to all three circles:
+  - "Create clear strategic direction" (teal #268DB0)
+  - "Align teams and drive action" (purple #9E5790)
+  - "Build capability to adapt and lead" (yellow #EBCA52)
+- Results in minimal gap between stacked words
+
+##### Visual Impact
+- Larger circles provide more prominence to the pathway progression
+- Tighter line spacing allows more text to fit comfortably within circles
+- Maintains hover shadow effect and transitions
 
 ## Summary
 The Contact page features a visually appealing hero section with "How can we help you?" overlaid on a background image with a gradient overlay. The opening paragraph now emphasizes "Thank you for your interest in Waterfield." as a prominent heading. The form layout features better visual hierarchy with 32%/68% split. Form fields are better organized with email/phone on the same row for improved UX, and all form inputs now have a thin primary-light (lighter teal) outline with a subtle glow effect on focus only (no hover effects) for clear active indication. The Send button now matches all "Let's connect" buttons with consistent hero variant styling and hover effects. The quote section has been removed for a cleaner page layout. Services and Build capacity sections have consistent hover effects with scale transforms and subtle overlays, while Getting started and Clarity that drives action tiles remain static without hover states. All buttons across the website now have fully consistent styling with the hero variant (teal base, lighter teal hover) and matching hover effects (shadow-xl and scale-105) without vertical translation. All body copy (not in tiles) now uses text-muted-foreground for consistent, readable typography across the entire site. The About page now features a teal banner section with "30 years designing futures" text lockup that maintains fixed text sizing across all screen widths with only layout changes between mobile (horizontal: "30 years" inline, "designing futures" below) and desktop (vertical stack) views, and a full-width Our Principles section with responsive icon/title layouts. All CTAs and arrow links now use consistent "circular badge" text styling (font-heading font-medium text-sm md:text-base). Text-wrap: pretty has been applied globally to prevent widows across all text elements. The article page template now provides a complete reading experience with formatted content, date/time metadata, and randomized related articles. All article tiles across the site maintain equal heights for a polished, professional appearance. All case studies now feature updated content from PDF sources with authentic quotes and new hero background images. A comprehensive accessibility review has been completed with prioritized recommendations for WCAG 2.1 compliance.

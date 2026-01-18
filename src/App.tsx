@@ -6,9 +6,13 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
+import BuildCapacity from "./pages/BuildCapacity";
+import AITools from "./pages/AITools";
 import StrategyConnect from "./pages/StrategyConnect";
 import SuccessAlliance from "./pages/SuccessAlliance";
+import OpenInnovation from "./pages/OpenInnovation";
 import CustomFacilitation from "./pages/CustomFacilitation";
+import CollaborativeIntelligence from "./pages/CollaborativeIntelligence";
 import Process from "./pages/Process";
 import OurClients from "./pages/OurClients";
 import Articles from "./pages/Articles";
@@ -30,9 +34,13 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/build-capacity" element={<BuildCapacity />} />
+          <Route path="/ai-tools" element={<AITools />} />
           <Route path="/services/strategyconnect" element={<StrategyConnect />} />
           <Route path="/services/successalliance" element={<SuccessAlliance />} />
+          <Route path="/services/openinnovation" element={<OpenInnovation />} />
           <Route path="/services/customfacilitation" element={<CustomFacilitation />} />
+          <Route path="/collaborative-intelligence" element={<CollaborativeIntelligence />} />
           <Route path="/process" element={<Process />} />
           <Route path="/our-clients" element={<OurClients />} />
           <Route path="/articles" element={<Articles />} />
@@ -43,6 +51,7 @@ const App = () => (
           {/* Redirects for old URLs */}
           <Route path="/strategyconnect" element={<Navigate to="/services/strategyconnect" replace />} />
           <Route path="/successalliance" element={<Navigate to="/services/successalliance" replace />} />
+          <Route path="/openinnovation" element={<Navigate to="/services/openinnovation" replace />} />
           <Route path="/customfacilitation" element={<Navigate to="/services/customfacilitation" replace />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />

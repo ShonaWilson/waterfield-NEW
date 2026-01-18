@@ -168,7 +168,7 @@ const OurClients = () => {
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-4">
             Who we work with
           </h1>
-          <p className="text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
+          <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
             Our work introduces us to many different types of organisations, with 30 years experience across a vast range of industries.
           </p>
         </div>
