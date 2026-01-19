@@ -82,7 +82,7 @@ const About = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/team-meeting-edited-edited-edited.jpg"
+            src="/Image_dump/split_4.png"
             alt="About Waterfield"
             className="absolute inset-0 w-full h-full object-cover"
             style={{
@@ -103,14 +103,29 @@ const About = () => {
             About
           </h1>
           <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
-            Waterfield helps leadership teams align on the decisions that matter most—driving clarity and action through strategic facilitation and AI-enabled insight.
+            We help leadership teams turn complexity into clarity, alignment and momentum.
           </p>
         </div>
       </section>
 
-      {/* Our principles */}
+      {/* What we do & Our principles */}
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
+          {/* What we do */}
+          <div className="max-w-3xl mx-auto text-center mb-16">
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-6">
+              What we do
+            </h2>
+            <p className="font-heading font-semibold text-lg text-foreground mb-4">
+              Waterfield helps leadership teams align on the decisions that matter most—navigating complexity to achieve clarity and action through strategic facilitation and AI-enabled insight.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              We work in complex environments with diverse perspectives, moving leaders from discussion to clear, aligned decisions while strengthening organisational capability to align, decide, and act.
+            </p>
+          </div>
+
+          {/* Our principles */}
+          <div>
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-6">
               Our principles
@@ -134,14 +149,13 @@ const About = () => {
                 </div>
                 <div className="md:w-[75%] leading-relaxed space-y-3">
                   <p className="font-heading font-medium text-sm md:text-base text-foreground">
-                    We believe defining the preferred end state is the right starting point for all actions.
+                    We believe defining the preferred end state is the right starting point for action.
                   </p>
                   <p className="text-muted-foreground text-sm">
-                    We design and facilitate conversations to help understand the current state and what the future will demand.
-                    We find that working back from a preferred set of outcomes is many times more inspiring and motivational than trying to solve current issues.
+                    Working back from clear outcomes creates shared direction and focus. It is more motivating than reacting to current issues and helps teams prioritise what matters most.
                   </p>
                   <p className="text-muted-foreground text-sm">
-                    Outcome thinking can be thought of as having a clear destination for your journey, which gives you the ability to make continual course corrections and adaptations as conditions change.
+                    With a clear destination, teams can adapt, make informed decisions, and course-correct as conditions change.
                   </p>
                 </div>
               </div>
@@ -160,23 +174,14 @@ const About = () => {
                 </div>
                 <div className="md:w-[75%] leading-relaxed space-y-3">
                   <p className="font-heading font-medium text-sm md:text-base text-foreground">
-                    We believe humans are hardwired to collaborate. What is missing is the right environment and the permission to realise the benefits of effective collaboration.
+                    We believe humans are hardwired to collaborate. The right environment unlocks its full value.
                   </p>
-                  <p className="text-muted-foreground text-sm">These include:</p>
-                  <ul className="list-disc list-inside space-y-2 text-muted-foreground text-sm">
-                    <li>
-                      People who are involved and engaged in the design process are motivated to act
-                    </li>
-                    <li>
-                      The new generation of knowledge workers want to understand the whole picture, contribute to solutions and be trusted to implement
-                    </li>
-                    <li>
-                      Diverse inputs lead to better decisions and everyone becomes better informed
-                    </li>
-                    <li>
-                      People actually want to collaborate and create outcomes that are magic
-                    </li>
-                  </ul>
+                  <p className="text-muted-foreground text-sm">
+                    When people are involved in shaping solutions, they are motivated to act. Diverse inputs lead to better decisions and shared understanding.
+                  </p>
+                  <p className="text-muted-foreground text-sm">
+                    Given the right conditions, people genuinely want to collaborate and create meaningful outcomes.
+                  </p>
                 </div>
               </div>
             </div>
@@ -194,22 +199,13 @@ const About = () => {
                 </div>
                 <div className="md:w-[75%] leading-relaxed space-y-3">
                   <p className="font-heading font-medium text-sm md:text-base text-foreground">
-                    We believe that building capacity in our clients ensures that the desired change is both realised and sustained.
+                    We believe building capability within our clients ensures change is realised and sustained.
                   </p>
-                  <p className="text-muted-foreground text-sm">Waterfield builds capacity in a number of ways:</p>
-                  <ol className="list-decimal list-inside space-y-2 text-muted-foreground text-sm">
-                    <li>
-                      Training and development of groups and individuals who are directly engaged in the change
-                    </li>
-                    <li>
-                      Shadow consulting to nominated champions within the organisation
-                    </li>
-                    <li>
-                      Introducing new thinking and networks
-                    </li>
-                  </ol>
                   <p className="text-muted-foreground text-sm">
-                    Through our experience this is a very effective way to add value and further instill transformation with clients.
+                    By developing skills, confidence, and ownership, teams are equipped to lead and adapt long after our engagement ends. Capacity building creates resilience, momentum, and lasting impact.
+                  </p>
+                  <p className="text-muted-foreground text-sm">
+                    Waterfield builds capacity by enabling teams to think strategically, lead collaboratively, and leverage AI.
                   </p>
                 </div>
               </div>
@@ -230,10 +226,10 @@ const About = () => {
                 Waterfield is a tight, high performing team with deep networks of specialists.
               </p>
               <p>
-                We practise a collaborative model where our group of specialists come together depending on the specific assignment and skills necessary to best meet those outcomes. We are committed to supporting corporations, not for profits, Governments and communities to achieve outstanding results.
+                We bring the right specialists together through a collaborative model designed to achieve the best outcomes. We work with corporations, not-for-profits, governments, and communities to deliver outstanding results.
               </p>
               <p>
-                Our team shares a passion for solving complex issues and delivering an innovative solution. We are motivated by collaboration and have developed a wealth of experience in delivering successful projects that deliver high value to our clients.
+                Driven by collaboration, our team solves complex challenges and delivers innovative, high-value solutions with proven impact.
               </p>
             </div>
           </div>
@@ -258,7 +254,7 @@ const About = () => {
               <p className="font-heading font-semibold text-lg text-foreground">Coaches</p>
             </div>
             <div className="text-center">
-              <p className="font-heading font-semibold text-lg text-foreground">Researchers and Forecasters</p>
+              <p className="font-heading font-semibold text-lg text-foreground">Researchers</p>
             </div>
             <div className="text-center">
               <p className="font-heading font-semibold text-lg text-foreground">Analysts</p>

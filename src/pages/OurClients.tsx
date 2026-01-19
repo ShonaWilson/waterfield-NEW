@@ -150,10 +150,11 @@ const OurClients = () => {
       <section ref={ref} className="relative py-20 md:py-28 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/clients-hero.webp"
+            src="/Image_dump/ChatGPT Image Jan 19, 2026 at 10_03_20 PM.png"
             alt="Team collaboration"
             className="absolute inset-0 w-full h-full object-cover"
             style={{
+              objectPosition: '50% 15%',
               transform: `scale(1.2) translateY(${offset * 0.4}px)`
             }}
           />
@@ -166,7 +167,7 @@ const OurClients = () => {
         </div>
         <div className="relative z-10 container-custom mx-auto px-4 md:px-8 text-center">
           <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-4">
-            Who we work with
+            Clients
           </h1>
           <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
             Our work spans many different types of organisations, with 30 years' experience across a wide range of industries.
@@ -177,6 +178,9 @@ const OurClients = () => {
       {/* Client Logos */}
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary text-center mb-4">
+            Who we work with
+          </h2>
           <p className="text-center font-heading font-semibold text-lg text-foreground max-w-3xl mx-auto mb-12">
             Here is a snapshot of clients we have helped design futures with
           </p>
@@ -231,19 +235,35 @@ const OurClients = () => {
 
       {/* Testimonial Carousel */}
       <section className="relative py-20 md:py-32 flex items-center justify-center overflow-hidden">
-        {/* Background Image */}
+        {/* Background Colors */}
         <div className="absolute inset-0">
-          <img
-            src="/clients-quote-bg.webp"
-            alt="Background"
-            className="absolute inset-0 w-full h-full object-cover"
-            style={{ objectPosition: '50% 25%' }}
-          />
+          {/* Orange */}
           <div
-            className="absolute inset-0"
-            style={{
-              background: 'linear-gradient(to bottom, rgba(43, 57, 79, 0.9), rgba(43, 57, 79, 0.85), rgba(43, 57, 79, 0.95))'
-            }}
+            className={`absolute inset-0 transition-opacity duration-500 ${
+              currentTestimonial === 0 ? 'opacity-100' : 'opacity-0'
+            }`}
+            style={{ backgroundColor: '#F8983C' }}
+          />
+          {/* Yellow */}
+          <div
+            className={`absolute inset-0 transition-opacity duration-500 ${
+              currentTestimonial === 1 ? 'opacity-100' : 'opacity-0'
+            }`}
+            style={{ backgroundColor: '#EBCA52' }}
+          />
+          {/* Teal */}
+          <div
+            className={`absolute inset-0 transition-opacity duration-500 ${
+              currentTestimonial === 2 ? 'opacity-100' : 'opacity-0'
+            }`}
+            style={{ backgroundColor: '#268DB0' }}
+          />
+          {/* Purple */}
+          <div
+            className={`absolute inset-0 transition-opacity duration-500 ${
+              currentTestimonial === 3 ? 'opacity-100' : 'opacity-0'
+            }`}
+            style={{ backgroundColor: '#9E5790' }}
           />
         </div>
 

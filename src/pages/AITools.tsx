@@ -10,7 +10,7 @@ const aiTools = [
     id: "ai-tool-1",
     name: "Tool One",
     tagline: "Open, AI-powered engagement that reveals what will resonate",
-    href: "#",
+    href: "/ai-tools/engageplus",
     outcomes: "Clear insight into priorities and sentiment to shape better decisions.",
     description:
       "Engage Plus enables open, human conversations and uses AI to surface clear themes, priorities, and sentiment that guide decision-making.\n\n\n**Purpose:** Unlock deeper stakeholder insight\n\n**Focus:** Authentic engagement, clarity, alignment\n\n**Outcome:** Decisions shaped by what truly matters to people",
@@ -23,7 +23,7 @@ const aiTools = [
     id: "ai-tool-2",
     name: "Tool Two",
     tagline: "Conversational strategy that shapes future direction",
-    href: "#",
+    href: "/ai-tools/futureconnect",
     outcomes: "Clear insight into priorities and sentiment to shape better decisions.",
     description:
       "Future Connect helps teams make sense of future possibilities and translate them into clear, shared direction.\n\n\n**Purpose:** Clarify future direction and strengthen decisions\n\n**Focus:** Insight, alignment, confident choice\n\n**Outcome:** Shared direction and better strategic decisions",
@@ -36,7 +36,7 @@ const aiTools = [
     id: "ai-tool-3",
     name: "Tool Three",
     tagline: "Focused execution that turns strategy into impact",
-    href: "#",
+    href: "/ai-tools/executionedge",
     outcomes: "Clear insight into priorities and sentiment to shape better decisions.",
     description:
       "Execution Edge turns priorities into clear, visible 90-day actions — making progress easy to track and adapt.\n\n\n**Purpose:** Deliver strategy through disciplined execution\n\n**Focus:** Action, momentum, accountability\n\n**Outcome:** Measurable progress and sustained impact",

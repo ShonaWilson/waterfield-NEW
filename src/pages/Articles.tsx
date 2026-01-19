@@ -30,10 +30,11 @@ const Articles = () => {
       <section ref={ref} className="relative py-20 md:py-28 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/articles-hero-new.jpeg"
+            src="/Image_dump/split_2.png"
             alt="Team collaboration"
             className="absolute inset-0 w-full h-full object-cover"
             style={{
+              objectPosition: '50% 10%',
               transform: `scale(1.2) translateY(${offset * 0.4}px)`
             }}
           />

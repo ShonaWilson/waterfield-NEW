@@ -8,6 +8,9 @@ import Index from "./pages/Index";
 import Services from "./pages/Services";
 import BuildCapacity from "./pages/BuildCapacity";
 import AITools from "./pages/AITools";
+import EngagePlus from "./pages/EngagePlus";
+import FutureConnect from "./pages/FutureConnect";
+import ExecutionEdge from "./pages/ExecutionEdge";
 import StrategyConnect from "./pages/StrategyConnect";
 import SuccessAlliance from "./pages/SuccessAlliance";
 import OpenInnovation from "./pages/OpenInnovation";
@@ -36,6 +39,9 @@ const App = () => (
           <Route path="/services" element={<Services />} />
           <Route path="/build-capacity" element={<BuildCapacity />} />
           <Route path="/ai-tools" element={<AITools />} />
+          <Route path="/ai-tools/engageplus" element={<EngagePlus />} />
+          <Route path="/ai-tools/futureconnect" element={<FutureConnect />} />
+          <Route path="/ai-tools/executionedge" element={<ExecutionEdge />} />
           <Route path="/services/strategyconnect" element={<StrategyConnect />} />
           <Route path="/services/successalliance" element={<SuccessAlliance />} />
           <Route path="/services/openinnovation" element={<OpenInnovation />} />
@@ -53,6 +59,9 @@ const App = () => (
           <Route path="/successalliance" element={<Navigate to="/services/successalliance" replace />} />
           <Route path="/openinnovation" element={<Navigate to="/services/openinnovation" replace />} />
           <Route path="/customfacilitation" element={<Navigate to="/services/customfacilitation" replace />} />
+          <Route path="/engageplus" element={<Navigate to="/ai-tools/engageplus" replace />} />
+          <Route path="/futureconnect" element={<Navigate to="/ai-tools/futureconnect" replace />} />
+          <Route path="/executionedge" element={<Navigate to="/ai-tools/executionedge" replace />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

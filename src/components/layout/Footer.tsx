@@ -31,9 +31,6 @@ export function Footer() {
               <Link to="/ai-tools" className="font-heading font-medium text-sm text-primary-foreground hover:text-primary-foreground/80 transition-colors">
                 AI Tools
               </Link>
-              <Link to="/process" className="font-heading font-medium text-sm text-primary-foreground hover:text-primary-foreground/80 transition-colors">
-                Process
-              </Link>
             </nav>
           </div>
 

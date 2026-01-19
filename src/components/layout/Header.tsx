@@ -13,6 +13,7 @@ const offeringsSubmenu = [
 const navItems = [
   { label: "About", href: "/about" },
   { label: "Clients", href: "/our-clients" },
+  { label: "Process", href: "/process" },
   { label: "Articles", href: "/articles" },
   { label: "Contact us", href: "/contact" },
 ];

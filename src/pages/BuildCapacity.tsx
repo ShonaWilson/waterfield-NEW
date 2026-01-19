@@ -9,7 +9,7 @@ const engagePlusTool = {
   id: "engage-plus",
   name: "Engage Plus",
   tagline: "Open, AI-powered engagement that reveals what will resonate",
-  href: "#",
+  href: "/ai-tools/engageplus",
   description:
     "Engage Plus enables open, human conversations and uses AI to surface clear themes, priorities, and sentiment that guide decision-making.\n\n\n**Purpose:** Unlock deeper stakeholder insight\n\n**Focus:** Authentic engagement, clarity, alignment\n\n**Outcome:** Decisions shaped by what truly matters to people",
   image: "/Image_dump/ChatGPT Image Jan 19, 2026 at 12_49_52 PM.png",

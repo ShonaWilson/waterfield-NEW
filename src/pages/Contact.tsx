@@ -71,7 +71,7 @@ const Contact = () => {
             {/* Left Column - Info */}
             <div className="w-full md:w-[32%] space-y-8">
               <div>
-                <p className="font-heading text-xl font-semibold text-primary mb-6">
+                <p className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-6">
                   Thank you for your interest in Waterfield.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-6">

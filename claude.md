@@ -887,5 +887,53 @@ Completely reorganized the Build Capacity page layout and content structure.
 - Engage Plus tool prominently featured as standalone element
 - Consistent styling with homepage and AI Tools page
 
+#### About Page Content Updates (January 19, 2026)
+Updated multiple sections on the About page with refined copy and restructured layout.
+
+##### "What we do" Section (New)
+- Added new section below hero banner
+- Combined with "Our principles" in single white background section
+- Two-paragraph structure:
+  - First paragraph: Bold subhead styling (`font-heading font-semibold text-lg text-foreground`)
+  - Second paragraph: Body copy styling (`text-muted-foreground`)
+- Content focuses on aligning leadership teams and navigating complexity
+- Spacing: `mb-16` between "What we do" and "Our principles"
+
+##### Our Principles Section Updates
+- Maintained 3 core principles structure (Outcome thinking, Collaboration, Building capacity)
+- Updated all principle tile backgrounds to beige (`bg-secondary`)
+- Section background changed to white (`bg-background`) - combined with "What we do"
+
+**Outcome thinking tile:**
+- Updated heading: "We believe defining the preferred end state is the right starting point for action."
+- Two supporting paragraphs about creating shared direction and enabling adaptation
+
+**Collaboration tile:**
+- Updated heading: "We believe humans are hardwired to collaborate. The right environment unlocks its full value."
+- Removed bulleted list, replaced with two concise paragraphs
+- Focus on motivation to act and creating meaningful outcomes
+
+**Building capacity tile:**
+- Updated heading: "We believe building capability within our clients ensures change is realised and sustained."
+- Removed numbered list, replaced with two paragraphs
+- Final sentence: "Waterfield builds capacity by enabling teams to think strategically, lead collaboratively, and leverage AI."
+
+##### Our Team Section Updates
+- Section background changed to beige (`bg-secondary`)
+- Updated body copy to three paragraphs:
+  - "Waterfield is a tight, high performing team with deep networks of specialists."
+  - "We bring the right specialists together through a collaborative model designed to achieve the best outcomes. We work with corporations, not-for-profits, governments, and communities to deliver outstanding results."
+  - "Driven by collaboration, our team solves complex challenges and delivers innovative, high-value solutions with proven impact."
+- Both LinkedIn profile tiles changed to white backgrounds (`bg-background`)
+- Removed "and Forecasters" from "Researchers and Forecasters" in specialists section
+
+##### Section Background Pattern
+- Hero banner: Teal with parallax image
+- What we do & Our principles: White background with beige tiles
+- Our Team: Beige background with white tiles
+- 30 years banner: Teal background
+- Our Values: Beige background with white tiles
+- Creates clean alternating visual rhythm throughout page
+
 ## Summary
 The Contact page features a visually appealing hero section with "How can we help you?" overlaid on a background image with a gradient overlay. The opening paragraph now emphasizes "Thank you for your interest in Waterfield." as a prominent heading. The form layout features better visual hierarchy with 32%/68% split. Form fields are better organized with email/phone on the same row for improved UX, and all form inputs now have a thin primary-light (lighter teal) outline with a subtle glow effect on focus only (no hover effects) for clear active indication. The Send button now matches all "Let's connect" buttons with consistent hero variant styling and hover effects. The quote section has been removed for a cleaner page layout. Services and Build capacity sections have consistent hover effects with scale transforms and subtle overlays, while Getting started and Clarity that drives action tiles remain static without hover states. All buttons across the website now have fully consistent styling with the hero variant (teal base, lighter teal hover) and matching hover effects (shadow-xl and scale-105) without vertical translation. All body copy (not in tiles) now uses text-muted-foreground for consistent, readable typography across the entire site. The About page now features a teal banner section with "30 years designing futures" text lockup that maintains fixed text sizing across all screen widths with only layout changes between mobile (horizontal: "30 years" inline, "designing futures" below) and desktop (vertical stack) views, and a full-width Our Principles section with responsive icon/title layouts. All CTAs and arrow links now use consistent "circular badge" text styling (font-heading font-medium text-sm md:text-base). Text-wrap: pretty has been applied globally to prevent widows across all text elements. The article page template now provides a complete reading experience with formatted content, date/time metadata, and randomized related articles. All article tiles across the site maintain equal heights for a polished, professional appearance. All case studies now feature updated content from PDF sources with authentic quotes and new hero background images. A comprehensive accessibility review has been completed with prioritized recommendations for WCAG 2.1 compliance.
