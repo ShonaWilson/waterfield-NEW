@@ -815,5 +815,77 @@ Updated the circular badges under "Partnering with Waterfield helps you:" headin
 - Tighter line spacing allows more text to fit comfortably within circles
 - Maintains hover shadow effect and transitions
 
+#### Build Capacity Page Restructure (January 19, 2026)
+Completely reorganized the Build Capacity page layout and content structure.
+
+##### Hero Section Updates
+- Changed background image from `/business-meeting-edited.jpg` to `/Image_dump/ChatGPT Image Jan 19, 2026 at 06_01_36 PM.png`
+- Adjusted parallax scale from 1.2 to 1.1 for subtler effect
+- Added `objectPosition: 'center 15%'` for better image framing
+
+##### Service Tiles Section (New)
+- Added three service tiles above the pathways section
+- Background: `bg-secondary` (beige) with rounded corners
+- Grid layout: 1 column mobile, 3 columns desktop
+- Same styling as homepage service tiles with inset images
+- Hover effects: `hover:shadow-xl hover:scale-105`
+
+**Three Services:**
+1. **StrategyConnect** (Orange #F8983C)
+   - "Strategic Clarity"
+   - Image: `/service-1.jpg`
+   - Logo: `/strategyconnect_white.png.avif`
+   - Links to `/services/strategyconnect`
+
+2. **SuccessAlliance** (Yellow #EBCA52)
+   - "Successful Alliances"
+   - Image: `/service-2.jpg`
+   - Logo: `/SuccessAlliance_logoDual.png`
+   - Links to `/services/successalliance`
+
+3. **OpenInnovation** (Blue #268DB0)
+   - "Accelerated Innovation"
+   - Image: `/service-3.jpg`
+   - Logo: `/J_OI.png`
+   - Links to `/services/openinnovation`
+
+##### Pathways Section Restructure
+- Removed colored tile boxes with geometric shapes
+- Consolidated all three pathways into single beige box (`bg-secondary`)
+- Each pathway has heading, description, and associated programs
+- Programs displayed in 2-column grid on desktop
+- Separated by border dividers (`border-b border-muted-foreground/20`)
+
+**Layout Structure:**
+- Pathway title: `font-heading text-xl font-semibold text-primary`
+- Pathway description: `text-muted-foreground text-sm leading-relaxed`
+- Program names: `font-heading text-base font-semibold text-foreground`
+- Program descriptions: `text-muted-foreground text-sm`
+- "Find out how" links: `text-primary` with arrow animation
+
+##### Engage Plus Tool Section (New)
+- Added dedicated Engage Plus AI tool tile at bottom
+- Same 32%/68% layout as AI Tools page tiles
+- Lighter teal color: #60c0c7
+- Image: `/Image_dump/ChatGPT Image Jan 19, 2026 at 12_49_52 PM.png`
+- Logo: `/Image_dump/EngagePlus_LogoW.png` (52% width, centered)
+- Description includes Purpose/Focus/Outcome format with bold labels
+- Bold text parsing using regex for **bold** markers
+- "Find out how" link with arrow animation matching brand color
+- Hover effects: `hover:shadow-xl hover:scale-105`
+
+##### Spacing Adjustments
+- Reduced section padding: `pt-2 md:pt-3 pb-6 md:pb-8` for service tiles
+- Reduced section padding: `pt-2 md:pt-3 pb-12 md:pb-16` for pathways
+- Creates tighter visual flow between sections
+- Engage Plus tool added with `mt-8` spacing
+
+##### Visual Improvements
+- Cleaner, more organized layout with clear hierarchy
+- Service tiles provide quick navigation to main offerings
+- Single pathways box reduces visual clutter
+- Engage Plus tool prominently featured as standalone element
+- Consistent styling with homepage and AI Tools page
+
 ## Summary
 The Contact page features a visually appealing hero section with "How can we help you?" overlaid on a background image with a gradient overlay. The opening paragraph now emphasizes "Thank you for your interest in Waterfield." as a prominent heading. The form layout features better visual hierarchy with 32%/68% split. Form fields are better organized with email/phone on the same row for improved UX, and all form inputs now have a thin primary-light (lighter teal) outline with a subtle glow effect on focus only (no hover effects) for clear active indication. The Send button now matches all "Let's connect" buttons with consistent hero variant styling and hover effects. The quote section has been removed for a cleaner page layout. Services and Build capacity sections have consistent hover effects with scale transforms and subtle overlays, while Getting started and Clarity that drives action tiles remain static without hover states. All buttons across the website now have fully consistent styling with the hero variant (teal base, lighter teal hover) and matching hover effects (shadow-xl and scale-105) without vertical translation. All body copy (not in tiles) now uses text-muted-foreground for consistent, readable typography across the entire site. The About page now features a teal banner section with "30 years designing futures" text lockup that maintains fixed text sizing across all screen widths with only layout changes between mobile (horizontal: "30 years" inline, "designing futures" below) and desktop (vertical stack) views, and a full-width Our Principles section with responsive icon/title layouts. All CTAs and arrow links now use consistent "circular badge" text styling (font-heading font-medium text-sm md:text-base). Text-wrap: pretty has been applied globally to prevent widows across all text elements. The article page template now provides a complete reading experience with formatted content, date/time metadata, and randomized related articles. All article tiles across the site maintain equal heights for a polished, professional appearance. All case studies now feature updated content from PDF sources with authentic quotes and new hero background images. A comprehensive accessibility review has been completed with prioritized recommendations for WCAG 2.1 compliance.
