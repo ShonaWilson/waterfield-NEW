@@ -94,53 +94,99 @@ const BuildCapacity = () => {
             Build Capacity
           </h1>
           <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
-            Empower your organisation to thrive for sustainable success.
+            Embedding the capability within your organisation to lead, adapt, and perform for sustained success.
           </p>
         </div>
       </section>
 
       {/* Overview */}
-      <section className="section-padding bg-background">
+      <section className="pt-12 md:pt-16 pb-4 md:pb-6 bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <div className="max-w-4xl mx-auto text-center mb-12">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h3 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
+              Our programs
+            </h3>
             <p className="font-heading font-semibold text-lg text-foreground mb-6">
-              Waterfield builds internal capability by strengthening the knowledge, skills, and confidence of leaders and teams.
+              We build lasting capability by strengthening the knowledge, skills, and confidence of your team.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Through three connected pathways — Think Strategically, Lead Collaboratively, and Leverage AI — we develop the core capabilities organisations need to navigate complexity, adapt with confidence, and deliver sustained results.
+              Our programs empower leaders and teams to Think Strategically, Lead Collaboratively, and Leverage AI — core capabilities that unlock growth, adaptability, and lasting impact.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Each pathway is delivered through distinct programs, tailored to what matters most for your organisation. Together, they form Waterfield's strategic edge: a blend of practical methods, shared mindset, and embedded capability that enables organisations to perform today and continue evolving over time.
+              Together, these form Waterfield's strategic edge: a blend of methods, mindset, and mastery that drives performance, uplifts capability, and enables organisations to achieve results and continually evolve.
             </p>
           </div>
         </div>
       </section>
 
       {/* Pathways */}
-      <section className="section-padding bg-secondary">
+      <section className="pt-8 md:pt-12 pb-12 md:pb-16 bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <div className="space-y-16">
-            {pathways.map((pathway) => (
-              <div key={pathway.id} className="max-w-5xl mx-auto">
-                <div className="mb-8">
-                  <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            {pathways.map((pathway, index) => (
+              <Link
+                key={pathway.id}
+                to="/services"
+                className="group relative rounded-xl p-6 overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300"
+                style={{ backgroundColor: '#2F3D4F' }}
+              >
+                {/* Triangle shape for first box - wider angle, less pointy */}
+                {pathway.id === "think-strategically" && (
+                  <div className="absolute left-0 top-1/2 -translate-y-1/2 translate-x-0 opacity-[0.10] group-hover:scale-110 transition-transform duration-300">
+                    <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M220 150 L0 20 L0 280 Z" fill="#268DB0" />
+                    </svg>
+                  </div>
+                )}
+
+                {/* Circle shape for second box - shifted left with left edge cut off */}
+                {pathway.id === "lead-collaboratively" && (
+                  <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-[25%] opacity-[0.10] group-hover:scale-110 transition-transform duration-300">
+                    <svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <circle cx="150" cy="150" r="150" fill="#268DB0" />
+                    </svg>
+                  </div>
+                )}
+
+                {/* Parallelogram shape for third box - shifted left, only right side visible, 20% larger */}
+                {pathway.id === "leverage-ai" && (
+                  <div className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-[40%] opacity-[0.10] group-hover:scale-110 transition-transform duration-300">
+                    <svg width="336" height="336" viewBox="0 0 336 336" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 84 L252 0 L336 252 L84 336 Z" fill="#268DB0" />
+                    </svg>
+                  </div>
+                )}
+
+                <div className="relative z-10 text-center">
+                  <h4 className="font-heading font-semibold text-lg text-white mb-2">
                     {pathway.title}
-                  </h2>
-                  <p className="text-muted-foreground leading-relaxed">
+                  </h4>
+                  <p className="text-white/90 text-sm mb-4 leading-relaxed">
                     {pathway.description}
                   </p>
+                  <span className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base group-hover:gap-2 transition-all duration-200 text-primary">
+                    Discover <ArrowRight className="w-4 h-4" />
+                  </span>
                 </div>
+              </Link>
+            ))}
+          </div>
 
+          {/* Program Tiles */}
+          <div className="space-y-8">
+            {pathways.map((pathway) => (
+              <div key={pathway.id} className="bg-secondary rounded-2xl p-6 md:p-8">
+                <h3 className="font-heading text-xl font-semibold text-primary mb-6">
+                  {pathway.title}
+                </h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {pathway.programs.map((program, index) => (
-                    <div
-                      key={index}
-                      className="bg-background rounded-xl p-6 md:p-8"
-                    >
-                      <h3 className="font-heading text-lg font-semibold text-foreground mb-3">
+                    <div key={index} className="space-y-2">
+                      <h4 className="font-heading text-base font-semibold text-foreground">
                         {program.name}
-                      </h3>
-                      <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+                      </h4>
+                      <p className="text-muted-foreground text-sm leading-relaxed">
                         {program.description}
                       </p>
                       <Link
@@ -154,12 +200,6 @@ const BuildCapacity = () => {
                 </div>
               </div>
             ))}
-          </div>
-
-          <div className="text-center mt-16">
-            <Button asChild variant="hero" size="lg" className="hover:shadow-xl hover:scale-105 transition-all duration-300">
-              <Link to="/contact">Let's connect</Link>
-            </Button>
           </div>
         </div>
       </section>

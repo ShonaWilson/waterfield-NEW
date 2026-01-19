@@ -2,9 +2,76 @@
 
 ## Date
 December 1-12, 2025
-January 18, 2026
+January 18-19, 2026
 
 ## Changes Made
+
+### AI Tools Page Updates (January 19, 2026)
+Created and styled the AI Tools page with three strategic AI tool tiles featuring custom logos, images, and brand colors.
+
+#### Page Structure
+- **Route**: `/ai-tools`
+- **File**: `src/pages/AITools.tsx`
+- Hero section with parallax background effect
+- Three circular badges showing progression: Engage → Connect → Execute
+- Three detailed tool tiles with 32%/68% image-to-content split
+- Quote section with "Let's connect" button
+
+#### Three AI Tools
+1. **Engage Plus** (#60c0c7 - lighter teal)
+   - Tagline: "Open, AI-powered engagement that reveals what will resonate"
+   - Logo: `/Image_dump/EngagePlus_LogoW.png`
+   - Image: `/Image_dump/ChatGPT Image Jan 19, 2026 at 12_49_52 PM.png`
+   - Purpose/Focus/Outcome format with bold labels
+
+2. **Future Connect** (#3bafb7 - medium teal)
+   - Tagline: "Conversational strategy that shapes future direction"
+   - Logo: `/Image_dump/FutureConnect_LogoW2.png`
+   - Image: `/Image_dump/ChatGPT Image Jan 19, 2026 at 01_11_57 PM.png`
+   - Purpose/Focus/Outcome format with bold labels
+
+3. **Execution Edge** (#1e9aa7 - darker teal)
+   - Tagline: "Focused execution that turns strategy into impact"
+   - Logo: `/Image_dump/ExecutionEdge_LogoW.png`
+   - Image: `/Image_dump/ChatGPT Image Jan 19, 2026 at 04_11_20 PM.png` (positioned right center)
+   - Purpose/Focus/Outcome format with bold labels
+
+#### Circular Progress Badges
+- Three circular badges with gradient teal colors (#60c0c7, #3bafb7, #1e9aa7)
+- Labels: "Engage - Reveal what resonates", "Connect - Align on direction", "Execute - Deliver on impact"
+- Arrow icons between badges (rotating 90° on mobile)
+- Responsive sizing: 115px mobile, 143px desktop
+
+#### Tile Styling
+- Background: `bg-secondary` (sand color)
+- Layout: 32% image column, 68% text content column
+- Image section: Rounded corners with dark blue gradient overlay
+- Logo: Centered, 52% width, overlaid on gradient
+- Hover effects: `hover:shadow-xl hover:scale-105`
+- "Find out how" links with arrow animation matching brand colors
+
+#### Content Formatting
+- Tool descriptions with **bold labels** for Purpose/Focus/Outcome
+- Spacing: Single line breaks between sections, double space before Purpose
+- Line breaks filtered and rendered with `space-y-4` for visual separation
+- Bold text parsing using regex: `/(\*\*.*?\*\*)/`
+
+#### Typography
+- Hero heading: "AI Tools" - `text-3xl md:text-4xl lg:text-5xl`
+- Section heading: "Our strategic AI Tools" - `text-2xl md:text-3xl`
+- Taglines: `text-xl font-semibold` with brand colors
+- Body text: `text-sm text-muted-foreground` with `leading-relaxed`
+
+#### Quote Section
+- Text: "Purpose-built through ongoing research and real-world application..."
+- Consistent "Let's connect" button with hero variant
+- Styling: `font-heading font-semibold text-lg text-muted-foreground`
+
+#### Navigation
+- Added "AI Tools" link to Footer navigation
+- Route configured in App.tsx: `/ai-tools`
+
+## Previous Changes
 
 ### Project Setup (December 5, 2025)
 - Initialized Git repository

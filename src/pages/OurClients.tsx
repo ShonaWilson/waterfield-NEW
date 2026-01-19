@@ -169,7 +169,7 @@ const OurClients = () => {
             Who we work with
           </h1>
           <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
-            Our work introduces us to many different types of organisations, with 30 years experience across a vast range of industries.
+            Our work spans many different types of organisations, with 30 years' experience across a wide range of industries.
           </p>
         </div>
       </section>
