@@ -1,6 +1,6 @@
 export function FinalQuote() {
   return (
-    <section className="relative py-20 md:py-32 flex items-center justify-center overflow-hidden">
+    <section className="relative py-12 md:py-16 flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img

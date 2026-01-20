@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Eye, Lightbulb, Zap, ArrowRight } from "lucide-react";
+import { Eye, Lightbulb, Zap, ArrowRight, Target, Users } from "lucide-react";
 import { useParallax } from "@/hooks/useParallax";
 
 const About = () => {
@@ -78,7 +78,7 @@ const About = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section ref={ref} className="relative py-20 md:py-28 overflow-hidden">
+      <section ref={ref} className="relative py-16 md:py-20 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -112,20 +112,39 @@ const About = () => {
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           {/* What we do */}
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-6">
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-8">
               What we do
             </h2>
-            <p className="font-heading font-semibold text-lg text-foreground mb-4">
-              Waterfield helps leadership teams align on the decisions that matter most—navigating complexity to achieve clarity and action through strategic facilitation and AI-enabled insight.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              We work in complex environments with diverse perspectives, moving leaders from discussion to clear, aligned decisions while strengthening organisational capability to align, decide, and act.
-            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-secondary rounded-2xl p-8 text-center">
+                <div className="flex justify-center mb-4">
+                  <Target className="w-8 h-8 text-primary" />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Our focus
+                </h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Waterfield helps people align on the decisions that matter most—navigating complexity to achieve clarity and action through strategic facilitation and AI-enabled insight.
+                </p>
+              </div>
+
+              <div className="bg-secondary rounded-2xl p-8 text-center">
+                <div className="flex justify-center mb-4">
+                  <Users className="w-8 h-8 text-primary" />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Our approach
+                </h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  We work in complex environments with diverse perspectives, moving leaders from discussion to clear, aligned decisions while strengthening organisational capability to align, decide, and act.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Our principles */}
-          <div>
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-6">
               Our principles

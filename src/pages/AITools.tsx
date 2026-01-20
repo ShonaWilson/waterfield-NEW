@@ -60,7 +60,7 @@ const AITools = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section ref={ref} className="relative py-20 md:py-28 overflow-hidden">
+      <section ref={ref} className="relative py-16 md:py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/Image_dump/ChatGPT Image Jan 17, 2026 at 12_35_00 PM.png"

@@ -27,14 +27,14 @@ const Articles = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section ref={ref} className="relative py-20 md:py-28 overflow-hidden">
+      <section ref={ref} className="relative py-16 md:py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/Image_dump/split_2.png"
             alt="Team collaboration"
             className="absolute inset-0 w-full h-full object-cover"
             style={{
-              objectPosition: '50% 10%',
+              objectPosition: '50% 25%',
               transform: `scale(1.2) translateY(${offset * 0.4}px)`
             }}
           />

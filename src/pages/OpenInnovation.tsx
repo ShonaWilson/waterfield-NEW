@@ -18,7 +18,7 @@ const OpenInnovation = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section ref={ref} className="relative py-20 md:py-28 overflow-hidden">
+      <section ref={ref} className="relative py-16 md:py-20 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
@@ -47,9 +47,9 @@ const OpenInnovation = () => {
               className="h-14 md:h-17 lg:h-20 w-auto object-contain"
             />
           </div>
-          <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground">
+          <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
             Accelerate innovation and shape what's next through a diverse network of thinkers and experts
-          </h1>
+          </p>
         </div>
       </section>
 
@@ -155,7 +155,7 @@ const OpenInnovation = () => {
       </section>
 
       {/* Testimonial - Clary Castrission */}
-      <section className="relative py-20 md:py-32 flex items-center justify-center overflow-hidden">
+      <section className="relative py-12 md:py-16 flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img

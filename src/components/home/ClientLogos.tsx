@@ -9,7 +9,7 @@ export function ClientLogos() {
   ];
 
   return (
-    <section className="pt-2 pb-16 md:pb-24 bg-background">
+    <section className="pt-2 pb-12 md:pb-16 bg-background">
       <div className="container-custom mx-auto px-4 md:px-8">
         <p className="text-center font-heading text-xl font-semibold text-primary mb-8">
           Organisations we proudly work with include:

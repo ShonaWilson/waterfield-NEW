@@ -147,7 +147,7 @@ const OurClients = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section ref={ref} className="relative py-20 md:py-28 overflow-hidden">
+      <section ref={ref} className="relative py-16 md:py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/Image_dump/ChatGPT Image Jan 19, 2026 at 10_03_20 PM.png"
@@ -234,36 +234,20 @@ const OurClients = () => {
       </section>
 
       {/* Testimonial Carousel */}
-      <section className="relative py-20 md:py-32 flex items-center justify-center overflow-hidden">
-        {/* Background Colors */}
+      <section className="relative py-12 md:py-16 flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
         <div className="absolute inset-0">
-          {/* Orange */}
-          <div
-            className={`absolute inset-0 transition-opacity duration-500 ${
-              currentTestimonial === 0 ? 'opacity-100' : 'opacity-0'
-            }`}
-            style={{ backgroundColor: '#F8983C' }}
+          <img
+            src="/Image_dump/ChatGPT Image Jan 19, 2026 at 10_05_31 PM.png"
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover"
+            style={{ objectPosition: '50% 25%' }}
           />
-          {/* Yellow */}
           <div
-            className={`absolute inset-0 transition-opacity duration-500 ${
-              currentTestimonial === 1 ? 'opacity-100' : 'opacity-0'
-            }`}
-            style={{ backgroundColor: '#EBCA52' }}
-          />
-          {/* Teal */}
-          <div
-            className={`absolute inset-0 transition-opacity duration-500 ${
-              currentTestimonial === 2 ? 'opacity-100' : 'opacity-0'
-            }`}
-            style={{ backgroundColor: '#268DB0' }}
-          />
-          {/* Purple */}
-          <div
-            className={`absolute inset-0 transition-opacity duration-500 ${
-              currentTestimonial === 3 ? 'opacity-100' : 'opacity-0'
-            }`}
-            style={{ backgroundColor: '#9E5790' }}
+            className="absolute inset-0"
+            style={{
+              background: 'linear-gradient(to bottom, rgba(43, 57, 79, 0.9), rgba(43, 57, 79, 0.85), rgba(43, 57, 79, 0.95))'
+            }}
           />
         </div>
 

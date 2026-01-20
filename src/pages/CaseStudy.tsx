@@ -109,7 +109,7 @@ const CaseStudy = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section ref={ref} className="relative py-20 md:py-28 overflow-hidden">
+      <section ref={ref} className="relative py-16 md:py-20 overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={caseStudy.image}

@@ -33,13 +33,8 @@ export function ClaritySection() {
           <h3 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
             Clarity that drives action
           </h3>
-          <p className="font-heading font-semibold text-lg text-foreground">
-            Navigating this complexity starts with the right questions and clear frameworks.
-          </p>
-          <p className="text-muted-foreground leading-relaxed mt-4">
-            For over 30 years, Waterfield has partnered with organisations, governments, and industry
-            sectors to navigate complexity and deliver meaningful outcomes. We combine decades of
-            experience with innovation, building collective clarity to drive action.
+          <p className="text-muted-foreground leading-relaxed">
+            For over 30 years, Waterfield has partnered with organisations, governments, and industry sectors to navigate complexity and deliver meaningful outcomes. We combine decades of experience with innovation to build collective clarity and drive action.
           </p>
         </div>
 

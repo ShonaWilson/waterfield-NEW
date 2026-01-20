@@ -2,9 +2,39 @@
 
 ## Date
 December 1-12, 2025
-January 18-19, 2026
+January 18-21, 2026
 
 ## Changes Made
+
+### Success Alliance Page Updates (January 21, 2026)
+Comprehensive updates to the Success Alliance service page content and styling.
+
+#### "How it works" Section
+- Updated subhead: "Success Alliance provides a clear, practical way to design, deliver, and grow effective partnerships across your value chain."
+- Added detailed 3-step process content:
+  - **Step 1: Build the alliance** - Create shared understanding, alignment, and commitment across partners
+  - **Step 2: Implement and deliver** - Turn shared intent into visible progress and measurable outcomes (includes bullet list of Success Alliance Map elements)
+  - **Step 3: Continue to innovate** - Extend value and innovation across your broader ecosystem
+
+#### New "Getting started" Section
+- Created separate section with title "Getting started" in yellow (#EBCA52)
+- Three tiles with updated content:
+  1. **Clarify the opportunity** - "We start with a conversation to understand your objectives and identify the partners across your ecosystem who can create the greatest value."
+  2. **Design & facilitate the alliance** - "We bring these partners together in a structured, collaborative workshop to build a shared Success Alliance and agree on how value will be delivered."
+  3. **Deliver exceptional value** - "With clear objectives and shared commitment, partners move into delivery — implementing innovative offers that create meaningful value for customers and all parties involved."
+- Tiles use `bg-secondary` background with rounded corners
+- Yellow "Let's connect" button at bottom
+
+#### Icon Styling
+- Updated icon filters to darker gold color for icons 1 and 3:
+  - Filter: `brightness(0) saturate(100%) invert(73%) sepia(45%) saturate(600%) hue-rotate(12deg) brightness(92%) contrast(88%)`
+- Slightly lighter gold for icon 2:
+  - Filter: `brightness(0) saturate(100%) invert(78%) sepia(40%) saturate(700%) hue-rotate(10deg) brightness(95%) contrast(90%)`
+
+#### Section Layout
+- "How it works" section: `bg-secondary` background with detailed step content
+- "Getting started" section: `bg-background` (white) with three beige tiles
+- Clear separation between process explanation and call-to-action
 
 ### AI Tools Page Updates (January 19, 2026)
 Created and styled the AI Tools page with three strategic AI tool tiles featuring custom logos, images, and brand colors.

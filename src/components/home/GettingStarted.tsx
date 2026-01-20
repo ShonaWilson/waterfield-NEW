@@ -13,15 +13,15 @@ const steps = [
     image: "/2.png.avif",
     title: "Design & align",
     description:
-      "Together, we co-create the right process with you. Through interactive workshops, we bring your team together to build strategic insight and shape a clear, actionable roadmap for success.",
-    cta: "Shape your direction.",
+      "Together, we co-create the right approach for you—bringing your team together to build shared insight, align around what matters most, and define a clear path forward.",
+    cta: "Align your direction.",
   },
   {
     image: "/3.png.avif",
     title: "Deliver & thrive",
     description:
       "With shared clarity and alignment, your team can quickly take action with confidence. Achieve faster decisions, stronger collaboration, and real results.",
-    cta: "Bring your strategy to life.",
+    cta: "Bring strategy to life.",
   },
 ];
 

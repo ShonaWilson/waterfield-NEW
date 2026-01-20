@@ -8,7 +8,7 @@ export function FromUncertainty() {
       <div className="container-custom mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center mb-8">
           <h3 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
-            From uncertainty to clarity
+            Aligned direction & action
           </h3>
         </div>
 
@@ -22,8 +22,7 @@ export function FromUncertainty() {
           </div>
           <div className="w-full md:w-[68%] space-y-3">
             <p className="font-heading font-semibold text-lg text-foreground">
-              Waterfield's renowned process is centred on partnership and co-creation. We guide you
-              through complexity with the right frameworks, insights and tools to help you succeed.
+              We guide organisations to navigate complexity with clarity, purpose, and aligned action.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               Our approach develops foresight, insight and action—building the resilience, agility

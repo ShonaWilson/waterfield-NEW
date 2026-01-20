@@ -18,7 +18,7 @@ const FutureConnect = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section ref={ref} className="relative py-20 md:py-28 overflow-hidden">
+      <section ref={ref} className="relative py-16 md:py-20 overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <img

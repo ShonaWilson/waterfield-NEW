@@ -80,7 +80,7 @@ export function ServicesPreview() {
             Services for outcomes
           </h3>
           <p className="font-heading font-semibold text-lg text-foreground">
-            Our services drive strategic outcomes, buy-in, and action through collaborative models.
+            We deliver services that align direction, empower collaboration, and drive sustained success.
           </p>
         </div>
 

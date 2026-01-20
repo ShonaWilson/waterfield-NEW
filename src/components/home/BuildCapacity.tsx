@@ -31,7 +31,7 @@ export function BuildCapacity() {
             Build capacity
           </h3>
           <p className="font-heading font-semibold text-lg text-foreground">
-            These are the pathways we build within your team to empower your organisation:
+            We embed lasting capability within your organisation—to lead, adapt, and perform.
           </p>
         </div>
 
