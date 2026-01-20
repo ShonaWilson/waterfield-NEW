@@ -1,9 +1,110 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Handshake, Users } from "lucide-react";
 import { useParallax } from "@/hooks/useParallax";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+
+const HowItWorksTabs = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
+  const tabs = [
+    { label: "1. Build the alliance" },
+    { label: "2. Implement and deliver" },
+    { label: "3. Continue to innovate" },
+  ];
+
+  return (
+    <>
+      {/* Tab Buttons */}
+      <div className="flex flex-col md:flex-row justify-center gap-3 md:gap-4 mb-12">
+        {tabs.map((tab, index) => (
+          <button
+            key={index}
+            onClick={() => setActiveTab(index)}
+            className={`px-10 py-3 rounded-full font-heading font-semibold text-base transition-all duration-300 ${
+              activeTab === index
+                ? "text-white shadow-md"
+                : "bg-background text-muted-foreground hover:bg-background/80"
+            }`}
+            style={activeTab === index ? { backgroundColor: '#EBCA52' } : {}}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Tab Content */}
+      <div className="flex justify-center">
+        {activeTab === 0 && (
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div className="w-[157px] md:w-[194px] flex-shrink-0">
+              <img
+                src="/Image_dump/workshop.jpg"
+                alt="Build the alliance"
+                className="w-full h-auto rounded-full aspect-square object-cover"
+              />
+            </div>
+            <div className="max-w-xl space-y-3 text-center md:text-left">
+              <p className="font-heading font-semibold text-lg text-foreground">
+                Align partners around shared understanding and commitment.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Successful partnerships start with a shared view of the big picture. We bring key stakeholders together in a fast, interactive workshop to create immediate clarity and alignment. The outcome is a one-page Success Alliance Map that highlights opportunities, sharpens focus, and aligns everyone around a shared goal—ready for action.
+              </p>
+            </div>
+          </div>
+        )}
+
+        {activeTab === 1 && (
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div className="w-[157px] md:w-[194px] flex-shrink-0">
+              <img
+                src="/Image_dump/working.jpg"
+                alt="Implement and deliver"
+                className="w-full h-auto rounded-full aspect-square object-cover"
+              />
+            </div>
+            <div className="max-w-xl space-y-3 text-center md:text-left">
+              <p className="font-heading font-semibold text-lg text-foreground">
+                Turn shared intent into visible progress and measurable outcomes.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                We support delivery through a shared online platform that enables all parties to track progress in real time. The Success Alliance Map sets clear outcomes, investments, milestones, and 90-day priorities—providing a practical roadmap for action.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                To keep momentum, we use an adaptive implementation approach. After the first 90 days, stakeholders reconvene to review progress, share learnings, and refine the plan—ensuring the alliance remains relevant and on track.
+              </p>
+            </div>
+          </div>
+        )}
+
+        {activeTab === 2 && (
+          <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
+            <div className="w-[157px] md:w-[194px] flex-shrink-0">
+              <img
+                src="/Image_dump/Meeting.jpg"
+                alt="Continue to innovate"
+                className="w-full h-auto rounded-full aspect-square object-cover"
+              />
+            </div>
+            <div className="max-w-xl space-y-3 text-center md:text-left">
+              <p className="font-heading font-semibold text-lg text-foreground">
+                Extend value and innovation across your broader ecosystem.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Successful alliances build the confidence to go further. As value is realised, we help organisations deepen alliance maturity and expand collaboration across suppliers, partners, and customers.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Through facilitated joint conversations, new opportunities emerge—strengthening connections, improving efficiency and productivity, and delivering greater value to end customers.
+              </p>
+            </div>
+          </div>
+        )}
+      </div>
+    </>
+  );
+};
 
 const SuccessAlliance = () => {
   const { ref, offset } = useParallax(0.5);
@@ -86,9 +187,6 @@ const SuccessAlliance = () => {
               <p className="text-muted-foreground leading-relaxed">
                 The new winners are those who collaborate across the value chain to create distinctive, customer-centred value.
               </p>
-              <p className="font-heading font-semibold text-lg text-muted-foreground pt-4">
-                Success Alliance helps you build competitive advantage through strategic collaboration with key suppliers and customers.
-              </p>
             </div>
           </div>
         </div>
@@ -105,10 +203,7 @@ const SuccessAlliance = () => {
               Partnering to build a competitive advantage by creating attractive and differentiated offers.
             </p>
             <p className="text-muted-foreground">
-              A Success Alliance creates new competitive advantages by connecting your organisation with key suppliers, customers, and partners across the value chain.
-            </p>
-            <p className="text-muted-foreground mt-4">
-              Together, you build stronger, more responsive relationships that uncover new opportunities and set your organisation apart in the marketplace.
+              Success Alliance builds competitive advantage through strategic collaboration, connecting your organisation with key suppliers, customers, and partners across the value chain to create stronger, more responsive relationships that uncover new opportunities and set you apart in the marketplace.
             </p>
           </div>
 
@@ -349,21 +444,6 @@ const SuccessAlliance = () => {
               </p>
             </div>
           </div>
-
-          <div className="max-w-3xl mx-auto text-center mt-12">
-            <h3 className="font-heading text-xl font-semibold mb-4" style={{ color: '#EBCA52' }}>
-              Alliance in action
-            </h3>
-            <p className="text-muted-foreground mb-4">
-              For Diona, the objective was to better understand a major customer's requirements to deliver higher service and greater value.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              <span className="font-semibold text-foreground">Approach:</span> By developing a successful alliance, they uncovered the complex systems at play, gained deeper insight into the end customer's needs, and collaboratively integrated solutions for a win–win result.
-            </p>
-            <p className="text-muted-foreground">
-              <span className="font-semibold text-foreground">Result:</span> This created a trusted partnership that enhanced customer value and, in turn, strengthened Diona's ability to capture more value.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -379,91 +459,14 @@ const SuccessAlliance = () => {
             </p>
           </div>
 
-          <div className="max-w-3xl mx-auto text-center mb-12">
-            <p className="text-muted-foreground mb-4">
-              Success Alliance allows you to get a far broader perspective on what the actual needs are in the market and how to connect your partner network to be first to market.
-            </p>
-            <p className="font-heading font-semibold text-lg text-foreground mb-4">
+          <div className="max-w-3xl mx-auto text-center mb-8">
+            <p className="font-heading text-xl font-semibold mb-6" style={{ color: '#EBCA52' }}>
               We help you achieve this through 3 steps;
             </p>
-            <div className="flex justify-center gap-8 text-muted-foreground">
-              <span>1. Build the alliance</span>
-              <span>2. Implement and deliver</span>
-              <span>3. Continue to innovate</span>
-            </div>
           </div>
 
-          {/* Step 1 */}
-          <div className="max-w-3xl mx-auto mb-12">
-            <h3 className="font-heading text-xl font-semibold mb-4" style={{ color: '#EBCA52' }}>
-              1. Build the alliance
-            </h3>
-            <p className="font-heading font-semibold text-lg text-foreground mb-4">
-              Create shared understanding, alignment, and commitment across partners.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              To build successful partnerships, all parties need a shared understanding of the big picture.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              We bring key stakeholders together in a fast-paced, interactive workshop designed to quickly create shared visibility and clarity. Prior to the session, we take time to understand your context and design a structured facilitation process tailored to your alliance.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              This approach surfaces opportunities, clarifies focus areas, and identifies where collaboration will create the greatest impact.
-            </p>
-            <p className="text-muted-foreground">
-              These insights are captured in a clear, one-page Success Alliance Map, aligning everyone around a common goal and an integrated approach — ready for implementation.
-            </p>
-          </div>
-
-          {/* Step 2 */}
-          <div className="max-w-3xl mx-auto mb-12">
-            <h3 className="font-heading text-xl font-semibold mb-4" style={{ color: '#EBCA52' }}>
-              2. Implement and deliver
-            </h3>
-            <p className="font-heading font-semibold text-lg text-foreground mb-4">
-              Turn shared intent into visible progress and measurable outcomes.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              Delivery is supported through a shared online platform that enables all parties to track and monitor progress in real time.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              The Success Alliance Map articulates:
-            </p>
-            <ul className="text-muted-foreground mb-4 list-disc list-inside space-y-1">
-              <li>Shared outcomes for the alliance over the next three years</li>
-              <li>Investments each party will make to realise those outcomes</li>
-              <li>Key milestones for the next 12 months</li>
-              <li>Initial 90-day deliverables and progress reporting</li>
-            </ul>
-            <p className="text-muted-foreground mb-4">
-              To keep the alliance dynamic and effective, we support an adaptive implementation model that ensures the Map remains grounded in reality and relevant to all parties.
-            </p>
-            <p className="text-muted-foreground">
-              At the end of the first 90 days, key stakeholders come together to review progress, share learnings, and refine the approach — enabling course correction and sustained momentum.
-            </p>
-          </div>
-
-          {/* Step 3 */}
-          <div className="max-w-3xl mx-auto">
-            <h3 className="font-heading text-xl font-semibold mb-4" style={{ color: '#EBCA52' }}>
-              3. Continue to innovate
-            </h3>
-            <p className="font-heading font-semibold text-lg text-foreground mb-4">
-              Extend value and innovation across your broader ecosystem.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              A successful alliance creates the confidence and capability to go further.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              As value is realised, we help organisations increase alliance maturity and expand collaboration across the full value chain — from supplier partnerships through to customer alliances.
-            </p>
-            <p className="text-muted-foreground mb-4">
-              By integrating these relationships, organisations become more connected, more effective, and better positioned to deliver greater value to end customers.
-            </p>
-            <p className="text-muted-foreground">
-              Success Alliance supports ongoing growth by strengthening partnerships and identifying new opportunities across the broader ecosystem. Through facilitated joint conversations, new and more cost-effective options emerge — improving efficiency, productivity, and long-term impact.
-            </p>
-          </div>
+          {/* Tab Buttons */}
+          <HowItWorksTabs />
         </div>
       </section>
 
@@ -521,7 +524,16 @@ const SuccessAlliance = () => {
             </div>
           </div>
 
-          <div className="flex justify-center mt-12">
+          <div className="max-w-2xl mx-auto text-center mt-12">
+            <p className="font-heading font-semibold text-lg text-foreground mb-2">
+              Ready to build stronger, more effective partnerships?
+            </p>
+            <p className="text-muted-foreground mb-8">
+              Let's discuss how Success Alliance can support your organisation.
+            </p>
+          </div>
+
+          <div className="flex justify-center">
             <Button
               asChild
               variant="hero"

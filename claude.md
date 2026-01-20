@@ -36,6 +36,27 @@ Comprehensive updates to the Success Alliance service page content and styling.
 - "Getting started" section: `bg-background` (white) with three beige tiles
 - Clear separation between process explanation and call-to-action
 
+#### HowItWorksTabs Component
+- Interactive 3-tab component showing the Success Alliance process
+- Tab buttons with yellow (#EBCA52) active state and increased padding (`px-10 py-3`)
+- Each tab displays circular image with descriptive content
+
+**Tab 1: Build the alliance**
+- Image: `/Image_dump/workshop.jpg`
+- Subhead: "Align partners around shared understanding and commitment."
+- Body copy about bringing partners together through structured dialogue
+
+**Tab 2: Implement and deliver**
+- Image: `/Image_dump/working.jpg`
+- Subhead: "Turn shared intent into visible progress and measurable outcomes."
+- Body copy about shared online platform, Success Alliance Map with outcomes/investments/milestones/90-day priorities
+- Updated ending: "ensuring the alliance remains relevant and on track."
+
+**Tab 3: Continue to innovate**
+- Image: `/Image_dump/Meeting.jpg`
+- Subhead: "Extend value and innovation across your broader ecosystem."
+- Body copy about embedding innovation and extending successful models
+
 ### AI Tools Page Updates (January 19, 2026)
 Created and styled the AI Tools page with three strategic AI tool tiles featuring custom logos, images, and brand colors.
 
