@@ -6,6 +6,25 @@ January 18-21, 2026
 
 ## Changes Made
 
+### Strategy Connect Page Updates (January 21, 2026)
+Content and layout updates to the Strategy Connect service page.
+
+#### Removed Sections
+- Removed orange banner quote section ("Designing a strategy for future growth is hard...")
+- Removed YouTube video embed and accompanying text
+
+#### Section Heading Updates
+- Changed "Clear pathway forward" heading to "Clarity, engagement & results"
+- Changed "Strategy success in 3 steps" heading to "Kick-off your strategy"
+- Updated subhead to "Getting started with Strategy Connect is straightforward and focused."
+
+#### CTA Section (New)
+- Added call-to-action text above the "Let's connect" button
+- Headline: "Ready to align your team and create clear strategic direction?"
+- Body: "Let's talk about how Strategy Connect can support your organisation's next step."
+- Orange "Let's connect" button (#F8983C) with hover effect (#E87D2B)
+- Styled matching Success Alliance CTA pattern
+
 ### Success Alliance Page Updates (January 21, 2026)
 Comprehensive updates to the Success Alliance service page content and styling.
 

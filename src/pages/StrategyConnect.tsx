@@ -73,48 +73,54 @@ const StrategyConnect = () => {
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8">
             <h2 className="font-heading text-2xl md:text-3xl font-semibold" style={{ color: '#F8983C' }}>
-              Thrive today & tomorrow
+              Align & activate your strategy
             </h2>
           </div>
 
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
             <div className="w-64 md:w-[32%] flex-shrink-0">
               <img
-                src="/TodayTom_Graph.png.avif"
-                alt="Thrive today & tomorrow"
-                className="w-full h-auto object-contain"
+                src="/20180731_100517.jpeg.avif"
+                alt="Strategy Connect"
+                className="w-full h-auto rounded-full aspect-square object-cover"
               />
             </div>
             <div className="w-full md:w-[68%] space-y-3">
               <p className="font-heading font-semibold text-lg text-foreground">
-                Your organisation has a dual responsibility: perform today and build capacity for tomorrow.
+                Creating clarity, alignment, and momentum—so strategy drives action.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Every organisation acknowledges that developing a strategy and preparing to be 'future ready' is critical. However, many organisations struggle to effectively develop and execute their strategy.
+                When strategy lacks alignment, priorities blur, momentum slows, and teams stay busy without progress.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Without investing time to create new capabilities, an organisation will not remain current and competitive.
+                Strategy Connect brings clarity back to strategy.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                StrategyConnect makes clear future focusing and implementation a simple and achievable process.
+                It aligns your people around a shared direction, focuses effort on what matters most, and turns insight into coordinated, measurable action.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Strategy Connect transforms strategy from a static document into a living, shared map, owned across the organisation and built to deliver results.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Strategy for Results */}
+      {/* Clear pathway forward */}
       <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#F8983C' }}>
-            Strategy for results
+            Clear pathway forward
           </h2>
           <div className="text-center max-w-3xl mx-auto mb-12">
             <p className="font-heading font-semibold text-lg text-foreground mb-4">
-              Design and implement a focused strategy for the future growth of your organisation.
+              To move forward with confidence, organisations must make clear strategic decisions about where to focus time, energy, and investment.
             </p>
-            <p className="text-muted-foreground">
-              StrategyConnect provides an outcomes driven approach for developing, managing and executing strategy in a fast changing world.
+            <p className="text-muted-foreground mb-6">
+              That's rarely simple. There are many possible directions, competing priorities, and external forces shaping the landscape. Without a clear way to navigate these choices, strategy can become overwhelming — or stuck at a high level.
+            </p>
+            <p className="font-heading text-xl font-semibold" style={{ color: '#F8983C' }}>
+              Strategy Connect provides a clear pathway forward.
             </p>
           </div>
 
@@ -168,23 +174,12 @@ const StrategyConnect = () => {
         </div>
       </section>
 
-      {/* Testimonial */}
-      <section className="section-padding" style={{ backgroundColor: '#F8983C' }}>
-        <div className="container-custom mx-auto px-4 md:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <blockquote className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight">
-              Designing a strategy for future growth is hard. We guide you through a clear process that engages your team, making it simple and achievable.
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
       {/* Clear Pathway Forward */}
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8">
             <h2 className="font-heading text-2xl md:text-3xl font-semibold" style={{ color: '#F8983C' }}>
-              Clear pathway forward
+              Clarity, engagement & results
             </h2>
           </div>
 
@@ -580,21 +575,6 @@ const StrategyConnect = () => {
             </div>
           </div>
 
-          {/* Video */}
-          <div className="max-w-4xl mx-auto mt-8">
-            <p className="font-heading text-xl font-semibold text-center mb-8" style={{ color: '#F8983C' }}>
-              Watch the video for an overview of how the strategy cycles interact together to help shape your organisation's future.
-            </p>
-            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-              <iframe
-                className="absolute top-0 left-0 w-full h-full rounded-lg border-0"
-                src="https://www.youtube.com/embed/GXq5uUsA4tc"
-                title="StrategyConnect Video"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-          </div>
         </div>
       </section>
 
@@ -602,12 +582,12 @@ const StrategyConnect = () => {
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#F8983C' }}>
-            Strategy success in 3 steps
+            Kick-off your strategy
           </h2>
 
           <div className="max-w-3xl mx-auto text-center mb-12">
             <p className="font-heading font-semibold text-lg text-foreground mb-4">
-              We help guide you through 3 clear steps to create and bring your strategy to life.
+              Getting started with Strategy Connect is straightforward and focused.
             </p>
             <p className="text-muted-foreground mb-3">
               Our proven process helps you bring the talented people around you to collaborate together to make a shared Strategy Map for the future of your organisation.
@@ -664,7 +644,16 @@ const StrategyConnect = () => {
             </div>
           </div>
 
-          <div className="flex justify-center mt-12">
+          <div className="max-w-2xl mx-auto text-center mt-12">
+            <p className="font-heading font-semibold text-lg text-foreground mb-2">
+              Ready to align your team and create clear strategic direction?
+            </p>
+            <p className="text-muted-foreground mb-8">
+              Let's talk about how Strategy Connect can support your organisation's next step.
+            </p>
+          </div>
+
+          <div className="flex justify-center">
             <Button
               asChild
               variant="hero"
