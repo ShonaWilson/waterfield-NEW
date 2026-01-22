@@ -123,7 +123,7 @@ const SuccessAlliance = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/service-2.jpg"
+            src="/shutterstock_2193443429.jpg"
             alt="SuccessAlliance"
             className="absolute inset-0 w-full h-full object-cover"
             style={{
@@ -159,16 +159,16 @@ const SuccessAlliance = () => {
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8">
             <h2 className="font-heading text-2xl md:text-3xl font-semibold" style={{ color: '#EBCA52' }}>
-              Redefine customer value
+              Alliances for unique value
             </h2>
           </div>
 
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
             <div className="w-64 md:w-[32%] flex-shrink-0">
               <img
-                src="/143020.png"
-                alt="Redefine customer value"
-                className="w-full h-auto rounded-full aspect-square object-cover"
+                src="/ChatGPT Image Jan 17, 2026 at 11_19_48 AM.png"
+                alt="Alliances for unique value"
+                className="w-full h-auto rounded-full aspect-square object-cover object-left"
               />
             </div>
             <div className="w-full md:w-[68%] space-y-3">
@@ -217,42 +217,44 @@ const SuccessAlliance = () => {
 
           <div className="max-w-3xl mx-auto text-center mb-8">
             <p className="font-heading text-xl font-semibold" style={{ color: '#EBCA52' }}>
-              The benefits of a Success Alliance with your key suppliers and customers include:
+              Results of a Success Alliance with your key suppliers and customers:
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-background rounded-2xl p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Users className="w-8 h-8" style={{ color: '#EBCA52' }} />
+          <div className="max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-background rounded-2xl p-8 text-center">
+                <div className="flex justify-center mb-4">
+                  <Users className="w-8 h-8" style={{ color: '#EBCA52' }} />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Supplier alliances
+                </h3>
+                <div className="space-y-4 text-center">
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    <span className="font-semibold text-foreground">Approach:</span> Collaborate with innovative suppliers to co-create new value for your customers.
+                  </p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    <span className="font-semibold text-foreground">Result:</span> Build trusted relationships, improve information flow, and reduce costs through smarter supply connections.
+                  </p>
+                </div>
               </div>
-              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
-                Supplier alliances
-              </h3>
-              <div className="space-y-4 text-center">
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  <span className="font-semibold text-foreground">Approach:</span> Collaborate with innovative suppliers to co-create new value for your customers.
-                </p>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  <span className="font-semibold text-foreground">Result:</span> Build trusted relationships, improve information flow, and reduce costs through smarter supply connections.
-                </p>
-              </div>
-            </div>
 
-            <div className="bg-background rounded-2xl p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Handshake className="w-8 h-8" style={{ color: '#EBCA52' }} />
-              </div>
-              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
-                Customer alliances
-              </h3>
-              <div className="space-y-4 text-center">
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  <span className="font-semibold text-foreground">Approach:</span> Partner directly with customers to gain insights and become their first point of call for complex challenges.
-                </p>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  <span className="font-semibold text-foreground">Result:</span> Strengthen relationships and stay ahead of the market by anticipating changing needs.
-                </p>
+              <div className="bg-background rounded-2xl p-8 text-center">
+                <div className="flex justify-center mb-4">
+                  <Handshake className="w-8 h-8" style={{ color: '#EBCA52' }} />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Customer alliances
+                </h3>
+                <div className="space-y-4 text-center">
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    <span className="font-semibold text-foreground">Approach:</span> Partner directly with customers to gain insights and become their first point of call for complex challenges.
+                  </p>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    <span className="font-semibold text-foreground">Result:</span> Strengthen relationships and stay ahead of the market by anticipating changing needs.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -271,34 +273,37 @@ const SuccessAlliance = () => {
             </p>
 
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Many of our clients find it difficult to initiate useful discussions with their external parties, where each group is equally invested, knows the requirements and needs to engage on a level playing field.
+              Many clients find it challenging to initiate productive conversations with external parties — particularly when each group brings different priorities, incentives, and levels of influence.
             </p>
 
             <p className="font-heading text-xl font-semibold mb-6" style={{ color: '#EBCA52' }}>
               We design the right framework for your alliance to enable;
             </p>
 
-            <div className="grid grid-cols-3 gap-4">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
               <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center w-[105px] md:w-[130px] mx-auto bg-foreground"
+                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
+                style={{ backgroundColor: '#268DB0' }}
               >
-                <p className="font-heading font-medium text-white text-sm md:text-base">Clarity and</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">alignment</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">for all</p>
+                <p className="font-heading font-medium text-white text-sm md:text-base leading-[0.95]">
+                  Clarity and alignment for all parties
+                </p>
               </div>
               <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center w-[105px] md:w-[130px] mx-auto bg-foreground"
+                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
+                style={{ backgroundColor: '#EBCA52' }}
               >
-                <p className="font-heading font-medium text-white text-sm md:text-base">Insights to</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">create shared</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">outcomes</p>
+                <p className="font-heading font-medium text-white text-sm md:text-base leading-[0.95]">
+                  Shared insight for set outcomes
+                </p>
               </div>
               <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center w-[105px] md:w-[130px] mx-auto bg-foreground"
+                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
+                style={{ backgroundColor: '#9E5790' }}
               >
-                <p className="font-heading font-medium text-white text-sm md:text-base">Visibility for</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">agreed</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">actions</p>
+                <p className="font-heading font-medium text-white text-sm md:text-base leading-[0.95]">
+                  Visibility for agreed actions
+                </p>
               </div>
             </div>
 
@@ -309,8 +314,8 @@ const SuccessAlliance = () => {
               We take great pride in unlocking new value across partnerships, creating win-win outcomes that deliver positive uplift and meaningful growth for our clients.
             </p>
 
-            <p className="font-heading text-xl font-semibold" style={{ color: '#EBCA52' }}>
-              Here's a few clients that have experienced the benefits of Success Alliance:
+            <p className="font-heading font-semibold text-lg text-foreground">
+              Organisations achieving results with Success Alliance:
             </p>
 
             <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 mt-8">
@@ -352,7 +357,7 @@ const SuccessAlliance = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/image-81.jpeg"
+            src="/shutterstock_1801173394.jpg"
             alt="Background"
             className="absolute inset-0 w-full h-full object-cover"
             style={{ objectPosition: '50% 25%' }}
@@ -369,7 +374,9 @@ const SuccessAlliance = () => {
         <div className="relative z-10 container-custom mx-auto px-4 md:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <blockquote className="text-xl md:text-2xl text-primary-foreground/90 italic mb-6">
-              "Diona have utilised Waterfield's Success Alliance across the business for the last 5 years, achieving great success with one of our major client's QUU. We used the Success Alliance process to help us understand our clients' needs better and focus our efforts on building a stronger partnership. In the first 12 months we had achieved all our milestones and significantly improved our relationship with QUU."
+              "Diona have utilised Waterfield's Success Alliance across the business for the last 5 years, achieving great success with one of our major client's QUU. We used the Success Alliance process to help us understand our clients' needs better and focus our efforts on building a stronger partnership.
+              <br /><br />
+              In the first 12 months we had achieved all our milestones and significantly improved our relationship with QUU."
             </blockquote>
             <p className="text-primary-foreground/80 text-sm">
               <span className="font-semibold">John O'Connor</span><br />
@@ -386,13 +393,13 @@ const SuccessAlliance = () => {
             Capture more value
           </h2>
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <p className="text-muted-foreground mb-4">
+            <p className="font-heading font-semibold text-lg text-foreground mb-4">
               Customers will move to the product or service that best meets their needs.
             </p>
             <p className="text-muted-foreground mb-4">
               Engaging your key partners in a Success Alliance, quickly uncovers a deep understanding of what the customer really wants to achieve, then works to define and capture this value.
             </p>
-            <p className="font-heading font-semibold text-lg text-foreground">
+            <p className="font-heading text-xl font-semibold" style={{ color: '#EBCA52' }}>
               This leads to;
             </p>
           </div>

@@ -2,9 +2,23 @@
 
 ## Date
 December 1-12, 2025
-January 18-21, 2026
+January 18-22, 2026
 
 ## Changes Made
+
+### Success Alliance Page Updates (January 22, 2026)
+Additional content and image updates to the Success Alliance service page.
+
+#### Copy Updates
+- Changed "Organisations achieving results with Success Alliance" styling from yellow (#EBCA52) to dark blue subhead style (`text-foreground text-lg`)
+- Added colon to heading: "Organisations achieving results with Success Alliance:"
+- Changed "The benefits of a Success Alliance with your key suppliers and customers include:" to "Results of a Success Alliance with your key suppliers and customers:"
+- Updated testimonial quote to have paragraph break between the two sections
+
+#### Image Updates
+- Updated hero banner image to `/shutterstock_2193443429.jpg`
+- Updated quote banner image to `/shutterstock_1801173394.jpg`
+- Updated Success Alliance images across homepage tile (ServicesPreview.tsx) and Services page tile (Services.tsx) to use `/shutterstock_2193443429.jpg`
 
 ### Strategy Connect Page Updates (January 21, 2026)
 Content and layout updates to the Strategy Connect service page.

@@ -42,7 +42,7 @@ const services = [
       "Relationship strengthening",
     ],
     icon: Users,
-    image: "/service-2.jpg",
+    image: "/shutterstock_2193443429.jpg",
     logo: "/SuccessAlliance_logoDual.png",
     color: "#EBCA52",
   },

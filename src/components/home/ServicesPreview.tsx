@@ -47,7 +47,7 @@ const detailedServices = [
     title: "Successful Alliances",
     tagline: "Build strategic partnerships for shared value & competitive advantage.",
     href: "/services/successalliance",
-    image: "/service-2.jpg",
+    image: "/shutterstock_2193443429.jpg",
     logo: "/SuccessAlliance_logoDual.png",
     color: "#EBCA52",
   },
