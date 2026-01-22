@@ -48,38 +48,47 @@ const CustomFacilitation = () => {
             />
           </div>
           <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
-            Unite diverse stakeholders to turn complexity into clear, aligned action
+            Unite diverse stakeholders to turn complexity into clear, aligned action.
           </p>
         </div>
       </section>
 
-      {/* Shape Agreed Direction */}
+      {/* Shape agreed direction */}
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8">
             <h2 className="font-heading text-2xl md:text-3xl font-semibold" style={{ color: '#9E5790' }}>
               Shape agreed direction
             </h2>
-            <p className="font-heading font-medium text-sm md:text-base text-muted-foreground italic mt-2">
-              We help organisations move from competing views to a clear, shared path forward.
-            </p>
           </div>
 
-          <div className="max-w-3xl mx-auto text-center space-y-3">
-            <p className="text-muted-foreground leading-relaxed">
-              Some challenges are too complex for a single expert, team, or leader to solve alone. Whether you're aligning a sector around a shared direction, shaping national policy, or building strategic clarity across an organisation, progress depends on collaboration.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Waterfield's Custom Facilitation brings together stakeholders across industries, sectors, and levels of influence to address critical issues and align around clear, actionable outcomes.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              We work with you to uncover the underlying objective and design a strategic facilitation process shaped around your context, priorities, and decision environment.
-            </p>
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
+            <div className="w-64 md:w-[32%] flex-shrink-0">
+              <img
+                src="/workshop.png"
+                alt="Shape agreed direction"
+                className="w-full h-auto rounded-full aspect-square object-cover object-center"
+              />
+            </div>
+            <div className="w-full md:w-[68%] space-y-3">
+              <p className="font-heading font-semibold text-lg text-foreground">
+                We help organisations move from competing views to a clear, shared path forward.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Some challenges are too complex for a single expert, team, or leader to solve alone. Whether you're aligning a sector around a shared direction, shaping national policy, or building strategic clarity across an organisation, progress depends on collaboration.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Waterfield's Custom Facilitation brings together stakeholders across industries, sectors, and levels of influence to address critical issues and align around clear, actionable outcomes.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                We work with you to uncover the underlying objective and design a strategic facilitation process shaped around your context, priorities, and decision environment.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* How We Add Value */}
+      {/* How we add value */}
       <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#9E5790' }}>
@@ -89,74 +98,76 @@ const CustomFacilitation = () => {
             <p className="font-heading font-semibold text-lg text-foreground mb-4">
               We design the framework that enables shared clarity, alignment, and confident action.
             </p>
-            <p className="text-muted-foreground mb-4">
+            <p className="text-muted-foreground">
               Critical decisions often involve multiple parties and competing priorities. Without structure, even essential work can stall. Waterfield cuts through complexity and helps people align around shared outcomes.
             </p>
           </div>
 
           <div className="max-w-3xl mx-auto text-center mb-8">
-            <p className="font-heading text-xl font-semibold mb-6" style={{ color: '#9E5790' }}>
+            <p className="font-heading text-xl font-semibold" style={{ color: '#9E5790' }}>
               We enable clarity, commitment, and collective action by:
             </p>
+          </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center w-[105px] md:w-[130px] mx-auto bg-foreground"
-              >
-                <p className="font-heading font-medium text-white text-sm md:text-base">Creating</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">strategic</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">clarity</p>
+          <div className="max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Creating strategic clarity on issues that matter
+                </h3>
               </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center w-[105px] md:w-[130px] mx-auto bg-foreground"
-              >
-                <p className="font-heading font-medium text-white text-sm md:text-base">Aligning</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">stakeholders</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">on outcomes</p>
+
+              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Aligning stakeholders around shared outcomes
+                </h3>
               </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center w-[105px] md:w-[130px] mx-auto bg-foreground"
-              >
-                <p className="font-heading font-medium text-white text-sm md:text-base">Enabling</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">confident</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">decisions</p>
+
+              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Enabling confident decisions on complex challenges
+                </h3>
               </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center w-[105px] md:w-[130px] mx-auto bg-foreground"
-              >
-                <p className="font-heading font-medium text-white text-sm md:text-base">Building</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">momentum in</p>
-                <p className="font-heading font-medium text-white text-sm md:text-base">large-scale work</p>
+
+              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Building momentum in large-scale or multi-party work
+                </h3>
               </div>
             </div>
+          </div>
 
-            <p className="text-muted-foreground leading-relaxed pt-8">
+          <div className="max-w-3xl mx-auto text-center mt-8">
+            <p className="font-heading font-semibold text-lg text-muted-foreground">
               We bring structure to important conversations so teams can focus on making decisions and moving forward with confidence.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Our Approach */}
+      {/* Our approach */}
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#9E5790' }}>
             Our approach
           </h2>
-          <div className="text-center max-w-3xl mx-auto">
-            <p className="font-heading font-medium text-sm md:text-base text-muted-foreground italic mb-4">
+          <div className="max-w-3xl mx-auto text-center mb-8">
+            <p className="font-heading font-semibold text-lg text-foreground mb-4">
               We shape the process, facilitate the dialogue, and ensure clear outcomes.
             </p>
-
-            <p className="text-muted-foreground leading-relaxed mb-4">
+            <p className="text-muted-foreground">
               Our work is grounded in deep listening, thoughtful design, and facilitation experience built over three decades. Every engagement is tailored to your context and decision environment, with a clear focus on progress and delivery.
             </p>
+          </div>
 
-            <p className="font-heading text-xl font-semibold mb-6" style={{ color: '#9E5790' }}>
+          <div className="max-w-3xl mx-auto text-center mb-8">
+            <p className="font-heading text-xl font-semibold" style={{ color: '#9E5790' }}>
               Our approach includes:
             </p>
+          </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <div className="max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-secondary rounded-2xl p-8 text-center">
                 <div className="flex justify-center mb-4">
                   <Target className="w-8 h-8" style={{ color: '#9E5790' }} />
@@ -205,135 +216,110 @@ const CustomFacilitation = () => {
                 </p>
               </div>
             </div>
-
-            <p className="font-heading text-xl font-semibold" style={{ color: '#9E5790' }}>
-              Clarity saves time. Alignment builds confidence. Together, they drive results.
-            </p>
           </div>
         </div>
       </section>
 
-      {/* Who We've Worked With */}
+      {/* Who we've worked with */}
       <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#9E5790' }}>
             Who we've worked with
           </h2>
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-muted-foreground leading-relaxed mb-6">
-              Waterfield partners with organisations operating in complex environments where progress requires alignment, clarity, and trusted collaboration.
+          <div className="max-w-3xl mx-auto text-center mb-8">
+            <p className="font-heading font-semibold text-lg text-foreground mb-4">
+              Waterfield partners with organisations operating in complex environments where progress depends on alignment, clarity, and trusted collaboration.
             </p>
+          </div>
 
-            <p className="font-heading text-xl font-semibold mb-4" style={{ color: '#9E5790' }}>
-              We have supported:
-            </p>
+          <div className="max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="bg-background rounded-2xl p-8">
+                <p className="font-heading text-xl font-semibold mb-4" style={{ color: '#9E5790' }}>
+                  Our work spans:
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Government and public sector</span> — supporting State and Federal agencies on policy, planning, and cross-sector initiatives</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Industry bodies and alliances</span> — aligning diverse stakeholders around shared direction and outcomes</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Health, aged care, and social sector organisations</span> — navigating complexity where collaboration is critical</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Research and innovation networks</span> — shaping national and industry-wide collaboration strategies</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Global organisations</span> — aligning business units and partners across geographies</span>
+                  </li>
+                </ul>
+              </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-left mb-8 max-w-2xl mx-auto">
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">State and Federal Government agencies</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Not-for-profits and social enterprises</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Health and aged care providers</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Industry bodies and alliances</span>
-                </li>
-              </ul>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Sporting institutions</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Research and innovation networks</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Global organisations aligning business units for strategic direction</span>
-                </li>
-              </ul>
+              <div className="bg-background rounded-2xl p-8">
+                <p className="font-heading text-xl font-semibold mb-4" style={{ color: '#9E5790' }}>
+                  Our work has helped deliver:
+                </p>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">National research and industry collaboration strategies</span> — shaping cross-sector partnerships and shared direction</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Responsible AI frameworks and governance models</span> — enabling ethical adoption and oversight</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Inclusive publishing transformation</span> — increasing accessibility for the vision-impaired</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Urban precinct and regional transition strategies</span> — aligning stakeholders around place-based outcomes</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-muted-foreground">•</span>
+                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Large-scale social impact programs</span> — engaging diverse stakeholder groups around shared goals</span>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
 
-            <p className="font-heading text-xl font-semibold mb-4" style={{ color: '#9E5790' }}>
-              Our facilitation has driven progress on:
-            </p>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-left mb-8 max-w-2xl mx-auto">
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Future directions for national research collaborations</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Responsible AI adoption frameworks for industry</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Inclusive publishing transformation for the vision-impaired</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Urban precinct strategies with state government and planning authorities</span>
-                </li>
-              </ul>
-              <ul className="space-y-2">
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">Regional economic transition following industry disruption</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground mt-2 flex-shrink-0"></span>
-                  <span className="text-muted-foreground text-sm">National social impact programs involving diverse stakeholder groups</span>
-                </li>
-              </ul>
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 mt-12">
+            <div className="h-16 flex items-center justify-center">
+              <img
+                src="/RGA+Full+Logo+RGB_Blue+No+BG.png.webp"
+                alt="Rice Growers Association of Australia"
+                className="max-h-[55px] w-auto object-contain"
+              />
             </div>
-
-            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 mt-8">
-              <div className="h-16 flex items-center justify-center">
-                <img
-                  src="/clients/barangaroo.png.avif"
-                  alt="Barangaroo Delivery Authority"
-                  className="max-h-12 w-auto object-contain"
-                />
-              </div>
-              <div className="h-16 flex items-center justify-center">
-                <img
-                  src="/clients/RGA.png.avif"
-                  alt="Rice Growers Association of Australia"
-                  className="max-h-12 w-auto object-contain"
-                />
-              </div>
-              <div className="h-24 flex items-center justify-center">
-                <img
-                  src="/clients/VCCC.png.avif"
-                  alt="Comprehensive Cancer Research Centre"
-                  className="max-h-24 w-auto object-contain"
-                />
-              </div>
-              <div className="h-16 flex items-center justify-center">
-                <img
-                  src="/clients/ausmasa.png"
-                  alt="AUSMASA"
-                  className="max-h-12 w-auto object-contain"
-                />
-              </div>
-              <div className="h-16 flex items-center justify-center">
-                <img
-                  src="/clients/APA.png.avif"
-                  alt="Australian Publishers Association"
-                  className="max-h-12 w-auto object-contain"
-                />
-              </div>
+            <div className="h-16 flex items-center justify-center">
+              <img
+                src="/MASALogoDigital.png"
+                alt="AUSMASA"
+                className="max-h-12 w-auto object-contain"
+              />
+            </div>
+            <div className="h-16 flex items-center justify-center">
+              <img
+                src="/Vic-State-Govt_Logo.png.avif"
+                alt="Victorian State Government"
+                className="max-h-[53px] w-auto object-contain"
+              />
+            </div>
+            <div className="h-16 flex items-center justify-center">
+              <img
+                src="/case-studies/Green_Building_Council_of_Australia_logo.png.avif"
+                alt="Green Building Council of Australia"
+                className="max-h-[43px] w-auto object-contain"
+              />
             </div>
           </div>
         </div>
@@ -344,7 +330,7 @@ const CustomFacilitation = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/image-81.jpeg"
+            src="/shutterstock_1636612660.jpg"
             alt=""
             className="absolute inset-0 w-full h-full object-cover"
             style={{ objectPosition: '50% 25%' }}
@@ -361,7 +347,7 @@ const CustomFacilitation = () => {
         <div className="relative z-10 container-custom mx-auto px-4 md:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <blockquote className="text-xl md:text-2xl text-primary-foreground/90 italic mb-6">
-              "Waterfield have been critical in the success of the Marrakesh Treaty Forum. Waterfield's Custom Facilitation and methodology was the perfect means of bringing together disparate organisations and uniting them under one clear aim- to increase accessible content for the print disabled."
+              "Waterfield were critical to the success of the Marrakesh Treaty Forum. Waterfield's Custom Facilitation and methodology was the perfect means of bringing together disparate organisations and uniting them under one clear aim — to increase accessible content for the print disabled."
             </blockquote>
             <p className="text-primary-foreground/80 text-sm">
               <span className="font-semibold">Sarah Runcie</span><br />
@@ -371,66 +357,69 @@ const CustomFacilitation = () => {
         </div>
       </section>
 
-      {/* Delivering Impact */}
-      <section className="section-padding bg-secondary">
+      {/* Delivering impact */}
+      <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#9E5790' }}>
             Delivering impact
           </h2>
-          <div className="max-w-3xl mx-auto text-center mb-12">
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Custom facilitation transforms complex challenges, competing perspectives, and multiple decision-makers into clarity, alignment, and coordinated action.
+          <div className="max-w-3xl mx-auto text-center mb-8">
+            <p className="font-heading font-semibold text-lg text-foreground mb-4">
+              Custom Facilitation transforms complex challenges, competing perspectives, and multiple decision-makers into clarity, alignment, and coordinated action.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-6">
+              We help define your desired future state and bring the right people together to make aligned, outcome-driven decisions. Trusted by organisations operating in complex, multi-stakeholder environments, we provide the structure and facilitation needed to co-create aligned solutions and deliver meaningful results.
+            </p>
+            <p className="font-heading text-xl font-semibold" style={{ color: '#9E5790' }}>
+              What becomes possible — step by step:
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-background rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-1.png"
-                alt="Unified direction across stakeholders"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'brightness(0) saturate(100%) invert(44%) sepia(45%) saturate(629%) hue-rotate(258deg) brightness(91%) contrast(89%)' }}
-              />
-              <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
+            <div
+              className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
+              style={{ backgroundColor: '#CB4547' }}
+            >
+              <p className="font-heading font-medium text-white text-sm md:text-base leading-[0.95]">
                 Unified direction across stakeholders
-              </h3>
-              <p className="text-muted-foreground text-sm">
-                We help define your desired future state and bring the right people together to make aligned, outcome-driven decisions.
               </p>
             </div>
-
-            <div className="bg-background rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-2.png"
-                alt="Clear priorities with agreed next steps"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'brightness(0) saturate(100%) invert(44%) sepia(45%) saturate(629%) hue-rotate(258deg) brightness(91%) contrast(89%)' }}
-              />
-              <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
+            <div
+              className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
+              style={{ backgroundColor: '#1e9aa7' }}
+            >
+              <p className="font-heading font-medium text-white text-sm md:text-base leading-[0.95]">
                 Clear priorities with agreed next steps
-              </h3>
-              <p className="text-muted-foreground text-sm">
-                Trusted by leaders operating in complex, multi-stakeholder environments, we provide the structure needed to co-create aligned solutions.
               </p>
             </div>
-
-            <div className="bg-background rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-3.png"
-                alt="Shared ownership that drives committed action"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'brightness(0) saturate(100%) invert(44%) sepia(45%) saturate(629%) hue-rotate(258deg) brightness(91%) contrast(89%)' }}
-              />
-              <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
-                Shared ownership that drives committed action
-              </h3>
-              <p className="text-muted-foreground text-sm">
-                We provide the expertise needed to deliver meaningful results and sustained collaboration.
+            <div
+              className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
+              style={{ backgroundColor: '#9E5790' }}
+            >
+              <p className="font-heading font-medium text-white text-sm md:text-base leading-[0.95]">
+                Shared ownership that drives action
               </p>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="flex justify-center mt-12">
+      {/* Getting started */}
+      <section className="section-padding bg-secondary">
+        <div className="container-custom mx-auto px-4 md:px-8">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold mb-4" style={{ color: '#9E5790' }}>
+              Getting started
+            </h2>
+            <p className="font-heading font-semibold text-lg text-foreground mb-4">
+              Custom Facilitation begins with a conversation—understanding your context, stakeholders, and what success looks like.
+            </p>
+            <p className="text-muted-foreground mb-8">
+              We then design a tailored facilitation process that fits your decision environment, bringing the right people together to move forward with clarity and confidence.
+            </p>
+          </div>
+
+          <div className="flex justify-center">
             <Button
               asChild
               variant="hero"

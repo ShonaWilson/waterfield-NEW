@@ -40,7 +40,7 @@ export function ClaritySection() {
 
         <p className="text-center font-heading text-xl font-semibold text-primary mb-8">We achieve this by:</p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {pillars.map((pillar, index) => (
             <div
               key={index}
@@ -63,11 +63,6 @@ export function ClaritySection() {
           ))}
         </div>
 
-        <div className="text-center">
-          <Button asChild variant="hero" size="lg" className="hover:shadow-xl hover:scale-105 transition-all duration-300">
-            <Link to="/contact">Let's connect</Link>
-          </Button>
-        </div>
       </div>
     </section>
   );

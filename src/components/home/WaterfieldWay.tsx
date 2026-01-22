@@ -1,9 +1,9 @@
 export function WaterfieldWay() {
   return (
-    <section className="pt-12 md:pt-16 pb-6 md:pb-8 px-4 md:px-8 bg-background">
-      <div className="container-custom mx-auto">
+    <section className="section-padding bg-background">
+      <div className="container-custom mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto text-center mb-8">
-          <h3 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-2">
+          <h3 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
             The Waterfield way
           </h3>
         </div>

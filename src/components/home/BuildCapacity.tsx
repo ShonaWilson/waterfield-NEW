@@ -39,7 +39,7 @@ export function BuildCapacity() {
           {pathways.map((pathway, index) => (
             <Link
               key={index}
-              to="/services"
+              to="/build-capacity"
               className="group relative rounded-xl p-6 overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300"
               style={{ backgroundColor: pathway.bgColor }}
             >

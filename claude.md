@@ -6,6 +6,43 @@ January 18-22, 2026
 
 ## Changes Made
 
+### Open Innovation Page Updates (January 22, 2026)
+Content, image, and styling updates to the Open Innovation service page.
+
+#### HowItWorksTabs Image Updates
+- **Tab 1 (Engage & align)**: Changed image to `/Image_dump/ChatGPT Image Jan 19, 2026 at 12_36_33 PM.png`
+  - Added `objectPosition: 'center center'` for centered cropping
+- **Tab 2 (Connect & expand)**: Changed image to `/IMG_0807_JPG.jpg.avif`
+  - Updated subhead copy to: "Bringing together experts, partners, and AI insight to unlock new perspectives."
+- **Tab 3 (Shape & validate)**: Changed image to `/ChatGPT Image Jan 22, 2026 at 08_30_37 PM.png`
+- **Tab 4 (Capture value)**: Changed image to `/about-hero.jpg`
+
+#### "Innovate beyond boundaries" Section Updates
+- Updated main image to `/shutterstock-2055147128 copy.jpg` with `objectPosition: '25% center'`
+- Condensed body copy from 4 paragraphs to 2 paragraphs with new text:
+  - "In a world where disruption happens overnight, organisations can't rely on internal thinking alone. Unlocking new opportunities demands broader perspectives, sharper insight, and the courage to challenge your current model."
+  - "Open Innovation brings together ideas, partners, and disciplines from outside your organisation—helping you anticipate change, act decisively, and grow strategically. Whether you're exploring new markets, strengthening services, building capability, or navigating AI advancement, we connect you with a trusted network to tackle complex challenges and co-create what's next."
+
+#### Testimonial/Quote Banner
+- Changed image to `/shutterstock_1801173394.jpg` (swapped from Tab 1)
+- Maintains `objectPosition: '50% 25%'` for positioning
+
+#### "Breakthrough thinking" Section Tiles
+- 4 tiles use 15% tint of blue (#268DB0): `rgba(38, 141, 176, 0.15)`
+- Tiles: New market opportunities, Business and service model innovation, Cross-industry insight transfer, Future capability building
+
+### Custom Facilitation Page Updates (January 22, 2026)
+Styling updates to the Custom Facilitation service page.
+
+#### "How we add value" Section Tiles
+- Updated all 4 tiles to use 20% tint of purple (#9E5790)
+- Background color: `rgba(158, 87, 144, 0.20)`
+- Tiles: Creating strategic clarity, Aligning stakeholders, Enabling confident decisions, Building momentum
+
+#### "Delivering impact" Section
+- Three circular badges with colors: Red (#CB4547), Teal (#1e9aa7), Purple (#9E5790)
+- Badges: Unified direction, Clear priorities, Shared ownership
+
 ### Success Alliance Page Updates (January 22, 2026)
 Additional content and image updates to the Success Alliance service page.
 

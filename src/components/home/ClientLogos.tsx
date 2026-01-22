@@ -1,11 +1,11 @@
 export function ClientLogos() {
   const clients = [
-    { logo: "/Vic-State-Govt_Logo.png.avif", alt: "Victorian State Government", size: "max-h-12" },
-    { logo: "/1000px-JLL_logo_svg.png.avif", alt: "JLL", size: "max-h-12" },
-    { logo: "/Savills_logo_svg.png.avif", alt: "Savills", size: "max-h-12" },
+    { logo: "/clients/349953_preview.png.avif", alt: "Qantas", size: "max-h-[37px]" },
+    { logo: "/Savills_logo_svg.png.avif", alt: "Savills", size: "max-h-[57px]" },
     { logo: "/gsam_sm_00_p_1024x768.jpg.avif", alt: "Goldman Sachs", size: "max-h-12" },
     { logo: "/Coca-Cola-Amatil-logo.png.avif", alt: "Coca-Cola Amatil", size: "max-h-12" },
-    { logo: "/CSIRO_Grad_RGB_hr.jpg.avif", alt: "CSIRO", size: "max-h-16" },
+    { logo: "/CSIRO_Grad_RGB_hr.jpg.avif", alt: "CSIRO", size: "max-h-[77px]" },
+    { logo: "/Vic-State-Govt_Logo.png.avif", alt: "Victorian State Government", size: "max-h-[53px]" },
   ];
 
   return (
