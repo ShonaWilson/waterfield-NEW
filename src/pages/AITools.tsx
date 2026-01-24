@@ -92,7 +92,7 @@ const AITools = () => {
       <section className="pt-12 md:pt-16 pb-4 md:pb-6 bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h3 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
+            <h3 className="font-heading text-2xl md:text-3xl font-semibold mb-4" style={{ color: '#1e9aa7' }}>
               Our strategic AI Tools
             </h3>
             <p className="font-heading font-semibold text-lg text-foreground mb-6">
@@ -104,8 +104,7 @@ const AITools = () => {
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 max-w-4xl mx-auto">
               <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#60c0c7' }}
+                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px] bg-foreground"
               >
                 <p className="font-heading font-semibold text-white text-sm md:text-base mb-1">
                   Engage
@@ -116,8 +115,7 @@ const AITools = () => {
               </div>
               <ArrowRight className="w-5 h-5 md:w-6 md:h-6 text-foreground flex-shrink-0 rotate-90 md:rotate-0" />
               <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#3bafb7' }}
+                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px] bg-foreground"
               >
                 <p className="font-heading font-semibold text-white text-sm md:text-base mb-1">
                   Connect
@@ -128,8 +126,7 @@ const AITools = () => {
               </div>
               <ArrowRight className="w-5 h-5 md:w-6 md:h-6 text-foreground flex-shrink-0 rotate-90 md:rotate-0" />
               <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#1e9aa7' }}
+                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px] bg-foreground"
               >
                 <p className="font-heading font-semibold text-white text-sm md:text-base mb-1">
                   Execute
@@ -182,10 +179,10 @@ const AITools = () => {
                   </div>
                   <div className="w-full md:w-[68%] flex flex-col">
                     <div className="flex-1 space-y-4">
-                      <p className="font-heading text-xl font-semibold" style={{ color: tool.color }}>{tool.tagline}</p>
-                      <div className="text-muted-foreground text-sm leading-relaxed whitespace-pre-line space-y-4">
+                      <p className="font-heading text-xl font-semibold" style={{ color: '#1e9aa7' }}>{tool.tagline}</p>
+                      <div className="whitespace-pre-line space-y-4">
                         {tool.description.split('\n').filter(line => line.trim() !== '').map((line, i) => (
-                          <p key={i}>
+                          <p key={i} className={i === 0 ? "text-muted-foreground leading-relaxed" : "text-muted-foreground text-sm leading-relaxed"}>
                             {line.split(/(\*\*.*?\*\*)/).map((part, j) => {
                               if (part.startsWith('**') && part.endsWith('**')) {
                                 return <strong key={j} className="font-semibold text-foreground">{part.slice(2, -2)}</strong>;
@@ -196,7 +193,7 @@ const AITools = () => {
                         ))}
                       </div>
                     </div>
-                    <span className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base group-hover:gap-2 transition-all duration-200 mt-4" style={{ color: tool.color }}>
+                    <span className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base group-hover:gap-2 transition-all duration-200 mt-4" style={{ color: '#1e9aa7' }}>
                       Find out how <ArrowRight className="w-4 h-4" />
                     </span>
                   </div>
@@ -207,7 +204,7 @@ const AITools = () => {
 
           {/* Quote Section */}
           <div className="text-center mt-12">
-            <p className="font-heading font-semibold text-lg text-muted-foreground mb-6 max-w-3xl mx-auto">
+            <p className="font-heading font-semibold text-lg text-foreground mb-6 max-w-3xl mx-auto">
               Purpose-built through ongoing research and real-world application, our custom AI tools support people and teams by strengthening strategic thinking, decision-making, and action.
             </p>
             <Button asChild variant="hero" size="lg" className="hover:shadow-xl hover:scale-105 transition-all duration-300">

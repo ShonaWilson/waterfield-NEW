@@ -358,44 +358,26 @@ const OpenInnovation = () => {
 
           <div className="max-w-3xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-background rounded-2xl p-8">
+              <div className="bg-background rounded-2xl p-8 text-center">
                 <p className="font-heading text-xl font-semibold mb-4" style={{ color: '#268DB0' }}>
-                  Short term helps to:
+                  Short term helps to
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm">Surface fresh ideas and insights you can't generate internally</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm">Test and refine opportunities with greater confidence</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm">Reduce risk by validating thinking early</span>
-                  </li>
-                </ul>
+                <div className="space-y-3">
+                  <p className="text-muted-foreground text-sm">Surface fresh ideas and insights you can't generate internally</p>
+                  <p className="text-muted-foreground text-sm">Test and refine opportunities with greater confidence</p>
+                  <p className="text-muted-foreground text-sm">Reduce risk by validating thinking early</p>
+                </div>
               </div>
 
-              <div className="bg-background rounded-2xl p-8">
+              <div className="bg-background rounded-2xl p-8 text-center">
                 <p className="font-heading text-xl font-semibold mb-4" style={{ color: '#268DB0' }}>
-                  Over time helps to:
+                  Over time helps to
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm">Strengthen innovation capability and strategic learning</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm">Build confidence working with external partners and experts</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm">Embed more open, adaptive ways of thinking across teams</span>
-                  </li>
-                </ul>
+                <div className="space-y-3">
+                  <p className="text-muted-foreground text-sm">Strengthen innovation capability and strategic learning</p>
+                  <p className="text-muted-foreground text-sm">Build confidence working with external partners and experts</p>
+                  <p className="text-muted-foreground text-sm">Embed more open, adaptive ways of thinking across teams</p>
+                </div>
               </div>
             </div>
           </div>

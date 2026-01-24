@@ -42,7 +42,7 @@ export function ProblemSection() {
             </div>
           </div>
 
-          <p className="font-heading font-semibold text-lg text-muted-foreground pt-8">
+          <p className="font-heading font-semibold text-lg text-foreground pt-8">
             Waterfield transforms complexity into clear, actionable strategies. We align people and AI capabilities to drive success.
           </p>
         </div>

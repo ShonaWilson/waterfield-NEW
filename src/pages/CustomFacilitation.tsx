@@ -111,26 +111,26 @@ const CustomFacilitation = () => {
 
           <div className="max-w-3xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
-                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+              <div className="rounded-2xl p-8 text-center flex items-center justify-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground">
                   Creating strategic clarity on issues that matter
                 </h3>
               </div>
 
-              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
-                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+              <div className="rounded-2xl p-8 text-center flex items-center justify-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground">
                   Aligning stakeholders around shared outcomes
                 </h3>
               </div>
 
-              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
-                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+              <div className="rounded-2xl p-8 text-center flex items-center justify-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground">
                   Enabling confident decisions on complex challenges
                 </h3>
               </div>
 
-              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
-                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+              <div className="rounded-2xl p-8 text-center flex items-center justify-center" style={{ backgroundColor: 'rgba(158, 87, 144, 0.20)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground">
                   Building momentum in large-scale or multi-party work
                 </h3>
               </div>
@@ -138,7 +138,7 @@ const CustomFacilitation = () => {
           </div>
 
           <div className="max-w-3xl mx-auto text-center mt-8">
-            <p className="font-heading font-semibold text-lg text-muted-foreground">
+            <p className="text-muted-foreground leading-relaxed">
               We bring structure to important conversations so teams can focus on making decisions and moving forward with confidence.
             </p>
           </div>
@@ -234,60 +234,30 @@ const CustomFacilitation = () => {
 
           <div className="max-w-3xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-background rounded-2xl p-8">
+              <div className="bg-background rounded-2xl p-8 text-center">
                 <p className="font-heading text-xl font-semibold mb-4" style={{ color: '#9E5790' }}>
-                  Our work spans:
+                  Our work spans
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Government and public sector</span> — supporting State and Federal agencies on policy, planning, and cross-sector initiatives</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Industry bodies and alliances</span> — aligning diverse stakeholders around shared direction and outcomes</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Health, aged care, and social sector organisations</span> — navigating complexity where collaboration is critical</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Research and innovation networks</span> — shaping national and industry-wide collaboration strategies</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Global organisations</span> — aligning business units and partners across geographies</span>
-                  </li>
-                </ul>
+                <div className="space-y-3">
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Government and public sector</span> — supporting State and Federal agencies on policy, planning, and cross-sector initiatives</p>
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Industry bodies and alliances</span> — aligning diverse stakeholders around shared direction and outcomes</p>
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Health, aged care, and social sector organisations</span> — navigating complexity where collaboration is critical</p>
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Research and innovation networks</span> — shaping national and industry-wide collaboration strategies</p>
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Global organisations</span> — aligning business units and partners across geographies</p>
+                </div>
               </div>
 
-              <div className="bg-background rounded-2xl p-8">
+              <div className="bg-background rounded-2xl p-8 text-center">
                 <p className="font-heading text-xl font-semibold mb-4" style={{ color: '#9E5790' }}>
-                  Our work has helped deliver:
+                  Our work has helped deliver
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">National research and industry collaboration strategies</span> — shaping cross-sector partnerships and shared direction</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Responsible AI frameworks and governance models</span> — enabling ethical adoption and oversight</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Inclusive publishing transformation</span> — increasing accessibility for the vision-impaired</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Urban precinct and regional transition strategies</span> — aligning stakeholders around place-based outcomes</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-muted-foreground">•</span>
-                    <span className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Large-scale social impact programs</span> — engaging diverse stakeholder groups around shared goals</span>
-                  </li>
-                </ul>
+                <div className="space-y-3">
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">National research and industry collaboration strategies</span> — shaping cross-sector partnerships and shared direction</p>
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Responsible AI frameworks and governance models</span> — enabling ethical adoption and oversight</p>
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Inclusive publishing transformation</span> — increasing accessibility for the vision-impaired</p>
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Urban precinct and regional transition strategies</span> — aligning stakeholders around place-based outcomes</p>
+                  <p className="text-muted-foreground text-sm"><span className="font-semibold text-foreground">Large-scale social impact programs</span> — engaging diverse stakeholder groups around shared goals</p>
+                </div>
               </div>
             </div>
           </div>

@@ -73,7 +73,7 @@ export function FromUncertainty() {
             </div>
           </div>
 
-          <p className="font-heading font-semibold text-lg text-muted-foreground mb-6">
+          <p className="font-heading font-semibold text-lg text-foreground mb-6">
             Shape what's next with strategic clarity, alignment, and action—setting your organisation
             up for success in a changing world.
           </p>

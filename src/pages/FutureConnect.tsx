@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Compass, TrendingUp, Target } from "lucide-react";
 import { useParallax } from "@/hooks/useParallax";
+import { MessageCircle, Compass, Link2, Users, TrendingUp } from "lucide-react";
 
 const FutureConnect = () => {
   const { ref, offset } = useParallax(0.5);
@@ -47,352 +47,378 @@ const FutureConnect = () => {
               className="h-14 md:h-16 lg:h-20 w-auto object-contain"
             />
           </div>
-          <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-primary-foreground mb-4">
-            Conversational strategy that shapes future direction
-          </h1>
+          <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
+            Aligned decisions for confident, future-ready strategy
+          </p>
         </div>
       </section>
 
-      {/* Clarify Future Direction */}
+      {/* Bring strategy to life */}
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8">
-            <h2 className="font-heading text-2xl md:text-3xl font-semibold" style={{ color: '#3bafb7' }}>
-              Clarify future direction and strengthen decisions
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold" style={{ color: '#1e9aa7' }}>
+              Bring strategy to life
             </h2>
           </div>
 
-          <div className="max-w-4xl mx-auto space-y-4">
-            <p className="font-heading font-semibold text-lg text-foreground text-center">
-              Future Connect helps teams make sense of future possibilities and translate them into clear, shared direction.
+          <div className="max-w-4xl mx-auto space-y-4 text-center">
+            <p className="font-heading font-semibold text-lg text-foreground">
+              Strategy shouldn't sit idle in documents. To empower your organisation to thrive, it needs to be accessible, usable, and continuously refined through real-world interaction.
             </p>
             <p className="text-muted-foreground leading-relaxed text-center">
-              Strategy conversations often get stuck in competing views or vague aspirations. Future Connect uses AI to explore scenarios, test assumptions, and surface what matters most—creating clarity and confidence in strategic choices.
+              Future Connect turns your strategic roadmap into an ongoing conversation—keeping strategy present as leaders and teams engage with and apply it in everyday work.
             </p>
             <p className="text-muted-foreground leading-relaxed text-center">
-              Whether you're setting direction, testing strategic options, or building alignment on the path forward, Future Connect helps you move from uncertainty to shared commitment.
+              Work with strategy in real time—test ideas, explore implications, and connect daily decisions to long-term outcomes.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Why Future Connect Works */}
+      {/* A shared, living asset */}
       <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#3bafb7' }}>
-            Why Future Connect works
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#1e9aa7' }}>
+            A shared, living asset
           </h2>
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <p className="font-heading font-semibold text-lg text-foreground mb-4">
-              Strategic dialogue powered by AI that reveals what's possible and what's wise.
+          <div className="text-center max-w-4xl mx-auto mb-8">
+            <p className="font-heading font-semibold text-lg text-foreground leading-relaxed mb-4">
+              Future Connect is an AI-powered strategy tool developed by Waterfield to keep strategy active in everyday decision-making through natural conversation.
             </p>
-            <p className="text-muted-foreground">
-              Future Connect combines conversational exploration with AI-driven analysis to help teams see clearly and choose confidently.
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Leaders and teams can test options, sense-check pathways, and connect decisions to outcomes. It's not about predicting one future—it's a thinking partner for exploring scenarios and making better decisions with confidence.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Leaders can ask questions like "What are the implications if we delay this investment?" or "How does this decision align with our three-year direction?"—and get meaningful, strategy-grounded responses.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-background rounded-2xl p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Compass className="w-8 h-8" style={{ color: '#3bafb7' }} />
-              </div>
-              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
-                Explore possibilities
-              </h3>
-              <ul className="space-y-4">
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Test multiple strategic directions without committing resources
-                </li>
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Surface hidden assumptions and challenge conventional thinking
-                </li>
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Explore "what if" scenarios to understand implications and risks
-                </li>
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Create space for bold thinking while staying grounded in reality
-                </li>
-              </ul>
-            </div>
+          <div className="max-w-3xl mx-auto text-center mb-8">
+            <p className="font-heading text-xl font-semibold mb-6" style={{ color: '#1e9aa7' }}>
+              Empower everyone to:
+            </p>
+          </div>
 
-            <div className="bg-background rounded-2xl p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <TrendingUp className="w-8 h-8" style={{ color: '#3bafb7' }} />
+          <div className="max-w-3xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-background rounded-2xl p-8 text-center">
+                <h3 className="font-heading font-semibold text-lg text-foreground">
+                  Understand strategic intent and direction
+                </h3>
               </div>
-              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
-                AI-powered insight
-              </h3>
-              <ul className="space-y-4">
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Analyzes strategic options against multiple criteria and constraints
-                </li>
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Identifies patterns, trade-offs, and dependencies across choices
-                </li>
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Surfaces risks and opportunities that teams might miss
-                </li>
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Delivers clarity on what's most critical to your success
-                </li>
-              </ul>
-            </div>
 
-            <div className="bg-background rounded-2xl p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Target className="w-8 h-8" style={{ color: '#3bafb7' }} />
+              <div className="bg-background rounded-2xl p-8 text-center">
+                <h3 className="font-heading font-semibold text-lg text-foreground">
+                  See how their role contributes to success
+                </h3>
               </div>
-              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
-                Shared direction
-              </h3>
-              <ul className="space-y-4">
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Builds alignment through structured dialogue and shared exploration
-                </li>
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Creates confidence in strategic choices with clear reasoning
-                </li>
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Translates complex possibilities into simple, actionable direction
-                </li>
-                <li className="text-muted-foreground text-sm leading-relaxed">
-                  Gives teams the clarity and conviction to move forward together
-                </li>
-              </ul>
+
+              <div className="bg-background rounded-2xl p-8 text-center">
+                <h3 className="font-heading font-semibold text-lg text-foreground">
+                  Explore choices before decisions are made
+                </h3>
+              </div>
             </div>
+          </div>
+
+          <div className="text-center max-w-3xl mx-auto">
+            <p className="font-heading font-semibold text-lg text-foreground">
+              Strategy that stays alive—supporting alignment, learning, and engagement at scale.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Testimonial */}
-      <section className="section-padding" style={{ backgroundColor: '#3bafb7' }}>
-        <div className="container-custom mx-auto px-4 md:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <blockquote className="font-heading text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight">
-              Strategic clarity shouldn't take months of debate. Future Connect helps teams see clearly and choose confidently—fast.
-            </blockquote>
-          </div>
-        </div>
-      </section>
-
-      {/* How It Works */}
+      {/* Designed to add value */}
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#3bafb7' }}>
-            How it works
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#1e9aa7' }}>
+            Designed to add value
           </h2>
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <p className="font-heading font-semibold text-lg text-foreground mb-4">
-              Three steps from strategic uncertainty to shared direction.
+          <div className="text-center max-w-3xl mx-auto mb-8">
+            <p className="font-heading font-semibold text-lg text-foreground leading-relaxed">
+              Future Connect combines strategic modelling with human-centred conversation, keeping strategy active and easy to work with across the organisation.
             </p>
-            <p className="text-muted-foreground">
-              Future Connect guides teams through structured exploration, AI analysis, and collaborative decision-making.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-            <div className="bg-secondary rounded-xl p-6 md:p-8 text-center">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center text-white text-2xl font-bold" style={{ backgroundColor: '#3bafb7' }}>
-                1
-              </div>
-              <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
-                Frame the future
-              </h4>
-              <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-                We work with your team to define the strategic questions that matter most. What direction should we take? What future are we shaping? What choices will define success?
-              </p>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Through guided conversation, we explore multiple possibilities, challenge assumptions, and surface what's truly at stake.
-              </p>
-            </div>
-
-            <div className="bg-secondary rounded-xl p-6 md:p-8 text-center">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center text-white text-2xl font-bold" style={{ backgroundColor: '#3bafb7' }}>
-                2
-              </div>
-              <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
-                AI reveals insight
-              </h4>
-              <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-                AI analyzes your strategic options, testing them against multiple scenarios, constraints, and success factors. It identifies trade-offs, dependencies, and risks you might not see.
-              </p>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                You get clear insight on what each choice enables, what it costs, and where the greatest opportunities lie.
-              </p>
-            </div>
-
-            <div className="bg-secondary rounded-xl p-6 md:p-8 text-center">
-              <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center text-white text-2xl font-bold" style={{ backgroundColor: '#3bafb7' }}>
-                3
-              </div>
-              <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
-                Choose with confidence
-              </h4>
-              <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-                We facilitate decision-making with clarity on what matters most. Teams align on direction with shared understanding of why it's the right path forward.
-              </p>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                You move forward with conviction, clear reasoning, and the alignment needed to execute with momentum.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* When to Use Future Connect */}
-      <section className="section-padding bg-secondary">
-        <div className="container-custom mx-auto px-4 md:px-8">
-          <div className="max-w-3xl mx-auto text-center mb-8">
-            <h2 className="font-heading text-2xl md:text-3xl font-semibold" style={{ color: '#3bafb7' }}>
-              When to use Future Connect
-            </h2>
-          </div>
-
-          <div className="max-w-4xl mx-auto space-y-6">
-            <div className="bg-background rounded-xl p-6">
-              <h4 className="font-heading font-semibold text-base text-foreground mb-2">
-                Setting strategic direction
-              </h4>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                When you need to define the future direction for your organization, Future Connect helps explore options, test assumptions, and build alignment on the path forward.
-              </p>
-            </div>
-
-            <div className="bg-background rounded-xl p-6">
-              <h4 className="font-heading font-semibold text-base text-foreground mb-2">
-                Testing strategic options
-              </h4>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Before committing resources, use Future Connect to evaluate multiple strategic paths—understanding implications, risks, and opportunities for each.
-              </p>
-            </div>
-
-            <div className="bg-background rounded-xl p-6">
-              <h4 className="font-heading font-semibold text-base text-foreground mb-2">
-                Breaking strategic deadlock
-              </h4>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                When teams are stuck in competing views or endless debate, Future Connect provides structure and insight that moves from disagreement to decision.
-              </p>
-            </div>
-
-            <div className="bg-background rounded-xl p-6">
-              <h4 className="font-heading font-semibold text-base text-foreground mb-2">
-                Planning for uncertainty
-              </h4>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Explore "what if" scenarios to understand how different futures might unfold—preparing your strategy for multiple possibilities instead of betting on one.
-              </p>
-            </div>
-
-            <div className="bg-background rounded-xl p-6">
-              <h4 className="font-heading font-semibold text-base text-foreground mb-2">
-                Building strategic capability
-              </h4>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Help leadership teams develop stronger strategic thinking—learning to explore possibilities, test assumptions, and make better choices together.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Difference */}
-      <section className="section-padding bg-background">
-        <div className="container-custom mx-auto px-4 md:px-8">
-          <div className="max-w-3xl mx-auto text-center mb-8">
-            <h2 className="font-heading text-2xl md:text-3xl font-semibold" style={{ color: '#3bafb7' }}>
-              The difference
-            </h2>
           </div>
 
           <div className="max-w-5xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-secondary rounded-xl p-6 md:p-8">
-                <h3 className="font-heading text-xl font-semibold text-foreground mb-4 text-center">
-                  Traditional strategy process
+            <div className="grid grid-cols-1 md:grid-cols-6 auto-rows-fr gap-6">
+              <div className="bg-secondary rounded-2xl p-8 text-center md:col-span-2 h-full">
+                <div className="flex justify-center mb-4">
+                  <MessageCircle className="w-8 h-8" style={{ color: '#1e9aa7' }} />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-2">
+                  Ask real questions
                 </h3>
-                <ul className="space-y-3">
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span className="text-foreground">•</span>
-                    <span>Months of workshops, reports, and endless debate</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span className="text-foreground">•</span>
-                    <span>Analysis paralysis—too much data, not enough insight</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span className="text-foreground">•</span>
-                    <span>Competing views that never resolve into clear direction</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span className="text-foreground">•</span>
-                    <span>Strategy documents that sit on shelves, disconnected from action</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span className="text-foreground">•</span>
-                    <span>Teams unsure why decisions were made or what comes next</span>
-                  </li>
-                </ul>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Explore strategy through dialogue—no rigid workflows or forced prompts.
+                </p>
               </div>
 
-              <div className="bg-secondary rounded-xl p-6 md:p-8 border-2" style={{ borderColor: '#3bafb7' }}>
-                <h3 className="font-heading text-xl font-semibold text-foreground mb-4 text-center">
-                  Future Connect
+              <div className="bg-secondary rounded-2xl p-8 text-center md:col-span-2 h-full">
+                <div className="flex justify-center mb-4">
+                  <Compass className="w-8 h-8" style={{ color: '#1e9aa7' }} />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-2">
+                  Stay future-focused
                 </h3>
-                <ul className="space-y-3">
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span style={{ color: '#3bafb7' }}>✓</span>
-                    <span>Focused sessions that deliver clarity in days, not months</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span style={{ color: '#3bafb7' }}>✓</span>
-                    <span>AI-powered analysis that reveals what matters most</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span style={{ color: '#3bafb7' }}>✓</span>
-                    <span>Structured dialogue that moves from debate to shared direction</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span style={{ color: '#3bafb7' }}>✓</span>
-                    <span>Clear, actionable direction ready to execute immediately</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm leading-relaxed flex items-start gap-2">
-                    <span style={{ color: '#3bafb7' }}>✓</span>
-                    <span>Teams aligned with conviction on why and what's next</span>
-                  </li>
-                </ul>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Shape decisions with a clear view of where you're heading, not just where you are.
+                </p>
+              </div>
+
+              <div className="bg-secondary rounded-2xl p-8 text-center md:col-span-2 h-full">
+                <div className="flex justify-center mb-4">
+                  <Link2 className="w-8 h-8" style={{ color: '#1e9aa7' }} />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-2">
+                  Keep decisions connected
+                </h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Link everyday work and choices to shared strategic intent.
+                </p>
+              </div>
+
+              <div className="bg-secondary rounded-2xl p-8 text-center md:col-span-2 md:col-start-2 h-full">
+                <div className="flex justify-center mb-4">
+                  <Users className="w-8 h-8" style={{ color: '#1e9aa7' }} />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-2">
+                  Align at every level
+                </h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  From senior leaders to emerging talent, everyone sees how their role contributes to direction.
+                </p>
+              </div>
+
+              <div className="bg-secondary rounded-2xl p-8 text-center md:col-span-2 h-full">
+                <div className="flex justify-center mb-4">
+                  <TrendingUp className="w-8 h-8" style={{ color: '#1e9aa7' }} />
+                </div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-2">
+                  Smarter over time
+                </h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Builds on every interaction—sharpening clarity, deepening alignment, and growing strategic capability.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Let's Connect */}
+      {/* How it works */}
       <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-heading text-2xl md:text-3xl font-semibold mb-6" style={{ color: '#3bafb7' }}>
-              Ready to clarify your strategic direction?
-            </h2>
-            <p className="font-heading font-semibold text-lg text-foreground mb-4">
-              Future Connect helps leadership teams move from uncertainty to confident, aligned action.
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#1e9aa7' }}>
+            How it works
+          </h2>
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <p className="font-heading font-semibold text-lg text-foreground">
+              Confident strategy, aligned decisions
             </p>
-            <p className="text-muted-foreground leading-relaxed mb-8">
-              Whether you're setting direction, testing options, or breaking deadlock, we'll help you explore possibilities and choose wisely.
-            </p>
+          </div>
 
+          <div className="grid grid-cols-1 auto-rows-fr gap-8 max-w-5xl mx-auto">
+            {/* Clarify Vision */}
+            <div className="bg-background rounded-xl p-6 md:p-8 h-full">
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8 h-full">
+                <div className="flex flex-row md:flex-col items-center justify-center gap-3 md:gap-0 md:w-[25%]">
+                  <div className="w-8 h-8 md:w-12 md:h-12 md:mb-4 flex-shrink-0 rounded-full flex items-center justify-center text-white text-base md:text-xl font-bold bg-foreground">
+                    1
+                  </div>
+                  <h4 className="font-heading font-semibold text-xl text-primary text-center">
+                    Clarify Vision
+                  </h4>
+                </div>
+                <div className="md:w-[75%] grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="text-center">
+                    <p className="font-heading font-semibold text-lg text-foreground mb-4">What it does</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Builds a working model of your organisation's future to explore different paths.
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="font-heading font-semibold text-lg text-foreground mb-4">Why it matters</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Helps senior teams focus on long-term decisions while avoiding short-term traps.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Shape Decisions */}
+            <div className="bg-background rounded-xl p-6 md:p-8 h-full">
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8 h-full">
+                <div className="flex flex-row md:flex-col items-center justify-center gap-3 md:gap-0 md:w-[25%]">
+                  <div className="w-8 h-8 md:w-12 md:h-12 md:mb-4 flex-shrink-0 rounded-full flex items-center justify-center text-white text-base md:text-xl font-bold bg-foreground">
+                    2
+                  </div>
+                  <h4 className="font-heading font-semibold text-xl text-primary text-center">
+                    Shape Decisions
+                  </h4>
+                </div>
+                <div className="md:w-[75%] grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="text-center">
+                    <p className="font-heading font-semibold text-lg text-foreground mb-4">What it does</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Enables collaborative scenario planning across leadership.
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="font-heading font-semibold text-lg text-foreground mb-4">Why it matters</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Strengthens strategic behaviours and keeps decisions aligned with the big picture.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Shared Understanding */}
+            <div className="bg-background rounded-xl p-6 md:p-8 h-full">
+              <div className="flex flex-col md:flex-row gap-6 md:gap-8 h-full">
+                <div className="flex flex-row md:flex-col items-center justify-center gap-3 md:gap-0 md:w-[25%]">
+                  <div className="w-8 h-8 md:w-12 md:h-12 md:mb-4 flex-shrink-0 rounded-full flex items-center justify-center text-white text-base md:text-xl font-bold bg-foreground">
+                    3
+                  </div>
+                  <h4 className="font-heading font-semibold text-xl text-primary text-center">
+                    Shared Understanding
+                  </h4>
+                </div>
+                <div className="md:w-[75%] grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="text-center">
+                    <p className="font-heading font-semibold text-lg text-foreground mb-4">What it does</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Identifies what people need to know and creates space for feedback.
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="font-heading font-semibold text-lg text-foreground mb-4">Why it matters</p>
+                    <p className="text-muted-foreground text-sm leading-relaxed">
+                      Ensures strategy is clearly understood across all levels, building shared direction.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="max-w-3xl mx-auto text-center mt-12">
+            <p className="font-heading font-semibold text-lg text-foreground">
+              Future Connect tests and refines strategic choices—before they impact your organisation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Future-aligned decisions */}
+      <section className="section-padding bg-background">
+        <div className="container-custom mx-auto px-4 md:px-8">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#1e9aa7' }}>
+            Future-aligned decisions
+          </h2>
+          <div className="text-center max-w-3xl mx-auto mb-8">
+            <p className="font-heading font-semibold text-lg text-foreground leading-relaxed mb-4">
+              Future Connect strengthens how strategic decisions are explored, aligned, and refined.
+            </p>
+            <p className="text-muted-foreground leading-relaxed mb-6">
+              By making future direction accessible, it helps organisations:
+            </p>
+          </div>
+
+          <div className="max-w-4xl mx-auto mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-secondary rounded-xl p-6 text-center space-y-4">
+                <p className="font-heading font-medium text-sm md:text-base text-primary">Amplify strategic thinking</p>
+                <p className="font-heading font-medium text-sm md:text-base text-primary">Improve decision quality and consistency</p>
+              </div>
+              <div className="bg-secondary rounded-xl p-6 text-center space-y-4">
+                <p className="font-heading font-medium text-sm md:text-base text-primary">Strengthen leadership confidence</p>
+                <p className="font-heading font-medium text-sm md:text-base text-primary">Course-correct as learning emerges</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center max-w-3xl mx-auto">
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Future Connect enhances human judgement rather than replacing it. Foresight, insight, and action stay within your organisation.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              As teams use the tool, strategic capability grows. Waterfield trains leadership teams to get the most from Future Connect—asking sharper questions, forming actionable insights, and connecting future direction back to where to invest today.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Getting started */}
+      <section className="section-padding bg-secondary">
+        <div className="container-custom mx-auto px-4 md:px-8">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-12" style={{ color: '#1e9aa7' }}>
+            Getting started
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12">
+            <div className="bg-background rounded-xl p-6 md:p-8 text-center">
+              <img
+                src="/sa-icon-1.png"
+                alt="Explore what's possible"
+                className="w-24 h-24 object-contain mx-auto mb-3"
+                style={{ filter: 'invert(60%) sepia(45%) saturate(500%) hue-rotate(140deg) brightness(91%) contrast(89%)' }}
+              />
+              <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
+                Explore what's possible
+              </h4>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                See how Future Connect can help your organisation use future insight to decide with confidence.
+              </p>
+            </div>
+
+            <div className="bg-background rounded-xl p-6 md:p-8 text-center">
+              <img
+                src="/sa-icon-2.png"
+                alt="Strengthen alignment and decisions"
+                className="w-24 h-24 object-contain mx-auto mb-3"
+                style={{ filter: 'invert(60%) sepia(45%) saturate(500%) hue-rotate(140deg) brightness(95%) contrast(89%)' }}
+              />
+              <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
+                Strengthen alignment and decisions
+              </h4>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                We teach your team how to use Future Connect, embedding strategic thinking and AI into everyday decision-making.
+              </p>
+            </div>
+
+            <div className="bg-background rounded-xl p-6 md:p-8 text-center">
+              <img
+                src="/sa-icon-3.png"
+                alt="Bring your strategy to life"
+                className="w-24 h-24 object-contain mx-auto mb-3"
+                style={{ filter: 'invert(60%) sepia(45%) saturate(500%) hue-rotate(140deg) brightness(91%) contrast(89%)' }}
+              />
+              <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
+                Bring your strategy to life
+              </h4>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                Turn your organisation's strategy into a shared, living asset that guides action with clarity.
+              </p>
+            </div>
+          </div>
+
+          <div className="text-center">
             <Button
               asChild
               variant="hero"
               size="lg"
               className="hover:shadow-xl hover:scale-105 transition-all duration-300"
-              style={{ backgroundColor: '#3bafb7' }}
+              style={{ backgroundColor: '#1e9aa7' }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#2A9FA8';
+                e.currentTarget.style.backgroundColor = '#2E9EA6';
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = '#3bafb7';
+                e.currentTarget.style.backgroundColor = '#1e9aa7';
               }}
             >
               <Link to="/contact">Let's connect</Link>

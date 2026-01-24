@@ -212,7 +212,7 @@ const Services = () => {
           </div>
 
           <div className="text-center mt-12">
-            <p className="font-heading font-semibold text-lg text-muted-foreground mb-6 max-w-3xl mx-auto">
+            <p className="font-heading font-semibold text-lg text-foreground mb-6 max-w-3xl mx-auto">
               For over 30 years, Waterfield has helped organisations navigate complexity, align people, and deliver strategic outcomes.
             </p>
             <Button asChild variant="hero" size="lg" className="hover:shadow-xl hover:scale-105 transition-all duration-300">
@@ -298,7 +298,7 @@ const Services = () => {
           </div>
 
           <div className="text-center mt-12">
-            <p className="font-heading font-semibold text-lg text-muted-foreground mb-6">
+            <p className="font-heading font-semibold text-lg text-foreground mb-6">
               We bring together strategic insight, collaboration, and AI to drive results–explore how our approach can help you.
             </p>
             <Button asChild variant="hero" size="lg" className="hover:shadow-xl hover:scale-105 transition-all duration-300">

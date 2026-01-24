@@ -2,9 +2,133 @@
 
 ## Date
 December 1-12, 2025
-January 18-22, 2026
+January 18-24, 2026
 
 ## Changes Made
+
+### AI Tool Dedicated Pages (January 24, 2026)
+Created three new dedicated pages for each AI tool, accessible from the AI Tools page.
+
+#### Engage Plus Page (`/ai-tools/engageplus`)
+- **File**: `src/pages/EngagePlus.tsx`
+- **Route**: `/ai-tools/engageplus`
+- Hero section with parallax background and Engage Plus logo
+- Tagline: "Open, AI-powered engagement that reveals what will resonate."
+
+**Content Sections:**
+1. **Hear what really matters** - Explains the difference between surveys and conversations
+2. **Why it's different** - Four feature tiles: Human-first, Flexible, AI-backed clarity, Real-time impact
+3. **The strategic edge** - Four benefits: Hear what matters, See blind spots, Bring voices in, Navigate complexity
+4. **How it works** - Three-step process: Capture voices, AI sense-making, Resonance and action
+5. **Where it's used** - Use cases across industries (associations, developers, government, etc.)
+6. **Testimonial** - Quote from Graeme Kruger (Ricegrowers' Association of Australia)
+7. **Getting started** - Three tiles with icons: Define focus, Engage at scale, Learn and act
+
+#### Future Connect Page (`/ai-tools/futureconnect`)
+- **File**: `src/pages/FutureConnect.tsx`
+- **Route**: `/ai-tools/futureconnect`
+- Hero section with parallax background and Future Connect logo
+- Tagline: "Aligned decisions for confident, future-ready strategy"
+
+**Content Sections:**
+1. **Bring strategy to life** - Strategy as ongoing conversation, not static documents
+2. **A shared, living asset** - AI-powered strategy tool with scenario planning
+3. **Designed to add value** - Five feature tiles: Ask real questions, Stay future-focused, Keep decisions connected, Align at every level, Smarter over time
+4. **How it works** - Three-step process: Clarify Vision, Shape Decisions, Shared Understanding
+5. **Future-aligned decisions** - Benefits grid: Amplify thinking, Improve quality, Strengthen confidence, Course-correct
+6. **Getting started** - Three tiles: Explore possibilities, Strengthen alignment, Bring strategy to life
+
+#### Execution Edge Page (`/ai-tools/executionedge`)
+- **File**: `src/pages/ExecutionEdge.tsx`
+- **Route**: `/ai-tools/executionedge`
+- Hero section with parallax background (positioned 75% 50%) and Execution Edge logo
+- Tagline: "Focused execution that turns strategy into impact"
+
+**Content Sections:**
+1. **Turn strategy into momentum** - Addresses strategy stalling in execution
+2. **Strategy into action** - Four feature tiles: Translate priorities, Maintain focus, Track progress, Surface risks
+3. **How it works** - Three-step process: Activate Strategy, Strategic Focus, Portfolio Insight
+4. **Execution that delivers** - Four circular badges: Reinforcing focus, Supporting adjustment, Maintaining accountability, Turning insight into action
+5. **Getting started** - Three tiles: Move to action, Empower delivery, Keep strategy moving
+
+**Common Styling:**
+- All pages use teal color (#1e9aa7) for headings and accents
+- Consistent icon filters for "Getting started" tiles
+- Hover effects on "Let's connect" buttons with darker teal (#178A98)
+- Dark blue gradient overlays on hero and testimonial sections
+- bg-secondary and bg-background alternating sections
+
+### Build Capacity Page Restructure (January 24, 2026)
+Complete redesign of the Build Capacity page to feature three capacity pathways with program logos.
+
+#### Page Structure
+- Hero section with new image and updated tagline
+- "Our programs" overview section
+- Three pathway tiles with geometric shapes and program listings
+- Quote section with "Let's connect" button
+- Removed Engage Plus tool section from bottom
+
+#### Three Pathway Tiles
+1. **Think Strategically** (Triangle shape)
+   - Dark blue header box with triangle SVG (path: M220 150 L0 20 L0 280 Z)
+   - **TPA Logo** (`/Image_dump/TPA_Logo.png`) - Orange link (#F8983C)
+   - **Personal Plan Logo** (`/Image_dump/PersonalPlan_Logo.png`) - Green link (#7AB800)
+
+2. **Lead Collaboratively** (Circle shape)
+   - Dark blue header box with circle SVG (shifted -25% left)
+   - **RapidConsensus Logo** (`/Image_dump/RapidConsensus_Logo.png`) - Red link (#C8102E)
+   - **Strategy Champion Logo** (`/Image_dump/StrategyChampion_Logo.png`) - Orange link (#F8983C)
+
+3. **Leverage AI** (Parallelogram shape)
+   - Dark blue header box with parallelogram SVG (shifted -40% left, 20% larger)
+   - **Collaborative Intelligence Logo** (`/Image_dump/CollaborativeIntelligence_Logo.png`) - Teal link (text-primary)
+   - **AI Advantage Logo** (`/Image_dump/AIAdvantage_Logo.png`) - Teal link (text-primary)
+
+#### Visual Styling
+- Geometric shapes use teal (#268DB0) at 10% opacity
+- Each pathway box has dark blue header (`#2F3D4F`)
+- White background tiles (`bg-background`) with rounded corners
+- Program descriptions with "Find out how" links
+
+### AI Tools Page Updates (January 24, 2026)
+Updated AI tool tiles to link to dedicated pages.
+
+- **Tool 1 (Engage Plus)**: href changed to `/ai-tools/engageplus`
+- **Tool 2 (Future Connect)**: href changed to `/ai-tools/futureconnect`
+- **Tool 3 (Execution Edge)**: href changed to `/ai-tools/executionedge`
+
+### Homepage FromUncertainty Section Updates (January 24, 2026)
+- Changed section heading from "From uncertainty to clarity" to "Aligned direction & action"
+- Maintains same circular badges and content structure
+
+### Homepage ProblemSection (New - January 24, 2026)
+Created new "Navigate complexity" section for the homepage.
+
+#### Structure
+- **Heading**: "Navigate complexity"
+- **Subhead**: "Complexity is the new constant; where markets shift, ecosystems evolve, and AI continues to rewrite the rules."
+- **Body copy**: Explains Waterfield's approach to navigating complexity
+
+#### Four Circular Badges
+- **Focused direction** - Purple (#9E5790)
+- **Aligned priorities** - Red (#CB4547)
+- **Engaged teams** - Orange (#F8983C)
+- **Connected stakeholders** - Green (#A9D159)
+
+#### Badge Styling
+- Same sizing as FromUncertainty circles: w-[115px] md:w-[143px]
+- 4-column grid layout (gap-2 md:gap-4)
+- Hover shadow effect
+
+### Custom Facilitation Page Updates (January 24, 2026)
+- Changed testimonial background image to `/shutterstock_1636612660.jpg`
+- Updated "Delivering impact" section to use circular badges instead of icon tiles
+- Three circular badges: Unified direction (Red #CB4547), Clear priorities (Teal #1e9aa7), Shared ownership (Purple #9E5790)
+
+### Services Page Updates (January 24, 2026)
+- Added subtitle field to services data for additional context
+- Added outcomes field with pipe separator for bold label formatting
+- Maintained 32%/68% tile layout with logos and descriptions
 
 ### Open Innovation Page Updates (January 22, 2026)
 Content, image, and styling updates to the Open Innovation service page.

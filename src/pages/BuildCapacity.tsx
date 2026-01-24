@@ -318,7 +318,7 @@ const BuildCapacity = () => {
 
           {/* Quote Section */}
           <div className="text-center mt-12 mb-8">
-            <p className="font-heading font-semibold text-lg text-muted-foreground mb-6 max-w-3xl mx-auto">
+            <p className="font-heading font-semibold text-lg text-foreground mb-6 max-w-3xl mx-auto">
               Our programs build strategic, collaborative, and AI-ready capability so leaders and teams can perform, adapt, and grow—delivering ongoing value.
             </p>
             <Button asChild variant="hero" size="lg" className="hover:shadow-xl hover:scale-105 transition-all duration-300">
