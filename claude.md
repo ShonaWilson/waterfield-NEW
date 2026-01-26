@@ -2,9 +2,75 @@
 
 ## Date
 December 1-12, 2025
-January 18-24, 2026
+January 18-26, 2026
 
 ## Changes Made
+
+### Strategy Connect Page Updates (January 26, 2026)
+Content and structure updates to the Strategy Connect service page.
+
+#### "How it works" FIA Sections Restructure
+- Converted from tabbed interface to vertical stacked layout (FIASections component)
+- Removed "Shared understanding" and "Aligned priorities" boxes from Insight section
+- Converted Strategy Map to expandable dropdown (matching other tiles)
+- Added border dividers between Foresight, Insight, Action sections (`border-t border-muted-foreground/20`)
+
+#### FIA Section Headings
+- Replaced text headings with logo images:
+  - Foresight: `/Foresight.png`
+  - Insight: `/Insight.png`
+  - Action: `/Action.png`
+- Logo sizing: `h-8 md:h-10 w-auto object-contain`
+
+#### Expandable Dropdown Styling
+- Updated all dropdown titles to olive color (#afab89)
+- Titles: Collective intelligence, Research & analysis, Business model innovation, Strategy Map, Resourcing, Live tracking platform, Agile execution
+- Subtitles remain visible above dropdown content
+
+#### Action Section Tile Title Updates
+- Tile 1: "Clear ownership" → "Resourcing"
+- Tile 2: "Live tracking" → "Live tracking platform"
+- Tile 3: "Agile execution & review" → "Agile execution"
+
+#### Insight Section Copy Update
+- Updated body copy to: "Insight is where patterns emerge and complexity is translated into clarity..."
+
+#### FIA Diagram Hover Effect
+- Added `hover:scale-105 transition-transform duration-300` to `/FullCycleFIA.png` diagram
+
+#### "Build strategic impact" Section (Replaced "Execute your strategy")
+- Changed section heading from "Execute your strategy" to "Build strategic impact"
+- Removed three tiles (Highly visible, Adaptive, Easy to use)
+- Added new intro copy about sustaining momentum and delivering impact
+- Added three core capabilities in Engage Plus "strategic edge" style layout
+
+#### Three Core Capabilities
+Displayed in white container (`bg-background rounded-2xl`) with border separators:
+1. **Alignment** - Compass icon - "Shared clarity and direction"
+2. **Action** - Rocket icon - "Tangible outcomes and visible progress"
+3. **Adaptation** - RefreshCw icon - "Continuous learning and responsiveness"
+
+#### Visual Styling
+- White container on beige background section
+- Border separators between items (`border-t border-muted-foreground/20`)
+- Icons sized at `w-10 h-10` with orange color (#F8983C)
+- Centered text layout matching Engage Plus "strategic edge" section
+
+#### "How it works" Section Updates
+- Updated copy to focus on Foresight, Insight, and Action cycle
+- Replaced process graphic with `/FullCycleFIA.png`
+- Graphic size: 838px max width (increased by 10%)
+
+#### "Clear pathway forward" Section Updates
+- Added "What Strategy Connect delivers:" subheading
+- Created 3 new feature tiles: Clarity (Target icon), Engagement (Users icon), Results (TrendingUp icon)
+- Moved client logos section under the 3 tiles
+- Updated client logos copy to "Trusted by organisations turning complexity into clear direction."
+
+#### Section Background Swaps
+- "Clear pathway forward" changed to white (`bg-background`)
+- "Align & activate your strategy" changed to beige (`bg-secondary`)
+- Feature tiles use beige background (`bg-secondary`)
 
 ### AI Tool Dedicated Pages (January 24, 2026)
 Created three new dedicated pages for each AI tool, accessible from the AI Tools page.
