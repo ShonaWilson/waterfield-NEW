@@ -154,7 +154,7 @@ const BuildCapacity = () => {
                       Equip emerging leaders to think ahead and lead with confidence
                     </p>
                     <Link
-                      to="#"
+                      to="/think-plan-act"
                       className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base hover:opacity-80 transition-colors duration-200 group"
                       style={{ color: '#F8983C' }}
                     >
@@ -174,9 +174,9 @@ const BuildCapacity = () => {
                       Strategically design direction for clear action in life and work
                     </p>
                     <Link
-                      to="#"
+                      to="/personal-plan"
                       className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base hover:opacity-80 transition-colors duration-200 group"
-                      style={{ color: '#7AB800' }}
+                      style={{ color: '#c1d82f' }}
                     >
                       Find out how <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
                     </Link>
@@ -220,7 +220,7 @@ const BuildCapacity = () => {
                       Gain collaborative alignment for clear outcomes and action
                     </p>
                     <Link
-                      to="#"
+                      to="/rapid-consensus"
                       className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base hover:opacity-80 transition-colors duration-200 group"
                       style={{ color: '#C8102E' }}
                     >
@@ -240,7 +240,7 @@ const BuildCapacity = () => {
                       Build confident internal capability for agile strategy execution
                     </p>
                     <Link
-                      to="#"
+                      to="/strategy-champion"
                       className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base hover:opacity-80 transition-colors duration-200 group"
                       style={{ color: '#F8983C' }}
                     >
@@ -305,7 +305,7 @@ const BuildCapacity = () => {
                       Build shared capability to enable AI with clarity and impact
                     </p>
                     <Link
-                      to="#"
+                      to="/ai-advantage"
                       className="inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base text-primary hover:text-primary-light transition-colors duration-200 group"
                     >
                       Find out how <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
