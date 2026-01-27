@@ -16,6 +16,11 @@ import SuccessAlliance from "./pages/SuccessAlliance";
 import OpenInnovation from "./pages/OpenInnovation";
 import CustomFacilitation from "./pages/CustomFacilitation";
 import CollaborativeIntelligence from "./pages/CollaborativeIntelligence";
+import AIAdvantage from "./pages/AIAdvantage";
+import PersonalPlan from "./pages/PersonalPlan";
+import RapidConsensus from "./pages/RapidConsensus";
+import StrategyChampion from "./pages/StrategyChampion";
+import ThinkPlanAct from "./pages/ThinkPlanAct";
 import Process from "./pages/Process";
 import OurClients from "./pages/OurClients";
 import Articles from "./pages/Articles";
@@ -47,6 +52,11 @@ const App = () => (
           <Route path="/services/openinnovation" element={<OpenInnovation />} />
           <Route path="/services/customfacilitation" element={<CustomFacilitation />} />
           <Route path="/collaborative-intelligence" element={<CollaborativeIntelligence />} />
+          <Route path="/ai-advantage" element={<AIAdvantage />} />
+          <Route path="/personal-plan" element={<PersonalPlan />} />
+          <Route path="/rapid-consensus" element={<RapidConsensus />} />
+          <Route path="/strategy-champion" element={<StrategyChampion />} />
+          <Route path="/think-plan-act" element={<ThinkPlanAct />} />
           <Route path="/process" element={<Process />} />
           <Route path="/our-clients" element={<OurClients />} />
           <Route path="/articles" element={<Articles />} />
