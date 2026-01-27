@@ -144,7 +144,7 @@ const OpenInnovation = () => {
             className="absolute inset-0 w-full h-full object-cover"
             style={{
               transform: `scale(1.2) translateY(${offset * 0.4}px)`,
-              objectPosition: '50% 28%'
+              objectPosition: '25% 28%'
             }}
           />
           <div
@@ -268,6 +268,34 @@ const OpenInnovation = () => {
             <p className="text-muted-foreground leading-relaxed">
               Our work with organisations such as CSIRO, government agencies, and emerging technology leaders shows how diverse networks and structured collaboration unlock new thinking and practical innovation.
             </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto text-center mt-8">
+            <p className="font-heading font-semibold text-lg text-foreground mb-6">
+              Organisations achieving results with Open Innovation:
+            </p>
+            <div className="flex justify-center items-center gap-6 md:gap-10">
+              <img
+                src="/ssg_logo_web.webp"
+                alt="SSG"
+                className="h-8 md:h-10 w-auto object-contain"
+              />
+              <img
+                src="/logo.svg"
+                alt="Logo"
+                className="h-8 md:h-10 w-auto object-contain"
+              />
+              <img
+                src="/CareerTrackers_Logo_Orange.svg"
+                alt="CareerTrackers"
+                className="h-8 md:h-10 w-auto object-contain"
+              />
+              <img
+                src="/AGNSW_669U.jpg"
+                alt="AGNSW"
+                className="h-9 md:h-11 w-auto object-contain"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -448,12 +476,10 @@ const OpenInnovation = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-secondary rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-1.png"
-                alt="Clarify the opportunity"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'invert(44%) sepia(45%) saturate(629%) hue-rotate(170deg) brightness(91%) contrast(89%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#268DB0' }}>1</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#268DB0' }}></div>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Clarify the opportunity
               </h3>
@@ -463,12 +489,10 @@ const OpenInnovation = () => {
             </div>
 
             <div className="bg-secondary rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-2.png"
-                alt="Bring in broader thinking"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'invert(44%) sepia(45%) saturate(629%) hue-rotate(170deg) brightness(95%) contrast(89%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#268DB0' }}>2</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#268DB0' }}></div>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Bring in broader thinking
               </h3>
@@ -478,12 +502,10 @@ const OpenInnovation = () => {
             </div>
 
             <div className="bg-secondary rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-3.png"
-                alt="Innovate beyond the obvious"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'invert(44%) sepia(45%) saturate(629%) hue-rotate(170deg) brightness(91%) contrast(89%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#268DB0' }}>3</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#268DB0' }}></div>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Innovate beyond the obvious
               </h3>

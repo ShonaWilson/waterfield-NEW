@@ -653,12 +653,10 @@ const StrategyConnect = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-secondary rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-1.png"
-                alt="Anticipate what's next"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'brightness(0) saturate(100%) invert(64%) sepia(85%) saturate(1426%) hue-rotate(360deg) brightness(102%) contrast(96%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#F8983C' }}>1</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#F8983C' }}></div>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Anticipate what's next
               </h3>
@@ -668,12 +666,10 @@ const StrategyConnect = () => {
             </div>
 
             <div className="bg-secondary rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-2.png"
-                alt="Define clear direction"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'brightness(0) saturate(100%) invert(64%) sepia(85%) saturate(1426%) hue-rotate(360deg) brightness(102%) contrast(96%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#F8983C' }}>2</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#F8983C' }}></div>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Define clear direction
               </h3>
@@ -683,12 +679,10 @@ const StrategyConnect = () => {
             </div>
 
             <div className="bg-secondary rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-3.png"
-                alt="Create your Strategy Map"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'brightness(0) saturate(100%) invert(64%) sepia(85%) saturate(1426%) hue-rotate(360deg) brightness(102%) contrast(96%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#F8983C' }}>3</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#F8983C' }}></div>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Create your Strategy Map
               </h3>

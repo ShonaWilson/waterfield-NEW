@@ -64,13 +64,13 @@ const EngagePlus = () => {
 
           <div className="max-w-4xl mx-auto space-y-4 text-center">
             <p className="font-heading font-semibold text-lg text-foreground">
-              Surveys force you to guess what matters. Conversations let people tell you.
+              Surveys capture answers. Conversations capture meaning.
             </p>
             <p className="text-muted-foreground leading-relaxed text-center">
-              When you need to understand what people really think—customers, suppliers, employees, stakeholders—the instinct is to survey them. Define the questions. Analyze the data. But you're predicting what matters before you've even asked. People tick boxes and move on.
+              When you need to understand what people really think — customers, employees, stakeholders — the instinct is to survey them. But you're defining what matters before anyone's had a chance to tell you. People tick boxes. You get data, not insight.
             </p>
             <p className="text-muted-foreground leading-relaxed text-center">
-              Engage Plus flips the script: AI-powered conversation at scale. People share what actually matters, in their own words. Deeper input. Higher participation. Because people actually want to respond.
+              Engage Plus flips the script: AI-powered conversations at scale. People share what actually matters, in their own words. Richer insight. Higher participation. Responses people actually want to give.
             </p>
           </div>
         </div>
@@ -400,44 +400,38 @@ const EngagePlus = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12">
             <div className="bg-secondary rounded-xl p-6 md:p-8 text-center">
-              <img
-                src="/sa-icon-1.png"
-                alt="Define the focus"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'invert(65%) sepia(50%) saturate(400%) hue-rotate(140deg) brightness(95%) contrast(90%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#1e9aa7' }}>1</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#1e9aa7' }}></div>
+              </div>
               <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
-                Define the focus
+                Start the conversation
               </h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Clarify the topic, idea, or decision you want to explore—from strategic direction and change initiatives to propositions or policy.
+                Connect with us to clarify what you want to explore. We'll show you how Engage Plus can support your goals.
               </p>
             </div>
 
             <div className="bg-secondary rounded-xl p-6 md:p-8 text-center">
-              <img
-                src="/sa-icon-2.png"
-                alt="Engage at scale"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'invert(65%) sepia(50%) saturate(400%) hue-rotate(140deg) brightness(98%) contrast(90%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#1e9aa7' }}>2</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#1e9aa7' }}></div>
+              </div>
               <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
-                Engage at scale
+                Tailor your engagement
               </h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Invite stakeholders to participate through open, AI-powered dialogue. Simple to access, easy to complete—driving strong participation without fatigue.
+                We'll help you define key stakeholders and set up your Engage Plus process — simple to access, easy to complete, driving strong participation.
               </p>
             </div>
 
             <div className="bg-secondary rounded-xl p-6 md:p-8 text-center">
-              <img
-                src="/sa-icon-3.png"
-                alt="Learn and act"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'invert(65%) sepia(50%) saturate(400%) hue-rotate(140deg) brightness(95%) contrast(90%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#1e9aa7' }}>3</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#1e9aa7' }}></div>
+              </div>
               <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
-                Learn and act
+                Gain clarity, drive action
               </h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Review clear insights and resonance patterns to refine decisions, strengthen alignment, and move forward with confidence.

@@ -362,12 +362,10 @@ const FutureConnect = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mb-12">
             <div className="bg-background rounded-xl p-6 md:p-8 text-center">
-              <img
-                src="/sa-icon-1.png"
-                alt="Explore what's possible"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'invert(60%) sepia(45%) saturate(500%) hue-rotate(140deg) brightness(91%) contrast(89%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#1e9aa7' }}>1</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#1e9aa7' }}></div>
+              </div>
               <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
                 Explore what's possible
               </h4>
@@ -377,12 +375,10 @@ const FutureConnect = () => {
             </div>
 
             <div className="bg-background rounded-xl p-6 md:p-8 text-center">
-              <img
-                src="/sa-icon-2.png"
-                alt="Strengthen alignment and decisions"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'invert(60%) sepia(45%) saturate(500%) hue-rotate(140deg) brightness(95%) contrast(89%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#1e9aa7' }}>2</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#1e9aa7' }}></div>
+              </div>
               <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
                 Strengthen alignment and decisions
               </h4>
@@ -392,12 +388,10 @@ const FutureConnect = () => {
             </div>
 
             <div className="bg-background rounded-xl p-6 md:p-8 text-center">
-              <img
-                src="/sa-icon-3.png"
-                alt="Bring your strategy to life"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'invert(60%) sepia(45%) saturate(500%) hue-rotate(140deg) brightness(91%) contrast(89%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#1e9aa7' }}>3</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#1e9aa7' }}></div>
+              </div>
               <h4 className="font-heading font-semibold text-lg text-foreground mb-3">
                 Bring your strategy to life
               </h4>

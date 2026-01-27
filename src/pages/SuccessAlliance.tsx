@@ -486,12 +486,10 @@ const SuccessAlliance = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-secondary rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-1.png"
-                alt="Clarify the opportunity"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'brightness(0) saturate(100%) invert(73%) sepia(45%) saturate(600%) hue-rotate(12deg) brightness(92%) contrast(88%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#EBCA52' }}>1</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#EBCA52' }}></div>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Clarify the opportunity
               </h3>
@@ -501,12 +499,10 @@ const SuccessAlliance = () => {
             </div>
 
             <div className="bg-secondary rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-2.png"
-                alt="Design & facilitate the alliance"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'brightness(0) saturate(100%) invert(78%) sepia(40%) saturate(700%) hue-rotate(10deg) brightness(95%) contrast(90%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#EBCA52' }}>2</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#EBCA52' }}></div>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Design & facilitate the alliance
               </h3>
@@ -516,12 +512,10 @@ const SuccessAlliance = () => {
             </div>
 
             <div className="bg-secondary rounded-2xl p-8 text-center">
-              <img
-                src="/sa-icon-3.png"
-                alt="Deliver exceptional value"
-                className="w-24 h-24 object-contain mx-auto mb-3"
-                style={{ filter: 'brightness(0) saturate(100%) invert(73%) sepia(45%) saturate(600%) hue-rotate(12deg) brightness(92%) contrast(88%)' }}
-              />
+              <div className="flex flex-col items-center mb-3">
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#EBCA52' }}>3</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#EBCA52' }}></div>
+              </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Deliver exceptional value
               </h3>

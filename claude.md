@@ -2,9 +2,32 @@
 
 ## Date
 December 1-12, 2025
-January 18-26, 2026
+January 18-27, 2026
 
 ## Changes Made
+
+### Think. Plan. Act. Strategically Page Updates (January 27, 2026)
+Content, styling, and icon updates to the Think. Plan. Act. Strategically program page.
+
+#### "Why this program" Section
+- Updated featured quote from "Act before the path is clear." to "Build future literacy. See what's emerging. Act before others do."
+- Maintains orange brand color (#F8983C) and `font-heading text-xl font-semibold` styling
+
+#### "The capability it builds" Section
+- Swapped section and tile colors:
+  - Section background: Changed from beige (`bg-secondary`) to white (`bg-background`)
+  - Tiles: Changed from white (`bg-background`) to beige (`bg-secondary`)
+- Creates visual contrast matching other page sections
+
+#### Tile Icon Updates
+Updated icons for better semantic match with tile content:
+- **Scan the horizon**: Changed from `Brain` to `Radar` (matches scanning concept)
+- **Design a strategic roadmap**: Changed from `Target` to `Map` (matches roadmap concept)
+- **Innovate business models**: Changed from `Lightbulb` to `Boxes` (represents business model building blocks)
+
+#### Updated Lucide Imports
+- Removed: `Brain`, `Lightbulb`
+- Added: `Radar`, `Map`, `Boxes`
 
 ### Strategy Connect Page Updates (January 26, 2026)
 Content and structure updates to the Strategy Connect service page.
