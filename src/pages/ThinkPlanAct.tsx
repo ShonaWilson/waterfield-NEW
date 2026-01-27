@@ -53,7 +53,7 @@ const ThinkPlanAct = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/service-1.jpg"
+            src="/ChatGPT Image Jan 17, 2026 at 10_09_28 AM.png"
             alt="Think. Plan. Act. Strategically"
             className="absolute inset-0 w-full h-full object-cover"
             style={{
@@ -73,7 +73,7 @@ const ThinkPlanAct = () => {
         <div className="relative z-10 container-custom mx-auto px-4 md:px-8 text-center">
           <div className="mb-6 flex items-center justify-center">
             <img
-              src="/Image_dump/TPA_Logo.png"
+              src="/TPA_Wlogo.png"
               alt="Think. Plan. Act. Strategically"
               className="h-12 md:h-14 lg:h-16 w-auto object-contain"
             />
@@ -214,60 +214,41 @@ const ThinkPlanAct = () => {
       </section>
 
       {/* The Impact */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
             The impact
           </h2>
+          <div className="max-w-4xl mx-auto text-center space-y-4 mb-8">
+            <p className="font-heading font-semibold text-lg text-foreground">
+              Clearer thinking, stronger alignment, and confident action — for leaders and organisations.
+            </p>
+          </div>
 
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-secondary rounded-2xl p-8">
-                <p className="font-heading text-xl font-semibold mb-4 text-center" style={{ color: brandColor }}>
+              <div className="bg-background rounded-2xl p-8 text-center">
+                <p className="font-heading text-xl font-semibold mb-4" style={{ color: brandColor }}>
                   For leaders
                 </p>
-                <ul className="space-y-3">
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Greater confidence in strategic thinking and decision-making</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Clearer ability to frame complex challenges</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Stronger connection between insight, planning, and action</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Increased capacity to lead through change with purpose</span>
-                  </li>
-                </ul>
+                <div className="space-y-3">
+                  <p className="text-muted-foreground text-sm">Greater confidence in strategic thinking and decision-making</p>
+                  <p className="text-muted-foreground text-sm">Clearer ability to frame complex challenges</p>
+                  <p className="text-muted-foreground text-sm">Stronger connection between insight, planning, and action</p>
+                  <p className="text-muted-foreground text-sm">Increased capacity to lead through change with purpose</p>
+                </div>
               </div>
 
-              <div className="bg-secondary rounded-2xl p-8">
-                <p className="font-heading text-xl font-semibold mb-4 text-center" style={{ color: brandColor }}>
+              <div className="bg-background rounded-2xl p-8 text-center">
+                <p className="font-heading text-xl font-semibold mb-4" style={{ color: brandColor }}>
                   For organisations
                 </p>
-                <ul className="space-y-3">
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Stronger strategic capability across leadership</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Improved alignment around direction and priorities</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>More effective execution of strategy</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Increased resilience in the face of change</span>
-                  </li>
-                </ul>
+                <div className="space-y-3">
+                  <p className="text-muted-foreground text-sm">Stronger strategic capability across leadership</p>
+                  <p className="text-muted-foreground text-sm">Improved alignment around direction and priorities</p>
+                  <p className="text-muted-foreground text-sm">More effective execution of strategy</p>
+                  <p className="text-muted-foreground text-sm">Increased resilience in the face of change</p>
+                </div>
               </div>
             </div>
           </div>
@@ -275,18 +256,18 @@ const ThinkPlanAct = () => {
       </section>
 
       {/* The framework */}
-      <section className="section-padding bg-secondary">
+      <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
             The framework
           </h2>
           <div className="max-w-4xl mx-auto text-center space-y-4 mb-8">
             <p className="font-heading font-semibold text-lg text-foreground">
-              Think. Plan. Act. Strategically is designed to connect strategic thinking with practical action — helping leaders build the clarity, confidence, and capability to deliver results.
+              Think. Plan. Act. Strategically connects strategic thinking with practical action — through a structured approach leaders can apply immediately and build on over time.
             </p>
           </div>
 
-          <div className="max-w-3xl mx-auto bg-background rounded-2xl p-8 md:p-10">
+          <div className="max-w-3xl mx-auto bg-secondary rounded-2xl p-8 md:p-10">
             <div className="space-y-8">
               <div className="text-center">
                 <div className="flex justify-center mb-4">
@@ -335,23 +316,23 @@ const ThinkPlanAct = () => {
               </div>
             </div>
           </div>
-
-          <div className="max-w-4xl mx-auto mt-8 text-center">
-            <p className="text-muted-foreground leading-relaxed">
-              At its heart is a clear understanding of the organisation's reason for being — connecting day-to-day actions with long-term direction and meaning.
-            </p>
-          </div>
         </div>
       </section>
 
       {/* Who it's for */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
             Who it's for
           </h2>
           <div className="max-w-4xl mx-auto text-center space-y-4">
             <p className="font-heading font-semibold text-lg text-foreground">
+              For professionals and teams where strategic thinking, alignment, and execution matter.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Developed through Waterfield's global experience building strategic capability, the program focuses not on theory — but on developing leaders who think clearly, align effectively, and deliver strategy with confidence.
+            </p>
+            <p className="font-heading font-semibold text-lg text-foreground mt-6">
               Think. Plan. Act. Strategically is designed for:
             </p>
             <div className="flex flex-wrap justify-center gap-4 md:gap-6 my-6">
@@ -371,27 +352,21 @@ const ThinkPlanAct = () => {
                 className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
                 style={{ backgroundColor: '#F8983C' }}
               >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Leadership teams</p>
+                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Leadership<br />teams</p>
               </div>
               <div
                 className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
                 style={{ backgroundColor: '#F8983C' }}
               >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Organisations seeking stronger strategic capability</p>
+                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Organisations building strategic capability</p>
               </div>
             </div>
-            <p className="text-muted-foreground leading-relaxed">
-              It is relevant across sectors and roles where strategic thinking, alignment, and execution matter.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Developed through Waterfield's work with organisations globally, the program reflects decades of experience in building strategic capability. The focus is not theory or instruction, but developing leaders who can think clearly, align effectively, and design and deliver strategy with confidence over time.
-            </p>
           </div>
         </div>
       </section>
 
       {/* Start Here */}
-      <section className="section-padding bg-secondary">
+      <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
             Start here
@@ -403,42 +378,42 @@ const ThinkPlanAct = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-background rounded-2xl p-8 text-center">
+            <div className="bg-secondary rounded-2xl p-8 text-center">
               <div className="flex flex-col items-center mb-3">
                 <span className="font-heading text-6xl font-semibold" style={{ color: brandColor }}>1</span>
                 <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: brandColor }}></div>
               </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
-                Begin a conversation
+                Start the conversation
               </h3>
               <p className="text-muted-foreground text-sm">
-                Understand priorities and context.
+                Connect with us to share your priorities and context — we'll explore how the program can support your goals.
               </p>
             </div>
 
-            <div className="bg-background rounded-2xl p-8 text-center">
+            <div className="bg-secondary rounded-2xl p-8 text-center">
               <div className="flex flex-col items-center mb-3">
                 <span className="font-heading text-6xl font-semibold" style={{ color: brandColor }}>2</span>
                 <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: brandColor }}></div>
               </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
-                Set focus and learn
+                Learn the framework
               </h3>
               <p className="text-muted-foreground text-sm">
-                Through immersive use of the framework.
+                Build capability through immersive, hands-on application of strategic thinking tools.
               </p>
             </div>
 
-            <div className="bg-background rounded-2xl p-8 text-center">
+            <div className="bg-secondary rounded-2xl p-8 text-center">
               <div className="flex flex-col items-center mb-3">
                 <span className="font-heading text-6xl font-semibold" style={{ color: brandColor }}>3</span>
                 <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: brandColor }}></div>
               </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
-                Build strategic clarity
+                Gain clarity, build momentum
               </h3>
               <p className="text-muted-foreground text-sm">
-                Alignment and momentum.
+                Develop strategic clarity, align your team, and create momentum for action.
               </p>
             </div>
           </div>
@@ -464,7 +439,7 @@ const ThinkPlanAct = () => {
       </section>
 
       {/* FAQs */}
-      <section className="pt-12 pb-20 md:pt-16 md:pb-28 bg-background">
+      <section className="pt-12 pb-20 md:pt-16 md:pb-28 bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-12" style={{ color: brandColor }}>
             FAQs
@@ -472,7 +447,7 @@ const ThinkPlanAct = () => {
 
           <div className="max-w-4xl mx-auto space-y-4">
             {faqs.map((faq, index) => (
-              <div key={index} className="bg-secondary rounded-xl overflow-hidden">
+              <div key={index} className="bg-background rounded-xl overflow-hidden">
                 <button
                   onClick={() => toggleFaq(index)}
                   className="w-full flex items-center justify-between p-6 md:p-8 text-left hover:bg-secondary/80 transition-colors duration-200"
