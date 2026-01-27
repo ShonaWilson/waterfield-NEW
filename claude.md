@@ -6,6 +6,35 @@ January 18-27, 2026
 
 ## Changes Made
 
+### Program Page Updates (January 27, 2026)
+Various updates to program pages including layout changes, banner images, and text corrections.
+
+#### PersonalPlan.tsx - "Who it's for" Section Redesign
+- Changed from circular badges to 2x2 grid tiles
+- Old layout: Four circular badges with lime green background (#c1d82f)
+- New layout: Four rounded tiles with 15% tint of lime green (`rgba(193, 216, 47, 0.15)`)
+- Grid: `grid-cols-1 md:grid-cols-2 gap-6`
+- Max width: `max-w-3xl mx-auto` for centered narrower layout
+- Tile styling: `rounded-2xl p-8 text-center`
+- Text styling: `font-heading font-semibold text-lg text-foreground`
+- Four audiences: Leaders navigating complexity, Executives stepping into broader roles, Teams preparing for disruption, Organisations developing talent
+
+#### AIAdvantage.tsx - Banner Image Update
+- Updated hero banner image to `/989.jpg`
+- Previous images tried: `/536.jpg`, `/9733.jpg`
+
+#### RapidConsensus.tsx - Text and Image Updates
+- Changed all user-facing instances of "RapidConsensus" to "Rapid Consensus" (with space)
+- Updated document title: `"Waterfield | Rapid Consensus"`
+- Updated banner image to `/RC.jpg`
+- Updated all 5 FAQ answers
+- Updated all body copy and headings
+- Updated alt text on images
+- Note: React component name kept as `RapidConsensus` (camelCase convention)
+
+#### CollaborativeIntelligence.tsx - Banner Image Update
+- Updated hero banner image to `/service-2.jpg`
+
 ### Think. Plan. Act. Strategically Page Updates (January 27, 2026)
 Content, styling, and icon updates to the Think. Plan. Act. Strategically program page.
 
