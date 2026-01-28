@@ -274,7 +274,7 @@ const OpenInnovation = () => {
             <p className="font-heading font-semibold text-lg text-foreground mb-6">
               Organisations achieving results with Open Innovation:
             </p>
-            <div className="flex justify-center items-center gap-6 md:gap-10">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10 justify-items-center items-center">
               <img
                 src="/ssg_logo_web.webp"
                 alt="SSG"
