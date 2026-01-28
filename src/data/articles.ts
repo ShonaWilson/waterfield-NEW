@@ -10,6 +10,112 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "foresight-from-droplets-to-waterfalls",
+    title: "Foresight: From Droplets to Waterfalls",
+    excerpt: "Building awareness of weak signals today so you're not blindsided by major shifts tomorrow.",
+    date: "2026-01-28",
+    image: "/ChatGPT Image Jan 28, 2026 at 09_58_24 PM.png",
+    author: "Kevin Nuttall",
+    content: `"You can infer Niagara Falls from one drop of rain."
+— Sherlock Holmes
+
+Most organisations resist this kind of thinking. They acknowledge the past was different, yet plan as if the present will persist indefinitely.
+
+This is the trap. And foresight is the way out.
+
+Foresight isn't about fortune-telling. It's not even about being right about what's coming. It's about building awareness—noticing the droplets now so you're not blindsided by the waterfall later.
+
+**In this article:**
+→ The "end of history" illusion
+→ A simple tool: –10 / +10 trend analysis
+→ From foresight to action
+→ Scenario planning and no-regret moves
+→ Building foresight as a continuous capability
+
+## The "End of History" Illusion
+
+Most organisations operate under a comforting but dangerous assumption: that today's conditions will more or less persist into the future.
+
+Psychologists call this the "end of history" illusion. We recognise how much has changed in the past, yet we consistently underestimate how much will change going forward. We plan as if the present is permanent.
+
+It isn't.
+
+Consider one simple, unavoidable assumption: in 10 years, you'll be 10 years older.
+
+So will your partner. Your children. Your parents. Your colleagues. Your customers.
+
+That single deduction reshapes demand patterns, workforce expectations, health needs, spending behaviour, and leadership transitions. And yet, many organisations avoid this kind of reasoning altogether—defaulting instead to short-term plans built on static assumptions.
+
+## A Simple Tool: –10 / +10 Trend Analysis
+
+To help leadership teams break free from static thinking, we use a straightforward exercise called –10 / +10 trend analysis.
+
+The approach is simple:
+→ What was true 10 years ago?
+→ What is true now?
+→ What is almost certainly different 10 years from now?
+
+When you plot even a few external trends this way—demographic shifts, technology adoption, regulatory direction, workforce expectations—it becomes obvious: expecting the future to flatline at today's settings is a mistake.
+
+## How It Works in Practice
+
+We bring leadership teams together around a timeline map. First, the group reflects collectively on the past—charting what was true 10 years ago across the dimensions that matter most to their organisation.
+
+Then we map the present. What's shifted? What's emerging? What's accelerating?
+
+From there, the team begins to imagine the timeline forward—not as a prediction exercise, but as a collective act of reasoning. What patterns are likely to continue? What disruptions are already in motion? What assumptions are we making without realising it?
+
+The power isn't in any single insight. It's in the shared awareness that emerges—and the better questions that follow.
+
+## From Foresight to Action
+
+Once an organisation articulates an anticipated future, something powerful happens.
+
+You can look back from that future horizon and ask:
+
+- What really matters?
+- Which levers do we need to pull?
+- What capabilities must we build now to stay on purpose and future-ready?
+
+This is the essence of backcasting—starting with a plausible future state and working backward to identify the actions required today. It shifts the strategic conversation from reactive ("What should we do about this quarter's results?") to proactive ("What must we become to thrive in the world that's emerging?").
+
+## Going Deeper: Scenario Planning
+
+For organisations facing significant uncertainty, more advanced foresight approaches can add further value.
+
+Scenario planning doesn't attempt to predict a single future. Instead, it explores multiple plausible futures—each based on different assumptions about how key uncertainties might unfold.
+
+The goal isn't to pick the "right" scenario. It's to identify no-regret moves: actions that strengthen the organisation regardless of which future materialises. And to stress-test current strategies against a range of possibilities, rather than a single implicit bet.
+
+Scenario planning builds strategic resilience. It helps organisations prepare for surprise rather than being blindsided by it.
+
+## Foresight as a Continuous Capability
+
+Here's the critical shift: foresight isn't a one-off strategy exercise. It's a continuous capability.
+
+The organisations that thrive in complexity aren't those with the most accurate predictions. They're the ones that build foresight into their rhythm—regularly scanning the horizon, updating assumptions, and adapting their strategies accordingly.
+
+This means:
+
+- **Embedding foresight into planning cycles**—not just annual strategy offsites, but quarterly check-ins on emerging trends and signals.
+- **Building organisational awareness**—encouraging teams at all levels to notice and share weak signals before they hit the mainstream.
+- **Creating adaptive strategies**—designing plans with built-in flexibility, so the organisation can pivot as conditions evolve.
+
+## Thriving in Uncertainty
+
+The future is not a fixed destination. It's a landscape of possibilities, shaped by forces already in motion.
+
+Foresight gives organisations the ability to see those forces clearly, reason about their implications, and act with intention rather than reaction. It transforms uncertainty from a threat into a source of strategic advantage.
+
+At Waterfield, we help leadership teams build foresight into their strategic practice—moving from static plans to adaptive, future-ready strategies. Whether through –10 / +10 trend analysis, scenario planning, or embedding continuous foresight into your planning rhythm, the goal is the same: leaders who see clearly and act decisively.
+
+## See the Waterfall Before It Arrives
+
+What "drops of rain" are you noticing right now that hint at a much bigger waterfall ahead?
+
+The signals are there. The question is whether your organisation is equipped to read them—and ready to act.`,
+  },
+  {
     slug: "collaboration-ai-smarter-strategies-for-success",
     title: "Collaboration + AI: Smarter Strategies for Success",
     excerpt: "Exploring how AI-enhanced collaboration can drive better strategic outcomes for organisations.",
