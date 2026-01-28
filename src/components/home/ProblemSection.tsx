@@ -28,7 +28,7 @@ export function ProblemSection() {
               We enable your team to make sense of complexity and act together.
             </p>
             
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-4">
+            <div className="grid grid-cols-2 min-[540px]:grid-cols-4 gap-4">
               {challenges.map((challenge, index) => (
                 <div
                   key={index}
