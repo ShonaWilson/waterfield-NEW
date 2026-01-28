@@ -2,9 +2,38 @@
 
 ## Date
 December 1-12, 2025
-January 18-27, 2026
+January 18-28, 2026
 
 ## Changes Made
+
+### New Article: Foresight (January 28, 2026)
+Created new article "Foresight: From Droplets to Waterfalls" about building foresight as a strategic capability.
+
+#### Article Details
+- **Slug**: `foresight-from-droplets-to-waterfalls`
+- **Title**: "Foresight: From Droplets to Waterfalls"
+- **Excerpt**: "Building awareness of weak signals today so you're not blindsided by major shifts tomorrow."
+- **Author**: Kevin Nuttall
+- **Date**: 2026-01-28
+- **Image**: `/ChatGPT Image Jan 28, 2026 at 09_58_24 PM.png`
+- **Position**: First article in the articles array (top of articles list)
+
+#### Article Content Sections
+- Opening quote from Sherlock Holmes
+- Introduction about the trap of static thinking
+- Bullet point overview of topics covered
+- "The 'End of History' Illusion" - psychological tendency to underestimate future change
+- "A Simple Tool: –10 / +10 Trend Analysis" - numbered list exercise for leadership teams
+- "How It Works in Practice" - timeline mapping process
+- "From Foresight to Action" - backcasting approach
+- "Going Deeper: Scenario Planning" - no-regret moves concept
+- "Foresight as a Continuous Capability" - embedding foresight into planning cycles
+- "Thriving in Uncertainty" - transforming uncertainty into strategic advantage
+- "See the Waterfall Before It Arrives" - closing call to action
+
+#### Files Modified
+- `src/data/articles.ts` - Added new article at top of articles array
+- `public/ChatGPT Image Jan 28, 2026 at 09_58_24 PM.png` - Article hero image (added to git)
 
 ### Program Page Updates (January 27, 2026)
 Various updates to program pages including layout changes, banner images, and text corrections.
