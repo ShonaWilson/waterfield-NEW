@@ -123,7 +123,7 @@ The signals are there. The question is whether your organisation is equipped to 
     title: "Collaboration + AI: Smarter Strategies for Success",
     excerpt: "Exploring how AI-enhanced collaboration can drive better strategic outcomes for organisations.",
     date: "2024-12-09",
-    image: "/articles/1.jpeg.avif",
+    image: "/ChatGPT Image Jan 26, 2026 at 11_30_25 PM.png",
     author: "Kevin Nuttall",
     content: `What do fruit flies and successful organisations have in common? Both thrive on collaboration. From tiny insects to complex human brains, a universal principle emerges: shared effort and coordination unlock extraordinary results.
 
