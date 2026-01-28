@@ -57,6 +57,7 @@ The approach is simple:
 2. What is true now?
 3. What is almost certainly different 10 years from now?
 
+
 When you plot even a few external trends this way—demographic shifts, technology adoption, regulatory direction, workforce expectations—it becomes obvious: expecting the future to flatline at today's settings is a mistake.
 
 ## How It Works in Practice
