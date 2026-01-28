@@ -25,12 +25,13 @@ This is the trap. And foresight is the way out.
 
 Foresight isn't about fortune-telling. It's not even about being right about what's coming. It's about building awareness—noticing the droplets now so you're not blindsided by the waterfall later.
 
-**In this article:**
-→ The "end of history" illusion
-→ A simple tool: –10 / +10 trend analysis
-→ From foresight to action
-→ Scenario planning and no-regret moves
-→ Building foresight as a continuous capability
+In this article, we unpack the mindset shift required—and the practical tools that make foresight actionable:
+
+- The "end of history" illusion
+- A simple tool: –10 / +10 trend analysis
+- From foresight to action
+- Scenario planning and no-regret moves
+- Building foresight as a continuous capability
 
 ## The "End of History" Illusion
 
@@ -51,9 +52,10 @@ That single deduction reshapes demand patterns, workforce expectations, health n
 To help leadership teams break free from static thinking, we use a straightforward exercise called –10 / +10 trend analysis.
 
 The approach is simple:
-→ What was true 10 years ago?
-→ What is true now?
-→ What is almost certainly different 10 years from now?
+
+1. What was true 10 years ago?
+2. What is true now?
+3. What is almost certainly different 10 years from now?
 
 When you plot even a few external trends this way—demographic shifts, technology adoption, regulatory direction, workforce expectations—it becomes obvious: expecting the future to flatline at today's settings is a mistake.
 
