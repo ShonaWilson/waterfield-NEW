@@ -134,6 +134,7 @@ const PersonalPlan = () => {
                 src="/ChatGPT Image Jan 28, 2026 at 03_47_11 PM.png"
                 alt="Personal Plan"
                 className="w-full h-auto rounded-full aspect-square object-cover"
+                style={{ objectPosition: 'center 65%' }}
               />
             </div>
             <div className="w-full md:w-[68%] space-y-3">
@@ -362,6 +363,13 @@ const PersonalPlan = () => {
             <p className="text-muted-foreground leading-relaxed text-center">
               This keeps the plan active and relevant — not something written once and set aside.
             </p>
+          </div>
+          <div className="pt-6">
+            <img
+              src="/PP2.jpg"
+              alt="Personal Plan framework"
+              className="mx-auto max-w-2xl w-full rounded-lg"
+            />
           </div>
         </div>
       </section>

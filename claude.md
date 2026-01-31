@@ -6,6 +6,28 @@ January 18-31, 2026
 
 ## Changes Made
 
+### Personal Plan Page Updates (January 31, 2026)
+Updates to the Personal Plan page including login link, circular image, and framework graphic.
+
+#### Hero Section
+- Added "Already using Personal Plan? Log in" link below the tagline
+- Matches Strategy Connect hero login link format
+- Link text in Personal Plan brand color (#c1d82f)
+- Login URL: `https://application.personalplan.com.au/login` (opens in new tab)
+- Added `ArrowRight` icon with hover animation (`group-hover:translate-x-1`)
+- Added `mb-8` spacing to tagline paragraph
+
+#### "Why Personal Plan" Section
+- Added circular image layout (32%/68% flex split) matching Strategy Champion/Think Plan Act pattern
+- Image: `/ChatGPT Image Jan 28, 2026 at 03_47_11 PM.png`
+- Object position set to `center 65%` to show more heads and less desk
+- Text content wrapped in new layout structure (unchanged text)
+
+#### "The structure" Section
+- Added PP framework graphic below closing paragraph
+- Image: `/PP2.jpg` (updated from PP.jpg)
+- Centered with `mx-auto max-w-2xl w-full rounded-lg` and `pt-6` spacing
+
 ### Strategy Champion Page Updates (January 30-31, 2026)
 Extensive updates to the Strategy Champion page content, images, layout, and styling.
 
