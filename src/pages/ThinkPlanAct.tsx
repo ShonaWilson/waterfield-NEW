@@ -53,7 +53,7 @@ const ThinkPlanAct = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/ChatGPT Image Jan 17, 2026 at 10_09_28 AM.png"
+            src="/ChatGPT Image Jan 31, 2026 at 02_13_33 PM.png"
             alt="Think. Plan. Act. Strategically"
             className="absolute inset-0 w-full h-full object-cover"
             style={{
@@ -103,6 +103,13 @@ const ThinkPlanAct = () => {
             <p className="text-muted-foreground leading-relaxed">
               Think. Plan. Act. Strategically builds this capability through a practical framework that prepares leaders to navigate complexity, design clear strategic direction, and act with intent.
             </p>
+            <div className="pt-6">
+              <img
+                src="/TPA_graphic2.jpg"
+                alt="Think Plan Act Strategically framework"
+                className="mx-auto max-w-2xl w-full rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -113,19 +120,28 @@ const ThinkPlanAct = () => {
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
             Why this program
           </h2>
-          <div className="max-w-4xl mx-auto text-center space-y-4">
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Many professionals are highly skilled within their disciplines — finance, operations, or business development — yet face increasing expectations to think beyond functional boundaries.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              As complexity grows, organisations need leaders with strong future literacy: the ability to interpret emerging trends, anticipate change, and guide purposeful action in uncertain environments.
-            </p>
-            <p className="font-heading text-xl font-semibold" style={{ color: brandColor }}>
-              Build future literacy. See what's emerging. Act before others do.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              This program builds future literacy — not just understanding trends, but knowing how to interpret them and act with confidence in uncertainty. It connects foresight, strategic design, and execution, turning insight into meaningful action.
-            </p>
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
+            <div className="w-64 md:w-[32%] flex-shrink-0">
+              <img
+                src="/ChatGPT Image Jan 17, 2026 at 09_50_38 AM.png"
+                alt="Think Plan Act Strategically"
+                className="w-full h-auto rounded-full aspect-square object-cover"
+              />
+            </div>
+            <div className="w-full md:w-[68%] space-y-3">
+              <p className="font-heading font-semibold text-lg text-foreground">
+                Many professionals are highly skilled within their disciplines — finance, operations, or business development — yet face increasing expectations to think beyond functional boundaries.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                As complexity grows, organisations need leaders with strong future literacy: the ability to interpret emerging trends, anticipate change, and guide purposeful action in uncertain environments.
+              </p>
+              <p className="font-heading text-xl font-semibold" style={{ color: brandColor }}>
+                Build future literacy. See what's emerging. Act before others do.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                This program builds future literacy — not just understanding trends, but knowing how to interpret them and act with confidence in uncertainty. It connects foresight, strategic design, and execution, turning insight into meaningful action.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -316,6 +332,9 @@ const ThinkPlanAct = () => {
               </div>
             </div>
           </div>
+          <p className="text-muted-foreground leading-relaxed text-center max-w-4xl mx-auto mt-6">
+            This program goes deeper than skills — it anchors strategy in purpose. When that's clear, daily decisions connect to long-term direction, and strategy becomes something people live.
+          </p>
         </div>
       </section>
 

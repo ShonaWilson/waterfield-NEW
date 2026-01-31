@@ -2,9 +2,65 @@
 
 ## Date
 December 1-12, 2025
-January 18-28, 2026
+January 18-31, 2026
 
 ## Changes Made
+
+### Strategy Champion Page Updates (January 30-31, 2026)
+Extensive updates to the Strategy Champion page content, images, layout, and styling.
+
+#### Hero Section
+- Updated hero banner image to `/present.jpg`
+- Object position set to `50% 28%`
+
+#### "From strategy to execution" Section
+- Merged two paragraphs into one
+- Changed closing statement to body copy style (`text-muted-foreground leading-relaxed`)
+- Updated text: "Strategy Champion provides the leadership, structure, and rhythm needed to turn strategy into coordinated execution and sustain progress across the organisation."
+
+#### "Why this program" Section
+- Added circular image layout (32%/68% flex split) matching StrategyConnect "Align & activate" pattern
+- Image: `/ChatGPT Image Jan 30, 2026 at 01_43_22 PM.png` with `objectPosition: '60% center'`
+- First paragraph styled as bold heading (`font-heading font-semibold text-lg text-foreground`)
+- Three supporting paragraphs styled as body copy (`text-muted-foreground leading-relaxed`)
+
+#### "Collaborative strategy execution" Section
+- Converted 3 circles to 3 orange-tint boxes (`rounded-2xl` with `rgba(248, 152, 60, 0.15)` background)
+- Box content: "Hold strategic direction clearly", "Lead execution collaboratively", "Translate intent into coordinated action"
+- Updated "It strengthens the ability to:" heading to match orange brand color heading style (`font-heading text-xl font-semibold` with brand color)
+- Added spacing (`pt-4`) before closing sentence
+
+#### "The impact" Section
+- Reformatted two boxes to match Open Innovation "What to expect" style
+- Removed bullet point lists with colored dots
+- Changed to centered text layout (`text-center`)
+- Items now use simple `<p>` tags inside `space-y-3` container
+- Box headings: "For your organisation" and "For Strategy Champions" in orange brand color
+
+#### "Who it's for" Section
+- Updated 4th circle text from "Organisations seeking to embed collaborative strategy execution capability" to "Internal execution capability"
+- Changed layout to `grid grid-cols-2 md:flex md:flex-wrap md:justify-center` for 2x2 mobile stacking while maintaining flex wrap on desktop
+- Circle styling matches Personal Plan "Role of the coach" pattern: `flex flex-wrap justify-center gap-4 md:gap-6` with `aspect-square` and `w-[115px] md:w-[143px]`
+
+### Think. Plan. Act. Strategically Page Updates (January 30-31, 2026)
+Multiple updates to the Think Plan Act Strategically page.
+
+#### Hero Section
+- Updated hero banner image to `/ChatGPT Image Jan 31, 2026 at 02_13_33 PM.png`
+
+#### "Why this program" Section
+- Added circular image layout (32%/68% flex split) matching Strategy Champion pattern
+- Image: `/ChatGPT Image Jan 17, 2026 at 09_50_38 AM.png`
+- Text content remains unchanged, wrapped in new layout structure
+
+#### "Build future-ready leaders" Section
+- Added TPA graphic below the copy: `/TPA_graphic2.jpg`
+- Image centered with `mx-auto max-w-2xl w-full rounded-lg` and `pt-6` spacing
+
+#### "The framework" Section
+- Added closing paragraph below the 3-step box:
+  "This program goes deeper than skills — it anchors strategy in purpose. When that's clear, daily decisions connect to long-term direction, and strategy becomes something people live."
+- Styled as body copy (`text-muted-foreground leading-relaxed text-center`) with `mt-6` spacing
 
 ### New Article: Foresight (January 28, 2026)
 Created new article "Foresight: From Droplets to Waterfalls" about building foresight as a strategic capability.

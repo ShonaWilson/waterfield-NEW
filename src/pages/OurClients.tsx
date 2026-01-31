@@ -7,15 +7,15 @@ import { Button } from "@/components/ui/button";
 
 const clientLogos = [
   { name: "Goldman Sachs Asset Management", logo: "/clients/gsam_sm_00_p_1024x768.jpg.avif" },
-  { name: "JLL", logo: "/clients/1000px-JLL_logo_svg.png.avif" },
+  { name: "MASA", logo: "/MASALogoDigital.png" },
   { name: "Coca-Cola Amatil", logo: "/clients/Coca-Cola-Amatil-logo.png.avif" },
   { name: "Victorian State Government", logo: "/clients/Vic-State-Govt_Logo.png.avif" },
   { name: "VCCC", logo: "/clients/Unknown.png.avif" },
   { name: "Lend Lease", logo: "/clients/MT23859_gif.png.avif" },
-  { name: "UNESCO", logo: "/clients/1101px-UNESCO_logo_English_svg.png.avif" },
+  { name: "UNESCO", logo: "/clients/1101px-UNESCO_logo_English_svg.png.avif", size: "max-h-[75px]" },
   { name: "Destination NSW", logo: "/clients/DI-colour.jpg.avif" },
   { name: "UNSW Sydney", logo: "/clients/UNSW-Sydney.png.avif" },
-  { name: "CSIRO", logo: "/clients/CSIRO_Grad_RGB_hr.jpg.avif" },
+  { name: "CSIRO", logo: "/clients/CSIRO_Grad_RGB_hr.jpg.avif", size: "max-h-[66px]" },
   { name: "Mirvac", logo: "/clients/Unknown-1.png.avif" },
   { name: "Cushman & Wakefield", logo: "/clients/1280px-Cushman_&_Wakefield_logo_svg.png.avif" },
   { name: "GPT Group", logo: "/clients/gpt_group_pos_black1.jpg.avif" },
@@ -28,7 +28,7 @@ const clientLogos = [
   { name: "Boral", logo: "/clients/5-rwbH-O_400x400.jpg.avif" },
   { name: "National Gallery of Australia", logo: "/clients/NGA-logo.jpg.avif" },
   { name: "Arts NSW", logo: "/clients/file.jpg.avif" },
-  { name: "Sydney Olympic Park Authority", logo: "/clients/Sydney-Olympic-Park-Authority.jpg.avif" },
+  { name: "Sydney Olympic Park Authority", logo: "/clients/Sydney-Olympic-Park-Authority.jpg.avif", size: "max-h-[66px]" },
   { name: "MCA", logo: "/clients/mca-logo.jpg.avif" },
 ];
 
@@ -182,7 +182,7 @@ const OurClients = () => {
             Who we work with
           </h2>
           <p className="text-center font-heading font-semibold text-lg text-foreground max-w-3xl mx-auto mb-12">
-            Here is a snapshot of clients we have helped design futures with
+            A snapshot of organisations we've helped move from complexity to clarity.
           </p>
           <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {clientLogos.map((client, index) => (
@@ -193,7 +193,7 @@ const OurClients = () => {
                 <img
                   src={client.logo}
                   alt={client.name}
-                  className="w-full h-auto object-contain max-h-[60px]"
+                  className={`w-full h-auto object-contain ${client.size || 'max-h-[60px]'}`}
                 />
               </div>
             ))}

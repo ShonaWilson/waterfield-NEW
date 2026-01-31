@@ -53,7 +53,7 @@ const StrategyChampion = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/service-1.jpg"
+            src="/present.jpg"
             alt="Strategy Champion"
             className="absolute inset-0 w-full h-full object-cover"
             style={{
@@ -98,13 +98,10 @@ const StrategyChampion = () => {
               Strategy only delivers value when it is implemented.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Once direction is set, organisations need clear ownership, shared understanding, and a disciplined way to move into action.
+              Once direction is set, organisations need clear ownership, shared understanding, and a disciplined way to move into action. The transition from strategy to execution is where momentum is often lost. Direction is agreed, but focus can slip as teams move into delivery.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              The transition from strategy to execution is where momentum is often lost. Direction is agreed, but focus can slip as teams move into delivery.
-            </p>
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Strategy Champion strengthens this phase — providing the leadership, structure, and rhythm needed to turn strategy into coordinated execution and sustain progress across the organisation.
+              Strategy Champion provides the leadership, structure, and rhythm needed to turn strategy into coordinated execution and sustain progress across the organisation.
             </p>
           </div>
         </div>
@@ -116,19 +113,29 @@ const StrategyChampion = () => {
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
             Why this program
           </h2>
-          <div className="max-w-4xl mx-auto text-center space-y-4">
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Teams want to understand how their work connects to strategy and feel supported to act with purpose — not just deliver tasks.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              In many organisations, strategy execution sits with a small number of leaders or is supported by external advisors. When those roles shift or step back, maintaining clarity and momentum can become difficult.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Organisations benefit from building internal, collaborative leadership capability — people who can lead the strategy process, facilitate alignment, and guide execution in real operating conditions.
-            </p>
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Strategy Champion builds this capability by strengthening internal ownership of strategy execution. Through guided practice and coaching, participants develop the confidence and competence to run the process themselves — leading collaboratively and keeping strategy active across the organisation.
-            </p>
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
+            <div className="w-64 md:w-[32%] flex-shrink-0">
+              <img
+                src="/ChatGPT Image Jan 30, 2026 at 01_43_22 PM.png"
+                alt="Strategy Champion"
+                className="w-full h-auto rounded-full aspect-square object-cover"
+                style={{ objectPosition: '60% center' }}
+              />
+            </div>
+            <div className="w-full md:w-[68%] space-y-3">
+              <p className="font-heading font-semibold text-lg text-foreground">
+                Teams want to understand how their work connects to strategy and feel supported to act with purpose — not just deliver tasks.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                When strategy execution depends on a few leaders or external advisors, transitions can stall momentum and blur direction.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Building internal leadership capability — people who can facilitate alignment and guide execution — reduces that risk.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Strategy Champion strengthens internal ownership of strategy execution. Through guided practice and coaching, participants build the confidence to lead the process themselves — keeping strategy active across the organisation.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -149,30 +156,27 @@ const StrategyChampion = () => {
             <p className="text-muted-foreground leading-relaxed">
               The program equips internal leaders to lead the strategy process, facilitate stand-ups, and oversee 90-day reviews for sustained execution.
             </p>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="font-heading text-xl font-semibold" style={{ color: brandColor }}>
               It strengthens the ability to:
             </p>
-            <div className="flex flex-wrap justify-center gap-4 md:gap-6 my-6">
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#F8983C' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Hold strategic direction clearly</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6 max-w-4xl mx-auto">
+              <div className="rounded-2xl p-6 md:p-8 text-center" style={{ backgroundColor: 'rgba(248, 152, 60, 0.15)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Hold strategic direction clearly
+                </h3>
               </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#F8983C' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Lead execution conversations collaboratively</p>
+              <div className="rounded-2xl p-6 md:p-8 text-center" style={{ backgroundColor: 'rgba(248, 152, 60, 0.15)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Lead execution collaboratively
+                </h3>
               </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#F8983C' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Translate intent into coordinated action</p>
+              <div className="rounded-2xl p-6 md:p-8 text-center" style={{ backgroundColor: 'rgba(248, 152, 60, 0.15)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                  Translate intent into coordinated action
+                </h3>
               </div>
             </div>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed pt-4">
               The emphasis is on shared ownership — ensuring strategy is actively led with teams, not carried by a few individuals.
             </p>
           </div>
@@ -258,60 +262,30 @@ const StrategyChampion = () => {
 
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-secondary rounded-2xl p-8">
-                <p className="font-heading text-xl font-semibold mb-4 text-center" style={{ color: brandColor }}>
+              <div className="bg-secondary rounded-2xl p-8 text-center">
+                <p className="font-heading text-xl font-semibold mb-4" style={{ color: brandColor }}>
                   For your organisation
                 </p>
-                <ul className="space-y-3">
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>A consistent, organisation-wide execution rhythm</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Clear visibility of progress, priorities, and shared confidence</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Stronger alignment between leaders and teams</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>A disciplined, collaborative approach that keeps strategy active</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Greater ownership of strategy execution across the organisation</span>
-                  </li>
-                </ul>
+                <div className="space-y-3">
+                  <p className="text-muted-foreground text-sm">A consistent, organisation-wide execution rhythm</p>
+                  <p className="text-muted-foreground text-sm">Clear visibility of progress, priorities, and shared confidence</p>
+                  <p className="text-muted-foreground text-sm">Stronger alignment between leaders and teams</p>
+                  <p className="text-muted-foreground text-sm">A disciplined, collaborative approach that keeps strategy active</p>
+                  <p className="text-muted-foreground text-sm">Greater ownership of strategy execution across the organisation</p>
+                </div>
               </div>
 
-              <div className="bg-secondary rounded-2xl p-8">
-                <p className="font-heading text-xl font-semibold mb-4 text-center" style={{ color: brandColor }}>
+              <div className="bg-secondary rounded-2xl p-8 text-center">
+                <p className="font-heading text-xl font-semibold mb-4" style={{ color: brandColor }}>
                   For Strategy Champions
                 </p>
-                <ul className="space-y-3">
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Confidence leading kick-offs, stand-ups, and 90-day rollovers</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Skill facilitating collaborative execution conversations</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Deep understanding of StrategyConnect Live</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Ability to support others in shaping clear tasks, targets, and milestones</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>A practical leadership style that builds clarity and commitment</span>
-                  </li>
-                </ul>
+                <div className="space-y-3">
+                  <p className="text-muted-foreground text-sm">Confidence leading kick-offs, stand-ups, and 90-day rollovers</p>
+                  <p className="text-muted-foreground text-sm">Skill facilitating collaborative execution conversations</p>
+                  <p className="text-muted-foreground text-sm">Deep understanding of StrategyConnect Live</p>
+                  <p className="text-muted-foreground text-sm">Ability to support others in shaping clear tasks, targets, and milestones</p>
+                  <p className="text-muted-foreground text-sm">A practical leadership style that builds clarity and commitment</p>
+                </div>
               </div>
             </div>
           </div>
@@ -392,7 +366,7 @@ const StrategyChampion = () => {
             <p className="font-heading font-semibold text-lg text-foreground">
               Strategy Champion is designed for:
             </p>
-            <div className="flex flex-wrap justify-center gap-4 md:gap-6 my-6">
+            <div className="grid grid-cols-2 md:flex md:flex-wrap md:justify-center gap-4 md:gap-6 my-6 justify-items-center">
               <div
                 className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
                 style={{ backgroundColor: '#F8983C' }}
@@ -415,7 +389,7 @@ const StrategyChampion = () => {
                 className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
                 style={{ backgroundColor: '#F8983C' }}
               >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Organisations seeking to embed collaborative strategy execution capability</p>
+                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Internal execution capability</p>
               </div>
             </div>
             <p className="text-muted-foreground leading-relaxed">
