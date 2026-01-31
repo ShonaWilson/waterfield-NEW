@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Target, Users, Compass, Scale, Sparkles, Plus, Minus } from "lucide-react";
+import { Target, Users, Compass, Scale, Sparkles, Plus, Minus, ArrowRight } from "lucide-react";
 import { useParallax } from "@/hooks/useParallax";
 
 const PersonalPlan = () => {
@@ -78,9 +78,24 @@ const PersonalPlan = () => {
               className="h-10 md:h-12 lg:h-14 w-auto object-contain"
             />
           </div>
-          <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto">
+          <p className="font-heading text-xl md:text-2xl text-primary-foreground/90 max-w-2xl mx-auto mb-8">
             Strategically design direction for clear action in life and work.
           </p>
+          <div className="flex justify-center items-center gap-2">
+            <span className="font-heading font-medium text-sm md:text-base text-primary-foreground">
+              Already using Personal Plan?
+            </span>
+            <a
+              href="https://application.personalplan.com.au/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-1 font-heading font-medium text-sm md:text-base transition-all duration-300"
+              style={{ color: '#c1d82f' }}
+            >
+              Log in
+              <ArrowRight className="w-4 h-4 transition-all duration-300 group-hover:translate-x-1" />
+            </a>
+          </div>
         </div>
       </section>
 
@@ -113,16 +128,25 @@ const PersonalPlan = () => {
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
             Why Personal Plan
           </h2>
-          <div className="max-w-4xl mx-auto text-center space-y-4">
-            <p className="font-heading font-semibold text-lg text-foreground">
-              In complex roles and fast-moving environments, people are often required to make decisions continuously, with limited space to step back and consider direction.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Personal Plan exists to create that space.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              It provides a clear, structured way for individuals to pause, clarify what matters most, and translate direction into deliberate action — across both work and life.
-            </p>
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
+            <div className="w-64 md:w-[32%] flex-shrink-0">
+              <img
+                src="/ChatGPT Image Jan 28, 2026 at 03_47_11 PM.png"
+                alt="Personal Plan"
+                className="w-full h-auto rounded-full aspect-square object-cover"
+              />
+            </div>
+            <div className="w-full md:w-[68%] space-y-3">
+              <p className="font-heading font-semibold text-lg text-foreground">
+                In complex roles and fast-moving environments, people are often required to make decisions continuously, with limited space to step back and consider direction.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Personal Plan exists to create that space.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                It provides a clear, structured way for individuals to pause, clarify what matters most, and translate direction into deliberate action — across both work and life.
+              </p>
+            </div>
           </div>
         </div>
       </section>
