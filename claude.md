@@ -15,14 +15,46 @@ Styling, content, and layout updates to the Rapid Consensus page.
 - Changed hover color from `#A80D25` to `#a5182f`
 - Applied throughout all red-colored elements on the page
 
+#### "Align & move forward together" Section
+- Renamed from "Align and move forward together" to "Align & move forward together"
+
 #### "Why this program" Section
 - Renamed heading from "Why Rapid Consensus matters" to "Why this program"
 - Removed 3 circular badges, replaced with body copy layout
 - Added circular image layout (32%/68% flex split) matching Think Plan Act pattern
 - Image: `/workshop.png` (swapped from Custom Facilitation page)
-- Subhead: "When alignment breaks down, clarity disappears—and so does momentum."
-- Body copy about team alignment, clarity on outcomes, and shared ownership
+- Updated subtitle to: "An organisation's success depends on how well its teams work together day to day."
+- Body copy starts with "Without it, you see unclear actions..." (removed repeated opening sentence)
 - Closing statement: "Rapid Consensus creates actionable agreement — promoting alignment, motivation, and productivity across your organisation."
+
+#### "The capability it builds" Section (was "What Rapid Consensus is")
+- Renamed heading from "What Rapid Consensus is" to "The capability it builds"
+- Updated subhead: "Rapid Consensus teaches a simple, powerful framework for collaborative decision-making."
+- Updated body copy: "Refined over decades, this interactive program builds lasting capability—helping organisations align people, clarify decisions, and move forward together."
+- Added "It develops:" label in brand red color (`#be1d3d`) with subhead formatting
+- Replaced 3 red circles with 3 rounded box tiles matching Open Innovation "Breakthrough thinking" style
+- Boxes use 15% tint of brand red: `rgba(190, 29, 61, 0.15)`
+- Box styling: `rounded-2xl p-8 text-center` with `font-heading font-semibold text-lg text-foreground`
+- Box content:
+  1. "Clarity through shared understanding"
+  2. "Alignment on the best way forward"
+  3. "Commitment to agreed actions and ownership"
+- Grid layout: 1 column mobile, 3 columns desktop (`grid-cols-1 md:grid-cols-3`)
+
+#### "What you'll gain" Section
+- Updated subhead to: "The key benefits across your organisation include better decisions, stronger buy-in, and faster progress."
+- Changed "Equal contribution" icon from `Lightbulb` to `Scale`
+
+#### "How it works" Section (was "How the program works")
+- Renamed heading from "How the program works" to "How it works"
+- Replaced 2-column tile layout with expandable dropdown accordion
+- Each part has outer `bg-secondary` box with static title + subtitle, inner sub-box with `rgba(255, 255, 255, 0.85)` background for clickable dropdown trigger
+- Part 1: "Shared agreement and action as a team" with "What teams will achieve:" dropdown
+- Part 2: "Capability through practice" with "What participants will learn:" dropdown
+- Dropdown uses `ChevronUp`/`ChevronDown` icons and `expandedItems` state
+
+#### "The framework" Section
+- Renamed heading from "The Rapid Consensus framework" to "The framework"
 
 ### Custom Facilitation Page Updates (February 1, 2026)
 Image update in the "Shape agreed direction" section.

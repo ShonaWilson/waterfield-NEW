@@ -2,12 +2,13 @@ import { useEffect, useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Target, Users, Lightbulb, Zap, CheckCircle, Compass, Plus, Minus } from "lucide-react";
+import { Target, Users, Lightbulb, Zap, CheckCircle, Compass, Plus, Minus, ChevronDown, ChevronUp, Scale } from "lucide-react";
 import { useParallax } from "@/hooks/useParallax";
 
 const RapidConsensus = () => {
   const { ref, offset } = useParallax(0.5);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [expandedItems, setExpandedItems] = useState<{ [key: string]: boolean }>({});
 
   useEffect(() => {
     document.title = "Waterfield | Rapid Consensus";
@@ -18,6 +19,10 @@ const RapidConsensus = () => {
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index);
+  };
+
+  const toggleExpand = (key: string) => {
+    setExpandedItems(prev => ({ ...prev, [key]: !prev[key] }));
   };
 
   const faqs = [
@@ -89,7 +94,7 @@ const RapidConsensus = () => {
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8">
             <h2 className="font-heading text-2xl md:text-3xl font-semibold mb-4" style={{ color: brandColor }}>
-              Align and move forward together
+              Align & move forward together
             </h2>
           </div>
 
@@ -123,10 +128,10 @@ const RapidConsensus = () => {
             </div>
             <div className="w-full md:w-[68%] space-y-3">
               <p className="font-heading font-semibold text-lg text-foreground">
-                When alignment breaks down, clarity disappears—and so does momentum.
+                An organisation's success depends on how well its teams work together day to day.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                An organisation's success depends on how well its teams work together day to day. Without it, you see unclear actions, divergent agendas, mounting frustration, and lost productivity. What teams actually need is clarity on outcomes, shared ownership, and a way to move forward without constantly resetting the conversation.
+                Without it, you see unclear actions, divergent agendas, mounting frustration, and lost productivity. What teams actually need is clarity on outcomes, shared ownership, and a way to move forward without constantly resetting the conversation.
               </p>
               <p className="font-heading font-semibold text-lg text-foreground">
                 Rapid Consensus creates actionable agreement — promoting alignment, motivation, and productivity across your organisation.
@@ -141,40 +146,31 @@ const RapidConsensus = () => {
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8">
             <h2 className="font-heading text-2xl md:text-3xl font-semibold mb-4" style={{ color: brandColor }}>
-              What Rapid Consensus is
+              The capability it builds
             </h2>
           </div>
 
           <div className="max-w-4xl mx-auto text-center space-y-4 mb-12">
             <p className="font-heading font-semibold text-lg text-foreground">
-              Rapid Consensus is a structured program that teaches a simple, powerful process for collaborative decision-making.
+              Rapid Consensus teaches a simple, powerful framework for collaborative decision-making.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              It helps teams to:
+              Refined over decades, this interactive program builds lasting capability—helping organisations align people, clarify decisions, and move forward together.
             </p>
-            <div className="flex flex-wrap justify-center gap-4 md:gap-6 my-6">
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#C8102E' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Build shared understanding</p>
+            <p className="font-heading font-semibold text-lg" style={{ color: brandColor }}>
+              It develops:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
+              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(190, 29, 61, 0.15)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground">Clarity through shared understanding</h3>
               </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#C8102E' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Reach consensus on the best way forward</p>
+              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(190, 29, 61, 0.15)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground">Alignment on the best way forward</h3>
               </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#C8102E' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Commit to clear actions and ownership</p>
+              <div className="rounded-2xl p-8 text-center" style={{ backgroundColor: 'rgba(190, 29, 61, 0.15)' }}>
+                <h3 className="font-heading font-semibold text-lg text-foreground">Commitment to agreed actions and ownership</h3>
               </div>
             </div>
-            <p className="text-muted-foreground leading-relaxed">
-              Originally designed by Waterfield in 1997, Rapid Consensus has been used for decades to help organisations align people, clarify decisions, and move forward together.
-            </p>
           </div>
         </div>
       </section>
@@ -187,7 +183,7 @@ const RapidConsensus = () => {
           </h2>
           <div className="max-w-3xl mx-auto text-center mb-12">
             <p className="font-heading font-semibold text-lg text-foreground">
-              Key benefits
+              The key benefits across your organisation include better decisions, stronger buy-in, and faster progress.
             </p>
           </div>
 
@@ -238,7 +234,7 @@ const RapidConsensus = () => {
             </div>
             <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
               <div className="flex justify-center mb-4">
-                <Lightbulb className="w-8 h-8" style={{ color: brandColor }} />
+                <Scale className="w-8 h-8" style={{ color: brandColor }} />
               </div>
               <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
                 Equal contribution
@@ -266,7 +262,7 @@ const RapidConsensus = () => {
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
-            How the program works
+            How it works
           </h2>
           <div className="max-w-4xl mx-auto text-center space-y-4 mb-12">
             <p className="font-heading font-semibold text-lg text-foreground">
@@ -277,64 +273,86 @@ const RapidConsensus = () => {
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="bg-secondary rounded-2xl p-8">
-                <h3 className="font-heading text-xl font-semibold mb-4" style={{ color: brandColor }}>
-                  Part 1: Rapid Consensus in action
-                </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                  Participants work through a real and pressing issue for your organisation, achieving shared understanding, agreement, and clear direction.
-                </p>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-2">
-                  Teams will:
-                </p>
-                <ul className="space-y-2">
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Achieve clarity and alignment on key decisions</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Gain practical experience contributing productively to important discussions</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Walk away with the ability to reach rapid consensus together</span>
-                  </li>
-                </ul>
-                <p className="font-heading font-semibold text-sm text-foreground mt-4">
-                  Shared agreement and action as a team.
-                </p>
+          <div className="max-w-3xl mx-auto space-y-6">
+            {/* Part 1 */}
+            <div className="bg-secondary rounded-xl overflow-hidden">
+              <div className="px-6 py-4">
+                <span className="font-heading font-semibold block" style={{ color: brandColor }}>Part 1: Shared agreement and action as a team</span>
+                <span className="font-heading font-medium text-foreground text-sm mt-1 block">
+                  Participants work through a real issue for your organisation, achieving shared understanding, agreement, and clear direction.
+                </span>
               </div>
+              <div className="mx-4 mb-4 rounded-lg overflow-hidden" style={{ backgroundColor: 'rgba(255, 255, 255, 0.85)' }}>
+                <button
+                  onClick={() => toggleExpand('part-1')}
+                  className="w-full px-4 py-3 flex items-center justify-between text-left hover:bg-black/5 transition-colors"
+                >
+                  <span className="font-heading font-semibold text-foreground text-sm">What teams will achieve:</span>
+                  {expandedItems['part-1'] ? (
+                    <ChevronUp className="w-5 h-5 text-muted-foreground flex-shrink-0" />
+                  ) : (
+                    <ChevronDown className="w-5 h-5 text-muted-foreground flex-shrink-0" />
+                  )}
+                </button>
+                {expandedItems['part-1'] && (
+                  <div className="px-4 pb-4">
+                    <ul className="space-y-2">
+                      <li className="text-muted-foreground text-sm leading-relaxed flex items-start">
+                        <span style={{ color: brandColor }} className="mr-2">•</span>
+                        <span>Gain clarity and alignment on key decisions.</span>
+                      </li>
+                      <li className="text-muted-foreground text-sm leading-relaxed flex items-start">
+                        <span style={{ color: brandColor }} className="mr-2">•</span>
+                        <span>Experience contributing productively to important discussions.</span>
+                      </li>
+                      <li className="text-muted-foreground text-sm leading-relaxed flex items-start">
+                        <span style={{ color: brandColor }} className="mr-2">•</span>
+                        <span>Walk away with the ability to reach rapid consensus together.</span>
+                      </li>
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </div>
 
-              <div className="bg-secondary rounded-2xl p-8">
-                <h3 className="font-heading text-xl font-semibold mb-4" style={{ color: brandColor }}>
-                  Part 2: Build facilitation capability
-                </h3>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-4">
+            {/* Part 2 */}
+            <div className="bg-secondary rounded-xl overflow-hidden">
+              <div className="px-6 py-4">
+                <span className="font-heading font-semibold block" style={{ color: brandColor }}>Part 2: Facilitation capability embedded within your organisation</span>
+                <span className="font-heading font-medium text-foreground text-sm mt-1 block">
                   Participants learn the skills required to confidently lead collaborative group sessions.
-                </p>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-2">
-                  They will:
-                </p>
-                <ul className="space-y-2">
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Understand the principles behind the Rapid Consensus model</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Gain tools and techniques for outcome-focused facilitation</span>
-                  </li>
-                  <li className="text-muted-foreground text-sm flex items-start">
-                    <span style={{ color: brandColor }} className="mr-2">•</span>
-                    <span>Build confidence through guided practice to lead sessions with impact</span>
-                  </li>
-                </ul>
-                <p className="font-heading font-semibold text-sm text-foreground mt-4">
-                  Facilitation capability embedded within your organisation.
-                </p>
+                </span>
+              </div>
+              <div className="mx-4 mb-4 rounded-lg overflow-hidden" style={{ backgroundColor: 'rgba(255, 255, 255, 0.85)' }}>
+                <button
+                  onClick={() => toggleExpand('part-2')}
+                  className="w-full px-4 py-3 flex items-center justify-between text-left hover:bg-black/5 transition-colors"
+                >
+                  <span className="font-heading font-semibold text-foreground text-sm">What participants will learn:</span>
+                  {expandedItems['part-2'] ? (
+                    <ChevronUp className="w-5 h-5 text-muted-foreground flex-shrink-0" />
+                  ) : (
+                    <ChevronDown className="w-5 h-5 text-muted-foreground flex-shrink-0" />
+                  )}
+                </button>
+                {expandedItems['part-2'] && (
+                  <div className="px-4 pb-4">
+                    <ul className="space-y-2">
+                      <li className="text-muted-foreground text-sm leading-relaxed flex items-start">
+                        <span style={{ color: brandColor }} className="mr-2">•</span>
+                        <span>Understand the principles behind the Rapid Consensus model.</span>
+                      </li>
+                      <li className="text-muted-foreground text-sm leading-relaxed flex items-start">
+                        <span style={{ color: brandColor }} className="mr-2">•</span>
+                        <span>Gain tools and techniques for outcome-focused facilitation.</span>
+                      </li>
+                      <li className="text-muted-foreground text-sm leading-relaxed flex items-start">
+                        <span style={{ color: brandColor }} className="mr-2">•</span>
+                        <span>Build confidence through guided practice to lead sessions with impact.</span>
+                      </li>
+                    </ul>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -351,7 +369,7 @@ const RapidConsensus = () => {
       <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
-            The Rapid Consensus framework
+            The framework
           </h2>
           <div className="max-w-4xl mx-auto text-center space-y-4 mb-8">
             <p className="font-heading font-semibold text-lg text-foreground">
