@@ -43,8 +43,8 @@ const RapidConsensus = () => {
     }
   ];
 
-  const brandColor = "#C8102E";
-  const brandColorHover = "#A80D25";
+  const brandColor = "#be1d3d";
+  const brandColorHover = "#a5182f";
 
   return (
     <Layout>
@@ -111,41 +111,27 @@ const RapidConsensus = () => {
       <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
           <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: brandColor }}>
-            Why Rapid Consensus matters
+            Why this program
           </h2>
-          <div className="max-w-4xl mx-auto text-center space-y-4">
-            <p className="font-heading font-semibold text-lg text-foreground">
-              An organisation's success depends on how well its teams work together day to day.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              When collaboration breaks down, you see:
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 md:gap-6 my-6">
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#C8102E' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Unclear actions and divergent agendas</p>
-              </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#C8102E' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Frustration across teams</p>
-              </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#C8102E' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Lost productivity and momentum</p>
-              </div>
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
+            <div className="w-64 md:w-[32%] flex-shrink-0">
+              <img
+                src="/workshop.png"
+                alt="Rapid Consensus"
+                className="w-full h-auto rounded-full aspect-square object-cover"
+              />
             </div>
-            <p className="text-muted-foreground leading-relaxed">
-              What teams really need is clarity on outcomes, shared ownership, and a way to move forward without constantly resetting the conversation.
-            </p>
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Rapid Consensus creates actionable agreement — promoting alignment, motivation, and productivity across your organisation.
-            </p>
+            <div className="w-full md:w-[68%] space-y-3">
+              <p className="font-heading font-semibold text-lg text-foreground">
+                When alignment breaks down, clarity disappears—and so does momentum.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                An organisation's success depends on how well its teams work together day to day. Without it, you see unclear actions, divergent agendas, mounting frustration, and lost productivity. What teams actually need is clarity on outcomes, shared ownership, and a way to move forward without constantly resetting the conversation.
+              </p>
+              <p className="font-heading font-semibold text-lg text-foreground">
+                Rapid Consensus creates actionable agreement — promoting alignment, motivation, and productivity across your organisation.
+              </p>
+            </div>
           </div>
         </div>
       </section>

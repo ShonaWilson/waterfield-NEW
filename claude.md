@@ -3,8 +3,33 @@
 ## Date
 December 1-12, 2025
 January 18-31, 2026
+February 1, 2026
 
 ## Changes Made
+
+### Rapid Consensus Page Updates (February 1, 2026)
+Styling, content, and layout updates to the Rapid Consensus page.
+
+#### Brand Color Update
+- Changed brand color from `#C8102E` to `#be1d3d`
+- Changed hover color from `#A80D25` to `#a5182f`
+- Applied throughout all red-colored elements on the page
+
+#### "Why this program" Section
+- Renamed heading from "Why Rapid Consensus matters" to "Why this program"
+- Removed 3 circular badges, replaced with body copy layout
+- Added circular image layout (32%/68% flex split) matching Think Plan Act pattern
+- Image: `/workshop.png` (swapped from Custom Facilitation page)
+- Subhead: "When alignment breaks down, clarity disappears—and so does momentum."
+- Body copy about team alignment, clarity on outcomes, and shared ownership
+- Closing statement: "Rapid Consensus creates actionable agreement — promoting alignment, motivation, and productivity across your organisation."
+
+### Custom Facilitation Page Updates (February 1, 2026)
+Image update in the "Shape agreed direction" section.
+
+#### Image Swap
+- Changed circular image from `/workshop.png` to `/IMG_0807_JPG.jpg.avif`
+- Old image (`/workshop.png`) moved to Rapid Consensus "Why this program" section
 
 ### Personal Plan Page Updates (January 31, 2026)
 Updates to the Personal Plan page including login link, circular image, and framework graphic.

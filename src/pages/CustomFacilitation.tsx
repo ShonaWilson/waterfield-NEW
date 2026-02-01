@@ -65,7 +65,7 @@ const CustomFacilitation = () => {
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
             <div className="w-64 md:w-[32%] flex-shrink-0">
               <img
-                src="/workshop.png"
+                src="/IMG_0807_JPG.jpg.avif"
                 alt="Shape agreed direction"
                 className="w-full h-auto rounded-full aspect-square object-cover object-center"
               />
