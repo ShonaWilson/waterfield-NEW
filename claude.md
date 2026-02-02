@@ -3,9 +3,41 @@
 ## Date
 December 1-12, 2025
 January 18-31, 2026
-February 1, 2026
+February 1-2, 2026
 
 ## Changes Made
+
+### Collaborative Intelligence Page Updates (February 2, 2026)
+Styling, content, and layout updates to the Collaborative Intelligence page.
+
+#### Brand Color Update
+- Changed all headings from `text-primary` to custom colour `#55b8b9`
+- Applied via inline styles: `style={{ color: '#55b8b9' }}`
+- All 9 section headings updated
+
+#### Accent Element Color Updates
+- Framework section numbered circles: changed `bg-primary` to `style={{ backgroundColor: '#55b8b9' }}`
+- Capability icons (Lightbulb, Brain, Search, ShieldCheck, Users, Compass): changed `text-primary` to `style={{ color: '#55b8b9' }}`
+- "Who it's for" circles: changed `backgroundColor: '#268DB0'` to `backgroundColor: '#55b8b9'`
+- "Start here" numbers: changed `text-primary` to `style={{ color: '#55b8b9' }}`
+- "Start here" divider lines: changed `bg-primary` to `style={{ backgroundColor: '#55b8b9' }}`
+- "Let's connect" button: changed from `variant="hero"` to `style={{ backgroundColor: '#55b8b9' }}` with `text-white`
+
+#### "How it works" Section (was "Human insight meets AI power")
+- Changed heading from "Human insight meets AI power" to "How it works"
+- Updated subhead to: "Collaborative Intelligence combines human strengths: expertise, judgement, context—with AI capability: analysis, pattern detection, synthesis at scale."
+- Removed Human strengths / AI strengths boxes
+- Added CI_Strengths.png diagram below subhead
+- Updated body copy to 3 paragraphs:
+  - "AI doesn't replace human expertise—it augments and challenges it."
+  - "The result: decisions that are more informed, higher quality, faster, and more robust under scrutiny."
+  - "This enables organisations to add near-unlimited analytical capability across all levels—from frontline teams to executives and boards—so more people contribute meaningfully to stronger decisions."
+
+#### FAQ Section
+- Changed FAQ item backgrounds from `bg-background` to `bg-secondary` for visibility on white section background
+
+#### Missing Image Fix
+- Committed and pushed `public/HI.png` (was untracked, not showing on deployed site)
 
 ### Rapid Consensus Page Updates (February 1, 2026)
 Styling, content, and layout updates to the Rapid Consensus page.
