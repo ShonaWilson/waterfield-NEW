@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Brain, Users, Lightbulb, Target, Zap, Plus, Minus } from "lucide-react";
+import { Brain, Users, Lightbulb, Target, Zap, Plus, Minus, Search, ShieldCheck, Compass } from "lucide-react";
 import { useParallax } from "@/hooks/useParallax";
 
 const CollaborativeIntelligence = () => {
@@ -85,21 +85,29 @@ const CollaborativeIntelligence = () => {
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8">
-            <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold mb-4" style={{ color: '#55b8b9' }}>
               Amplify your organisation's intelligence
             </h2>
           </div>
 
           <div className="max-w-4xl mx-auto text-center space-y-4">
             <p className="font-heading font-semibold text-lg text-foreground">
-              Collaborative Intelligence helps organisations strengthen how they think, decide, and act in complex environments — combining human expertise with AI-enabled insight.
+              Strengthen how your organisation thinks, decides, and acts by combining human expertise with AI-enabled insight.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Building on 30 years of experience aligning people, insight, and action, Waterfield enables people and AI to work together — lifting decision quality, alignment, and execution at scale.
+              Building on 30 years aligning people, ideas, and action, Waterfield enables teams and AI to work together—lifting decision quality, alignment, and execution at scale.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              At the core is building your organisation's ability to use generative AI as a thinking partner, challenger, and creative collaborator — surfacing deeper insight, challenging assumptions, and unlocking smarter, more strategic decisions.
+              Collaborative Intelligence builds your organisation's ability to use generative AI as a thinking partner, challenger, and collaborator—surfacing deeper meaning, challenging assumptions, and unlocking smarter decisions.
             </p>
+            <p className="font-heading font-semibold text-lg text-foreground">
+              Enhance strategic insight, decision-making, and action by integrating human expertise with AI.
+            </p>
+            <img
+              src="/HI.png"
+              alt="Human insight meets AI power"
+              className="mx-auto max-w-2xl w-full rounded-lg pt-4"
+            />
           </div>
         </div>
       </section>
@@ -107,22 +115,28 @@ const CollaborativeIntelligence = () => {
       {/* Why This Program */}
       <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4 text-primary">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#55b8b9' }}>
             Why this program
           </h2>
-          <div className="max-w-4xl mx-auto text-center space-y-4">
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Insight is a critical driver of organisational success. Better insights, better performance.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Today's leaders operate in environments defined by accelerating change, rising complexity, and overwhelming information. AI is increasingly recognised as essential, yet many organisations struggle to integrate it meaningfully into strategy and decision-making.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Human expertise alone can no longer keep pace. AI without context, values, or intent lacks strategic depth.
-            </p>
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Collaborative Intelligence addresses this by building the capability to combine human expertise with AI — enabling organisations to continuously generate insight, align around it, and act decisively.
-            </p>
+          <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto">
+            <div className="w-64 md:w-[32%] flex-shrink-0">
+              <img
+                src="/ChatGPT Image Jan 17, 2026 at 10_09_28 AM.png"
+                alt="Collaborative Intelligence"
+                className="w-full h-auto rounded-full aspect-square object-cover"
+              />
+            </div>
+            <div className="w-full md:w-[68%] space-y-3">
+              <p className="font-heading font-semibold text-lg text-foreground">
+                Insight is a critical driver of organisational success. Better insights, better performance.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Leaders face accelerating change, rising complexity, and overwhelming information. AI is essential—yet many organisations find it hard to integrate meaningfully into strategy. Human expertise alone can't keep pace, while AI without context or intent lacks depth.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Collaborative Intelligence builds the capability to combine both—generating insight, aligning around it, and acting decisively.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -131,62 +145,30 @@ const CollaborativeIntelligence = () => {
       <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8">
-            <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
-              From Collective to Collaborative Intelligence
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold mb-4" style={{ color: '#55b8b9' }}>
+              How it works
             </h2>
           </div>
 
           <div className="max-w-4xl mx-auto text-center space-y-4">
             <p className="font-heading font-semibold text-lg text-foreground">
-              Collaborative Intelligence combines the strengths of human collective intelligence with the power of generative AI.
+              Collaborative Intelligence combines human strengths: expertise, judgement, context—with AI capability: analysis, pattern detection, synthesis at scale.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-              <div className="bg-secondary rounded-2xl p-6">
-                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">Human strengths</h3>
-                <p className="text-muted-foreground text-sm">
-                  Expertise, judgement, ethics, context, experience, creativity
-                </p>
-              </div>
-              <div className="bg-secondary rounded-2xl p-6">
-                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">AI strengths</h3>
-                <p className="text-muted-foreground text-sm">
-                  Rapid analysis, pattern detection, synthesis at scale
-                </p>
-              </div>
-            </div>
+            <img
+              src="/CI_Strengths.png"
+              alt="Collaborative Intelligence strengths diagram"
+              className="mx-auto max-w-2xl w-full rounded-lg mb-4"
+            />
 
-            <p className="font-heading font-semibold text-lg text-foreground">
-              Used well, AI does not replace human expertise — it augments and challenges it, supporting decisions that are:
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 md:gap-6 my-6">
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[100px] md:w-[120px]"
-                style={{ backgroundColor: '#268DB0' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">More informed</p>
-              </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[100px] md:w-[120px]"
-                style={{ backgroundColor: '#268DB0' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Higher quality</p>
-              </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[100px] md:w-[120px]"
-                style={{ backgroundColor: '#268DB0' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Faster</p>
-              </div>
-              <div
-                className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[100px] md:w-[120px]"
-                style={{ backgroundColor: '#268DB0' }}
-              >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">More robust under scrutiny</p>
-              </div>
-            </div>
             <p className="text-muted-foreground leading-relaxed">
-              For the first time, organisations can add near-unlimited information and analytical capability across all levels — from frontline teams to executives and boards — enabling more people to contribute meaningfully to stronger decisions.
+              AI doesn't replace human expertise—it augments and challenges it.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              The result: decisions that are more informed, higher quality, faster, and more robust under scrutiny.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              This enables organisations to add near-unlimited analytical capability across all levels—from frontline teams to executives and boards—so more people contribute meaningfully to stronger decisions.
             </p>
           </div>
         </div>
@@ -195,99 +177,86 @@ const CollaborativeIntelligence = () => {
       {/* The Capability It Builds */}
       <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4 text-primary">
-            The capability it builds
-          </h2>
-          <div className="max-w-4xl mx-auto text-center space-y-4 mb-8">
+          <div className="max-w-3xl mx-auto text-center mb-8">
+            <h2 className="font-heading text-2xl md:text-3xl font-semibold mb-4" style={{ color: '#55b8b9' }}>
+              The capability it builds
+            </h2>
+          </div>
+
+          <div className="max-w-4xl mx-auto space-y-4 text-center mb-12">
             <p className="font-heading font-semibold text-lg text-foreground">
               Collaborative Intelligence builds a repeatable strategic insight capability inside your organisation.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Teams become better able to:
+              Teams develop the capability to think, decide, and act in complex environments.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            <div className="bg-background rounded-2xl p-6 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto mb-8">
+            <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
+              <div className="flex justify-center mb-4">
+                <Lightbulb className="w-8 h-8" style={{ color: '#55b8b9' }} />
+              </div>
+              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                Strategic insight
+              </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Generate high-quality strategic insight on an ongoing basis
               </p>
             </div>
-            <div className="bg-background rounded-2xl p-6 text-center">
+            <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
+              <div className="flex justify-center mb-4">
+                <Brain className="w-8 h-8" style={{ color: '#55b8b9' }} />
+              </div>
+              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                Human + AI analysis
+              </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Combine human expertise with AI-enabled analysis
               </p>
             </div>
-            <div className="bg-background rounded-2xl p-6 text-center">
+            <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
+              <div className="flex justify-center mb-4">
+                <Search className="w-8 h-8" style={{ color: '#55b8b9' }} />
+              </div>
+              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                Early identification
+              </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Identify patterns, gaps, risks, and emerging opportunities early
               </p>
             </div>
-            <div className="bg-background rounded-2xl p-6 text-center">
+            <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
+              <div className="flex justify-center mb-4">
+                <ShieldCheck className="w-8 h-8" style={{ color: '#55b8b9' }} />
+              </div>
+              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                Informed challenge
+              </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Introduce informed challenge to strengthen thinking
               </p>
             </div>
-            <div className="bg-background rounded-2xl p-6 text-center">
+            <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
+              <div className="flex justify-center mb-4">
+                <Users className="w-8 h-8" style={{ color: '#55b8b9' }} />
+              </div>
+              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                Shared understanding
+              </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Align people around shared, evidence-based understanding
               </p>
             </div>
-            <div className="bg-background rounded-2xl p-6 text-center">
+            <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
+              <div className="flex justify-center mb-4">
+                <Compass className="w-8 h-8" style={{ color: '#55b8b9' }} />
+              </div>
+              <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
+                Confident decisions
+              </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
                 Turn insight into confident, coordinated decisions
-              </p>
-            </div>
-          </div>
-
-          <div className="max-w-4xl mx-auto text-center mt-8">
-            <p className="text-muted-foreground leading-relaxed">
-              This capability strengthens how organisations think, decide, and act in complex environments.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Impact */}
-      <section className="section-padding bg-background">
-        <div className="container-custom mx-auto px-4 md:px-8">
-          <div className="max-w-3xl mx-auto text-center mb-8">
-            <h2 className="font-heading text-2xl md:text-3xl font-semibold text-primary mb-4">
-              The impact
-            </h2>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            <div className="bg-secondary rounded-2xl p-6 md:p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Zap className="w-8 h-8 text-primary" />
-              </div>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Faster, higher-quality strategic decisions
-              </p>
-            </div>
-            <div className="bg-secondary rounded-2xl p-6 md:p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Target className="w-8 h-8 text-primary" />
-              </div>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Stronger alignment between strategy, innovation, and execution
-              </p>
-            </div>
-            <div className="bg-secondary rounded-2xl p-6 md:p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Users className="w-8 h-8 text-primary" />
-              </div>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Scalable intelligence beyond a small group of experts
-              </p>
-            </div>
-            <div className="bg-secondary rounded-2xl p-6 md:p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <Lightbulb className="w-8 h-8 text-primary" />
-              </div>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Greater resilience and sustained advantage driven by insight
               </p>
             </div>
           </div>
@@ -295,9 +264,9 @@ const CollaborativeIntelligence = () => {
       </section>
 
       {/* How It Creates Value */}
-      <section className="section-padding bg-secondary">
+      <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4 text-primary">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#55b8b9' }}>
             How it creates value
           </h2>
           <div className="max-w-4xl mx-auto text-center space-y-4 mb-12">
@@ -307,12 +276,7 @@ const CollaborativeIntelligence = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-white font-bold">
-                  1
-                </div>
-              </div>
+            <div className="rounded-2xl p-6 md:p-8 text-center" style={{ backgroundColor: 'rgba(0, 153, 153, 0.15)' }}>
               <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
                 Global insight, applied to your context
               </h3>
@@ -320,12 +284,7 @@ const CollaborativeIntelligence = () => {
                 Scan global research, benchmarks, and case studies — distilling what matters and applying it directly to your strategy, priorities, and operating environment.
               </p>
             </div>
-            <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-white font-bold">
-                  2
-                </div>
-              </div>
+            <div className="rounded-2xl p-6 md:p-8 text-center" style={{ backgroundColor: 'rgba(0, 153, 153, 0.15)' }}>
               <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
                 Stronger decisions through informed challenge
               </h3>
@@ -333,12 +292,7 @@ const CollaborativeIntelligence = () => {
                 Stress-test assumptions and plans with structured, evidence-based challenges — reducing blind spots and increasing confidence before decisions are locked in.
               </p>
             </div>
-            <div className="bg-background rounded-2xl p-6 md:p-8 text-center">
-              <div className="flex justify-center mb-4">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-white font-bold">
-                  3
-                </div>
-              </div>
+            <div className="rounded-2xl p-6 md:p-8 text-center" style={{ backgroundColor: 'rgba(0, 153, 153, 0.15)' }}>
               <h3 className="font-heading font-semibold text-lg text-foreground mb-3">
                 Continuous strategic insight
               </h3>
@@ -351,9 +305,9 @@ const CollaborativeIntelligence = () => {
       </section>
 
       {/* The Framework */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4 text-primary">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#55b8b9' }}>
             The framework
           </h2>
           <div className="max-w-4xl mx-auto text-center space-y-4 mb-8">
@@ -362,11 +316,11 @@ const CollaborativeIntelligence = () => {
             </p>
           </div>
 
-          <div className="max-w-3xl mx-auto bg-secondary rounded-2xl p-8 md:p-10">
+          <div className="max-w-3xl mx-auto bg-background rounded-2xl p-8 md:p-10">
             <div className="space-y-8">
               <div className="text-center">
                 <div className="flex justify-center mb-4">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-white font-bold">
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold" style={{ backgroundColor: '#55b8b9' }}>
                     1.
                   </div>
                 </div>
@@ -382,7 +336,7 @@ const CollaborativeIntelligence = () => {
 
               <div className="text-center">
                 <div className="flex justify-center mb-4">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-white font-bold">
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold" style={{ backgroundColor: '#55b8b9' }}>
                     2.
                   </div>
                 </div>
@@ -398,7 +352,7 @@ const CollaborativeIntelligence = () => {
 
               <div className="text-center">
                 <div className="flex justify-center mb-4">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-white font-bold">
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold" style={{ backgroundColor: '#55b8b9' }}>
                     3.
                   </div>
                 </div>
@@ -414,7 +368,7 @@ const CollaborativeIntelligence = () => {
 
               <div className="text-center">
                 <div className="flex justify-center mb-4">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-white font-bold">
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold" style={{ backgroundColor: '#55b8b9' }}>
                     4.
                   </div>
                 </div>
@@ -430,7 +384,7 @@ const CollaborativeIntelligence = () => {
 
               <div className="text-center">
                 <div className="flex justify-center mb-4">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-white font-bold">
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold" style={{ backgroundColor: '#55b8b9' }}>
                     5.
                   </div>
                 </div>
@@ -446,7 +400,7 @@ const CollaborativeIntelligence = () => {
 
               <div className="text-center">
                 <div className="flex justify-center mb-4">
-                  <div className="w-10 h-10 rounded-full flex items-center justify-center bg-primary text-white font-bold">
+                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold" style={{ backgroundColor: '#55b8b9' }}>
                     6.
                   </div>
                 </div>
@@ -469,9 +423,9 @@ const CollaborativeIntelligence = () => {
       </section>
 
       {/* Who It's For */}
-      <section className="section-padding bg-secondary">
+      <section className="section-padding bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4 text-primary">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#55b8b9' }}>
             Who it's for
           </h2>
           <div className="max-w-4xl mx-auto text-center space-y-4">
@@ -481,27 +435,27 @@ const CollaborativeIntelligence = () => {
             <div className="flex flex-wrap justify-center gap-4 md:gap-6 mt-6">
               <div
                 className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#268DB0' }}
+                style={{ backgroundColor: '#55b8b9' }}
               >
                 <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Senior leaders and executive teams</p>
               </div>
               <div
                 className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#268DB0' }}
+                style={{ backgroundColor: '#55b8b9' }}
               >
                 <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Strategy, innovation, and transformation leaders</p>
               </div>
               <div
                 className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#268DB0' }}
+                style={{ backgroundColor: '#55b8b9' }}
               >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Subject matter experts contributing to critical decisions</p>
+                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Subject experts shaping critical decisions</p>
               </div>
               <div
                 className="rounded-full aspect-square flex flex-col items-center justify-center p-2 md:p-3.5 text-center hover:shadow-lg transition-shadow duration-300 w-[115px] md:w-[143px]"
-                style={{ backgroundColor: '#268DB0' }}
+                style={{ backgroundColor: '#55b8b9' }}
               >
-                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Organisations navigating complexity, growth, or change</p>
+                <p className="font-heading font-medium text-white text-xs md:text-sm leading-[0.95]">Organisations navigating complexity or change</p>
               </div>
             </div>
           </div>
@@ -509,9 +463,9 @@ const CollaborativeIntelligence = () => {
       </section>
 
       {/* Start Here */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-secondary">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4 text-primary">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-4" style={{ color: '#55b8b9' }}>
             Start here
           </h2>
           <div className="max-w-3xl mx-auto text-center mb-12">
@@ -521,10 +475,10 @@ const CollaborativeIntelligence = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-secondary rounded-2xl p-8 text-center">
+            <div className="bg-background rounded-2xl p-8 text-center">
               <div className="flex flex-col items-center mb-3">
-                <span className="font-heading text-6xl font-semibold text-primary">1</span>
-                <div className="w-16 h-1 mt-1 rounded-full bg-primary"></div>
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#55b8b9' }}>1</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#55b8b9' }}></div>
               </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Identify a priority
@@ -534,10 +488,10 @@ const CollaborativeIntelligence = () => {
               </p>
             </div>
 
-            <div className="bg-secondary rounded-2xl p-8 text-center">
+            <div className="bg-background rounded-2xl p-8 text-center">
               <div className="flex flex-col items-center mb-3">
-                <span className="font-heading text-6xl font-semibold text-primary">2</span>
-                <div className="w-16 h-1 mt-1 rounded-full bg-primary"></div>
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#55b8b9' }}>2</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#55b8b9' }}></div>
               </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Design the approach
@@ -547,10 +501,10 @@ const CollaborativeIntelligence = () => {
               </p>
             </div>
 
-            <div className="bg-secondary rounded-2xl p-8 text-center">
+            <div className="bg-background rounded-2xl p-8 text-center">
               <div className="flex flex-col items-center mb-3">
-                <span className="font-heading text-6xl font-semibold text-primary">3</span>
-                <div className="w-16 h-1 mt-1 rounded-full bg-primary"></div>
+                <span className="font-heading text-6xl font-semibold" style={{ color: '#55b8b9' }}>3</span>
+                <div className="w-16 h-1 mt-1 rounded-full" style={{ backgroundColor: '#55b8b9' }}></div>
               </div>
               <h3 className="font-heading text-xl font-semibold text-foreground mb-4">
                 Build capability
@@ -562,7 +516,7 @@ const CollaborativeIntelligence = () => {
           </div>
 
           <div className="flex justify-center mt-12">
-            <Button asChild variant="hero" size="lg" className="hover:shadow-xl hover:scale-105 transition-all duration-300">
+            <Button asChild size="lg" className="hover:shadow-xl hover:scale-105 transition-all duration-300 text-white" style={{ backgroundColor: '#55b8b9' }}>
               <Link to="/contact">Let's connect</Link>
             </Button>
           </div>
@@ -570,15 +524,15 @@ const CollaborativeIntelligence = () => {
       </section>
 
       {/* FAQs */}
-      <section className="pt-12 pb-20 md:pt-16 md:pb-28 bg-secondary">
+      <section className="pt-12 pb-20 md:pt-16 md:pb-28 bg-background">
         <div className="container-custom mx-auto px-4 md:px-8">
-          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-12 text-primary">
+          <h2 className="font-heading text-2xl md:text-3xl font-semibold text-center mb-12" style={{ color: '#55b8b9' }}>
             FAQs
           </h2>
 
           <div className="max-w-4xl mx-auto space-y-4">
             {faqs.map((faq, index) => (
-              <div key={index} className="bg-background rounded-xl overflow-hidden">
+              <div key={index} className="bg-secondary rounded-xl overflow-hidden">
                 <button
                   onClick={() => toggleFaq(index)}
                   className="w-full flex items-center justify-between p-6 md:p-8 text-left hover:bg-secondary/50 transition-colors duration-200"
