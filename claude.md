@@ -7,6 +7,15 @@ February 1-2, 2026
 
 ## Changes Made
 
+### AI Advantage Page Updates (February 2, 2026)
+Content updates to the AI Advantage page.
+
+#### "Navigate AI with confidence" Section
+- Updated subhead to: "Build the clarity, governance, and capability to adopt AI at scale."
+- Updated body copy to: "AI is reshaping every industry. But moving from experimentation to enterprise-wide adoption requires shared strategy, clear governance, and aligned leadership."
+- Updated closing line to body copy style (`text-muted-foreground leading-relaxed`): "AI Advantage builds the foundation for confident, scalable AI adoption."
+- Reduced from 5 paragraphs to 3 (subhead + body + closing)
+
 ### Collaborative Intelligence Page Updates (February 2, 2026)
 Styling, content, and layout updates to the Collaborative Intelligence page.
 

@@ -92,19 +92,13 @@ const AIAdvantage = () => {
 
           <div className="max-w-4xl mx-auto text-center space-y-4">
             <p className="font-heading font-semibold text-lg text-foreground">
-              AI is reshaping every industry—yet many organisations struggle to move beyond experimentation to enterprise-wide adoption.
+              Build the clarity, governance, and capability to adopt AI at scale.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Isolated AI trials and fragmented pilots often fail to scale because the foundational capability isn't in place.
+              AI is reshaping every industry. But moving from experimentation to enterprise-wide adoption requires shared strategy, clear governance, and aligned leadership.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              AI Advantage helps organisations build the strategic clarity, governance, and leadership capability to enable AI responsibly, at scale.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Without a shared AI strategy, organisations face duplication, rising risk, and missed opportunity.
-            </p>
-            <p className="font-heading font-semibold text-lg text-foreground">
-              AI Advantage brings alignment and momentum to AI adoption.
+              AI Advantage builds the foundation for confident, scalable AI adoption.
             </p>
           </div>
         </div>
