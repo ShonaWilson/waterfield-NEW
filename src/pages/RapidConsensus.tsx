@@ -266,10 +266,7 @@ const RapidConsensus = () => {
           </h2>
           <div className="max-w-4xl mx-auto text-center space-y-4 mb-12">
             <p className="font-heading font-semibold text-lg text-foreground">
-              Rapid Consensus is a hands-on learning experience that combines clarity, capability, and real application.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              The program equips your team to reach consensus quickly, own decisions, and turn discussions into directed action.
+              Rapid Consensus is a hands-on learning experience that equips your team to reach consensus quickly, own decisions, and turn discussions into directed action.
             </p>
           </div>
 
