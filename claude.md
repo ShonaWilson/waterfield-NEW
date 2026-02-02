@@ -3,18 +3,54 @@
 ## Date
 December 1-12, 2025
 January 18-31, 2026
-February 1-2, 2026
+February 1-3, 2026
 
 ## Changes Made
 
-### AI Advantage Page Updates (February 2, 2026)
-Content updates to the AI Advantage page.
+### AI Advantage Page Updates (February 2-3, 2026)
+Content, styling, and layout updates to the AI Advantage page.
 
 #### "Navigate AI with confidence" Section
 - Updated subhead to: "Build the clarity, governance, and capability to adopt AI at scale."
 - Updated body copy to: "AI is reshaping every industry. But moving from experimentation to enterprise-wide adoption requires shared strategy, clear governance, and aligned leadership."
 - Updated closing line to body copy style (`text-muted-foreground leading-relaxed`): "AI Advantage builds the foundation for confident, scalable AI adoption."
 - Reduced from 5 paragraphs to 3 (subhead + body + closing)
+
+#### Brand Color Update
+- Changed all accent colours from `text-primary`/`bg-primary`/`#268DB0` to custom colour `#31919e`
+- Applied via inline styles: `style={{ color: '#31919e' }}` and `style={{ backgroundColor: '#31919e' }}`
+- 38 total instances updated across the page:
+  - 7 section headings: removed `text-primary`, added inline `color: '#31919e'`
+  - 2 subheadings ("For your organisation", "For leaders and teams")
+  - 4 capability icons (Target, Shield, Users, GraduationCap)
+  - 2 FAQ icons (Plus, Minus)
+  - 4 framework numbered circles: `bg-primary` → `backgroundColor: '#31919e'`
+  - 3 "Start here" numbers and 3 divider lines
+  - "Let's connect" button: `variant="hero"` → `style={{ backgroundColor: '#31919e' }}` with `text-white hover:opacity-90`
+
+#### "The impact" Section Layout Update
+- Restructured to match ThinkPlanAct page layout
+- Added subhead: "Shared clarity, stronger governance, and confident adoption — for leaders and organisations."
+- Changed container from `max-w-4xl` to `max-w-3xl`
+- Added `text-center` to tiles
+- Replaced `<ul>/<li>` bulleted lists with simple `<p>` tags in `<div className="space-y-3">`
+- Removed coloured bullet spans
+
+#### Icon Change - "Lead AI-ready teams"
+- Changed icon from `Lightbulb` to `GraduationCap` in "The capability it builds" section
+
+#### "Why this program" Section Overhaul
+- Removed 4 coloured circles with problem statements
+- Removed "Many organisations face:" introductory text and closing subhead
+- Added circular image with 32%/68% layout (matching Personal Plan page):
+  - Image: `/ChatGPT Image Jan 24, 2026 at 09_04_43 PM.png`
+  - Layout: `flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-5xl mx-auto`
+  - Image: circular with `rounded-full aspect-square object-cover`, 32% width on desktop
+  - Text: 68% width on desktop
+- Updated body copy:
+  - Subhead: "AI is transforming how organisations operate and compete—but adoption is rarely straightforward."
+  - Body: "Without alignment, initiatives drift, governance gaps widen, and confidence in AI's strategic value remains low."
+  - Body: "AI Advantage brings these together. The program aligns leadership around a shared AI strategy, builds governance and risk frameworks, develops capability at every level, and creates the conditions for responsible adoption at scale."
 
 ### Collaborative Intelligence Page Updates (February 2, 2026)
 Styling, content, and layout updates to the Collaborative Intelligence page.
