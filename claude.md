@@ -7,6 +7,39 @@ February 1-3, 2026
 
 ## Changes Made
 
+### Contact Page Redesign (February 3, 2026)
+Replaced non-working contact form with simple mailto button approach.
+
+#### Layout Changes
+- Removed contact form and all form-related code (inputs, state, handlers)
+- Centered single-column layout with `max-w-3xl mx-auto text-center`
+- "Let's Connect" heading in primary color (`text-primary`)
+- "Thank you for your interest in Waterfield." as subhead (`font-heading font-semibold text-lg text-foreground`)
+
+#### "Get in touch" Button
+- Prominent hero variant button with mailto link
+- Link: `mailto:info@waterfield.com.au?subject=Waterfield%20Enquiry`
+- Pre-fills subject line "Waterfield Enquiry"
+- Hover effects: `hover:shadow-xl hover:scale-105`
+- Positioned above contact details with `mb-12` spacing
+
+#### Contact Options (Phone & Email)
+- Phone: +61 2 9922 1881 with tel: link
+- Email: info@waterfield.com.au with mailto: link
+- Mobile layout: Icon centered above text (`flex flex-col`)
+- Desktop layout: Icon inline with text (`sm:flex-row`)
+- Icon containers with hover background effect (`group-hover:bg-primary/10`)
+
+#### Response Time Note
+- Added below contact options: "Feel free to share a brief note on what you're exploring, and we'll respond within two business days."
+- Styling: `text-muted-foreground text-sm mt-8`
+
+#### Removed Elements
+- Contact form (firstName, lastName, email, phone, company, message fields)
+- Form state and handlers
+- Toast notifications
+- API endpoint dependency
+
 ### AI Advantage Page Updates (February 2-3, 2026)
 Content, styling, and layout updates to the AI Advantage page.
 
