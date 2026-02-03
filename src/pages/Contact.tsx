@@ -61,10 +61,6 @@ const Contact = () => {
                 <p className="font-heading font-medium text-sm md:text-base text-foreground">info@waterfield.com.au</p>
               </a>
             </div>
-
-            <p className="text-muted-foreground text-sm mt-8">
-              Feel free to share a brief note on what you're exploring, and we'll respond within two business days.
-            </p>
           </div>
         </div>
       </section>
