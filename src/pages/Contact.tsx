@@ -37,23 +37,39 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
 
-    toast({
-      title: "Message sent!",
-      description: "Thank you for your enquiry. We'll be in touch soon.",
-    });
+      if (!response.ok) {
+        throw new Error("Failed to send message");
+      }
 
-    setFormData({
-      firstName: "",
-      lastName: "",
-      email: "",
-      phone: "",
-      company: "",
-      message: "",
-    });
-    setIsSubmitting(false);
+      toast({
+        title: "Message sent!",
+        description: "Thank you for your enquiry. We'll be in touch soon.",
+      });
+
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        company: "",
+        message: "",
+      });
+    } catch {
+      toast({
+        title: "Something went wrong",
+        description: "Please try again or email us directly at info@waterfield.com.au",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   // Check if all required fields are filled
