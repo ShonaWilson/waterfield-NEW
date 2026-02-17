@@ -1,7 +1,24 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { Resend } from "resend";
+import { z } from "zod";
 
-import { contactFormSchema } from "../src/lib/validations/contact";
+const phoneRegex = /^[+\d\s().-]{7,20}$/;
+const contactFormSchema = z.object({
+  firstName: z.string().trim().min(2).max(50),
+  lastName: z.string().trim().min(2).max(50),
+  email: z.string().trim().email(),
+  phone: z
+    .string()
+    .trim()
+    .optional()
+    .default("")
+    .refine((value) => value === "" || phoneRegex.test(value), {
+      message: "Please enter a valid phone number.",
+    }),
+  company: z.string().trim().max(120).optional().default(""),
+  message: z.string().trim().min(20).max(2000),
+  honeypot: z.string().optional().default(""),
+});
 
 const escapeHtml = (value: string) =>
   value.replace(/[&<>"']/g, (char) => {
