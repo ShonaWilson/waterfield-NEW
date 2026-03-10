@@ -1,4 +1,30 @@
 {
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "personalplan.com.au" }],
+      "destination": "https://www.waterfield.com.au/personal-plan",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.personalplan.com.au" }],
+      "destination": "https://www.waterfield.com.au/personal-plan",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "strategyconnect.com.au" }],
+      "destination": "https://www.waterfield.com.au/services/strategyconnect",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.strategyconnect.com.au" }],
+      "destination": "https://www.waterfield.com.au/services/strategyconnect",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
